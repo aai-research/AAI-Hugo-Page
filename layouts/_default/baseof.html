@@ -1,20 +1,10 @@
-{{ partial "head.html" . }}
-
-<header>
-  {{ partial "header.html" . }}  <!-- falls Header Partial vorhanden -->
-</header>
-
-<main>
-  {{ block "main" . }}{{ end }}
-</main>
-
-<footer>
-  {{ partial "footer.html" . }}  <!-- falls Footer Partial vorhanden -->
-</footer>
-
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    {{ block "main" . }}{{ end }}
+  </body>
 </html>
-
 
 
 
