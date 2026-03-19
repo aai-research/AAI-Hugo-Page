@@ -1,0 +1,194 @@
+// ==========================================================================
+// DESIGN SYSTEM GLOBAL
+// ==========================================================================
+$primary: #302c2c;
+$text: #3d3e41;
+$bg: #f5f5f5;
+$link: #2563eb;
+
+// Font Sizes
+$font-size-title: 2.5rem;
+$font-size-subtitle: 1.8rem;
+$font-size-subsub: 1.1rem;
+$font-size-text: 1.2rem;
+
+// Cards
+$card-bg: #ffffff;
+$card-radius: 12px;
+$shadow-soft: 0 10px 30px rgba(0,0,0,0.05);
+$shadow-hover: 0 20px 40px rgba(0,0,0,0.08);
+$card-shadow: rgba(0, 0, 0, 0.1);
+
+/// ==========================================================================
+// TYPOGRAFIE GLOBAL
+// ==========================================================================
+body {
+  font-family: 'Inter', sans-serif;
+  background: $bg;
+  color: $text;
+  margin: 0;
+  font-size: $font-size-text;
+  line-height: 1.6;
+}
+
+// Überschriften
+h1 { font-size: $font-size-title; color: $primary; margin: 0.5em 0; font-weight: 600; }     // TITEL
+h2 { font-size: $font-size-subtitle; color: $primary; margin: 0.5em 0; font-weight: 600; }  // SUBTITEL
+h3 { font-size: $font-size-subsub; color: $primary; margin: 0.5em 0; font-weight: 600; }    // SUBSUBTITEL
+
+// Überschriften-Varianten (nur Ausrichtung)
+.h1-center, .h2-center, .h3-center { text-align: center !important; }
+.h1-block, .h2-block, .h3-block { text-align: justify !important; hyphens: auto; }
+.h1-left, .h2-left, .h3-left { text-align: left !important; }
+
+
+//Text
+p {font-size: $font-size-text; line-height: 1.6; color: $text;}
+
+//Text Varianten
+.text-left    { text-align: left !important; }
+.text-center  { text-align: center !important; }
+.text-block   { text-align: justify !important; hyphens: auto; }
+
+
+
+// Links
+a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
+
+
+// ==========================================================================
+// CARDS GLOBAL
+// ==========================================================================
+.card {
+  background: $card-bg;
+  border-radius: $card-radius;
+  box-shadow: $shadow-soft;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-hover;
+  }
+}
+// ==========================================================================
+// POP-IN ANIMATION GLOBAL
+// ==========================================================================
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+
+
+
+// ==========================================================================
+// BEGIN RESEARCH PROJECTS:
+// ==========================================================================
+
+
+
+.research-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+
+  .research-header {
+    margin-bottom: 4rem;
+  }
+
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); // 2x2 bei ausreichend Platz
+    gap: 2rem;
+  }
+
+  .research-card {
+    background: #fff;
+    border-radius: $card-radius;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
+
+    .research-card-inner {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .research-image {
+        flex: 1;
+        img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+        }
+      }
+
+      .research-info {
+        flex: 1;
+        padding: 1.5rem;
+
+         .research-summary {
+          font-size: 1rem;
+          color: #555;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
+
+.research-single {
+  padding: 1rem 1rem;
+
+  .research-single-header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .research-date {
+      color: #777;
+      font-size: $font-size-text;
+    }
+    .research-funding {
+      color: #777;
+      font-size: $font-size-text;
+    }
+  }
+
+  .research-single-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+
+    figure {
+      margin: 1rem 0;
+      
+
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+
+      figcaption {
+        font-size: $font-size-text;
+        color: #666;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .research-single-footer {
+    margin-top: 5rem;
+
+    a {
+      font-weight: 600;
+
+    }
+  }
+}
+

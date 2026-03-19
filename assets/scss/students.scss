@@ -1,0 +1,283 @@
+// ==========================================================================
+// DESIGN SYSTEM GLOBAL
+// ==========================================================================
+$primary: #302c2c;
+$text: #3d3e41;
+$bg: #f5f5f5;
+$link: v;
+
+// Font Sizes
+$font-size-title: 2.5rem;
+$font-size-subtitle: 1.8rem;
+$font-size-subsub: 1.1rem;
+$font-size-text: 1.2rem;
+
+// Cards
+$card-bg: #ffffff;
+$card-radius: 12px;
+$shadow-soft: 0 10px 30px rgba(0,0,0,0.05);
+$shadow-hover: 0 20px 40px rgba(0,0,0,0.08);
+$card-shadow: rgba(0, 0, 0, 0.1);
+
+/// ==========================================================================
+// TYPOGRAFIE GLOBAL
+// ==========================================================================
+body {
+  font-family: 'Inter', sans-serif;
+  background: $bg;
+  color: $text;
+  margin: 0;
+  font-size: $font-size-text;
+  line-height: 1.6;
+}
+
+// Überschriften
+h1 { font-size: $font-size-title; color: $primary; margin: 0.5em 0; font-weight: 600; }     // TITEL
+h2 { font-size: $font-size-subtitle; color: $primary; margin: 0.5em 0; font-weight: 600; }  // SUBTITEL
+h3 { font-size: $font-size-subsub; color: $primary; margin: 0.5em 0; font-weight: 600; }    // SUBSUBTITEL
+
+// Überschriften-Varianten (nur Ausrichtung)
+.h1-center, .h2-center, .h3-center { text-align: center !important; }
+.h1-block, .h2-block, .h3-block { text-align: justify !important; hyphens: auto; }
+.h1-left, .h2-left, .h3-left { text-align: left !important; }
+
+
+//Text
+p {font-size: $font-size-text; line-height: 1.6; color: $text;}
+
+//Text Varianten
+.text-left    { text-align: left !important; }
+.text-center  { text-align: center !important; }
+.text-block   { text-align: justify !important; hyphens: auto; }
+
+
+
+// Links
+a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
+
+
+// ==========================================================================
+// CARDS GLOBAL
+// ==========================================================================
+.card {
+  background: $card-bg;
+  border-radius: $card-radius;
+  box-shadow: $shadow-soft;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-hover;
+  }
+}
+// ==========================================================================
+// POP-IN ANIMATION GLOBAL
+// ==========================================================================
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+
+
+
+
+// ==========================================================================
+// BEGIN STUDENTS:
+// ==========================================================================
+
+
+.students-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;}
+
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.students-card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  text-align: center;
+  padding-bottom: 2rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  }
+
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+}
+
+.students-btn {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  background: #a453bd;
+  color: #fff;
+  border-radius: $card-radius;
+  &:hover {
+    background: #c8a7d4;
+  }
+}
+
+
+/* Office Hours */
+
+.office-hours {
+  margin-top: 3rem;
+}
+
+.office-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 2.5rem;
+  border-radius: $card-radius;
+  background: #ffffff;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+}
+
+.office-info ul {
+  list-style: none;
+}
+
+.office-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  padding: 0.8rem 1.6rem;
+  border-radius: $card-radius;
+  background: #a453bd;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+
+  &:hover {
+    background: #c8a7d4;
+  }
+}
+
+
+
+
+
+
+
+
+.theses-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.theses-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.theses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Accordion Card */
+.thesis-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+/* Klickbarer Header */
+.thesis-summary {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  img {
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+}
+
+/* Ausgeklappter Inhalt */
+.thesis-content {
+  padding: 1.5rem;
+  border-top: 1px solid #eeeeee;
+  font-size: 1rem;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.thesis-contact {
+  background: #f7f9fb;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+
+.students-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.students-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.students-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.student-card {
+  padding: 2rem;
+  border-radius: 14px;
+  background: #f8f9fb;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  }
+}
+
+
+

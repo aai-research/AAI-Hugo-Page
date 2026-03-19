@@ -1,0 +1,56 @@
+/* Navigation Hauptmenü */
+/* Alle Reiter */
+.nav-link {
+  text-decoration: none;
+  color: #580dad !important;       /* Reiterfarbe allgemein anpassen */
+  padding: 8px 12px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+
+/* Hover-Effekt */
+.nav-link:hover {
+  color: #b400cc  !important; /* Reiterfarbe, wenn man mit der Maus drüber geht verändern */
+  background: rgba(0,0,0,0.05);
+  border-radius: 4px;
+}
+
+/* Aktiver Reiter */
+.nav-link.active span {
+  color: #b174e2 !important; /* Reiterfarbe, des ausgewählten Reiters */
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* Mobile-Ansicht */
+@media (max-width: 768px) {
+  /* Navigation Container */
+  .navbar {
+    flex-direction: column;   /* Reiter untereinander */
+    gap: 10px;                /* Abstand zwischen Reitern */
+    align-items: flex-start;  /* Links bündig, oder center, wenn zentriert */
+  }
+
+  /* Alle Links */
+  .nav-link {
+    display: block;           /* Damit Links volle Breite haben */
+    width: 100%;
+    padding: 12px 16px;       /* Größere Klickfläche auf Touchscreens */
+  }
+
+  /* Hover auf Mobile optional */
+  .nav-link:hover {
+    background: rgba(0,0,0,0.05);
+  }
+
+  /* Aktiver Reiter auf Mobile */
+  .nav-link.active span {
+    color: #ccbe00 !important;  /* gleiche Farbe wie Desktop */
+    font-weight: bold;
+  }
+}

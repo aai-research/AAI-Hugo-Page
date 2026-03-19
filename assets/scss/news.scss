@@ -1,0 +1,367 @@
+/* ==========================
+   NEWS SEITE
+   ========================== */
+
+.news-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+/* Header */
+.news-header {
+  text-align: center;
+  margin-bottom: 4rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .news-intro {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+}
+
+/* ==========================
+   NEWS LISTE
+   ========================== */
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Einzelne News-Karte */
+.news-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+}
+
+/* Meta Infos */
+.news-meta {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.75rem;
+}
+
+/* Titel */
+.news-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Teaser */
+.news-summary {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Read more */
+.news-readmore {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 0.95rem;
+
+  a {
+    color: #0056b3;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.news-card {
+  background: #f7f7f7;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .news-title {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+
+  .news-meta {
+    font-size: 0.875rem;
+    color: #777;
+  }
+
+  .news-summary {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .read-more {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.news-single {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .news-date {
+    color: #777;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .back-to-news {
+    display: inline-block;
+    margin-top: 2rem;
+    color: #007acc;
+    font-weight: 600;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.news-single-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+}
+
+.news-detail-header {
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .news-date {
+    color: #777;
+    font-size: 0.875rem;
+  }
+}
+
+.news-detail-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.news-detail-footer {
+  a.back-to-news {
+    color: #007acc;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.news-header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.news-date { color: #777; margin-bottom: 2rem; }
+.news-content { font-size: 1.1rem; line-height: 1.6; }
+.btn-back { color: #007acc; font-weight: 600; text-decoration: none; &:hover { text-decoration: underline; } }
+
+/* ==========================
+   NEWS SEITE
+   ========================== */
+
+.news-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.news-header {
+  text-align: center;
+  margin-bottom: 4rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .news-intro {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+}
+
+/* ==========================
+   NEWS LISTE
+   ========================== */
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.news-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .news-meta {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.75rem;
+  }
+
+  .news-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .news-summary {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-readmore {
+    margin-top: auto;
+    font-weight: 500;
+    font-size: 0.95rem;
+
+    a {
+      color: #0056b3;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* ==========================
+   EINZELARTIKEL
+   ========================== */
+
+.news-single {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .news-date {
+    color: #777;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-detail-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .back-to-news {
+    display: inline-block;
+    margin-top: 2rem;
+    color: #007acc;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
