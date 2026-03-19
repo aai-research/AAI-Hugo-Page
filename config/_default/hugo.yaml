@@ -15,7 +15,7 @@ relativeURLs: true
 # ==============================
 params:
   logo:
-    path: "/uploads/aai_logo.png"  # Logo Datei in static/uploads/
+    path: "uploads/aai_logo.png"  # Logo Datei in static/uploads/
     alt: ""                        # Alt Text für SEO/Accessibility
     height: 50                     # optional: Höhe in px, passt auf Navbar
     link: "/"                      # klickt auf Home
