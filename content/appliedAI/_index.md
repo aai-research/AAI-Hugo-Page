@@ -1,6 +1,7 @@
 ---
 title: "Applied AI Lab"
 type: page
+layout: default
 share:
   enable: false
 ---
