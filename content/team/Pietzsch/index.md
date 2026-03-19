@@ -8,7 +8,7 @@ _build:
 
   <div class="team-single-header">
     <img src="/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
-    <h1 class="h1-center">M. Sc. Sabrina Pietzsch</h1>
+    <h1 class="h1-center">M. Sc. Sabrina Müller</h1>
     <p class="team-role-single text-center">
       Research assistants    </p>
     <div class="team-contact">
