@@ -1,10 +1,11 @@
 ---
-title: "Applied AI Lab"
+#AAI-LAB-Page
+title: ""
 type: page
-layout: default
 share:
   enable: false
 ---
+
 
 <!-- Hero Section -->
 <section class="hero-section">
