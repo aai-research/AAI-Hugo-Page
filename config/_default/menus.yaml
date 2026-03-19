@@ -1,0 +1,24 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: applied ai-lab
+    url: appliedAI
+    weight: 10
+  - name: Team
+    url: team
+    weight: 30
+  - name: Research
+    url: research
+    weight: 40
+  - name: Publications
+    url: publications
+    weight: 50
+  - name: For Students
+    url: students
+    weight: 50
+  - name: Contact
+    url: contact
+    weight: 60
