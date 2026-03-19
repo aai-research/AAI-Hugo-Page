@@ -9,7 +9,7 @@ share:
 <!-- Hero Section -->
 <section class="hero-section">
   <div class="hero-image">
-    <img src="/uploads/group_photo_2.jpg" alt="AAI Lab Group">
+    <img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">
   </div>
 </section>
 
