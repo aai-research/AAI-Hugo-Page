@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home | aai-lab</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Home</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_f81c1332a3364ee7.png</url>
+      <title>Home</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>Girls-Day</title>
+      <link>http://localhost:1313/news/post5/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/post5/</guid>
+      <description>&lt;section class=&#34;news-page&#34;&gt;
+  &lt;div class=&#34;news-detail-content&#34;&gt;
+    &lt;p&gt;
+      Hier kommt der vollständige Text des Artikels hin. Du kannst mehrere Absätze, Listen, Bilder etc. einfügen.
+    &lt;/p&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;http://localhost:1313/uploads/ekg.jpg&#34; alt=&#34;KI Vortrag Bild&#34; /&gt;
+      &lt;figcaption&gt;Ein Bild vom KI-Vortrag&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;p&gt;
+      Beispiel für weiteren Text oder Inhalte, die zum Event oder zur News gehören.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;footer class=&#34;news-detail-footer&#34;&gt;
+    &lt;a class=&#34;back-to-news&#34; href=&#34;http://localhost:1313/news&#34;&gt;← Back to News&lt;/a&gt;
+  &lt;/footer&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Messe wetzlar</title>
+      <link>http://localhost:1313/news/post4/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/post4/</guid>
+      <description>&lt;section class=&#34;news-page&#34;&gt;
+  &lt;div class=&#34;news-detail-content&#34;&gt;
+    &lt;p&gt;
+      Hier kommt der vollständige Text des Artikels hin. Du kannst mehrere Absätze, Listen, Bilder etc. einfügen.
+    &lt;/p&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;http://localhost:1313/uploads/ekg.jpg&#34; alt=&#34;KI Vortrag Bild&#34; /&gt;
+      &lt;figcaption&gt;Ein Bild vom KI-Vortrag&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;p&gt;
+      Beispiel für weiteren Text oder Inhalte, die zum Event oder zur News gehören.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;footer class=&#34;news-detail-footer&#34;&gt;
+    &lt;a class=&#34;back-to-news&#34; href=&#34;http://localhost:1313/news&#34;&gt;← Back to News&lt;/a&gt;
+  &lt;/footer&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Schüler zu Besuch an der THM</title>
+      <link>http://localhost:1313/news/post3/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/post3/</guid>
+      <description>&lt;section class=&#34;news-page&#34;&gt;
+  &lt;div class=&#34;news-detail-content&#34;&gt;
+    &lt;p&gt;
+      Hier kommt der vollständige Text des Artikels hin. Du kannst mehrere Absätze, Listen, Bilder etc. einfügen.
+    &lt;/p&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;http://localhost:1313/uploads/coders.jpg&#34; alt=&#34;KI Vortrag Bild&#34; /&gt;
+      &lt;figcaption&gt;Ein Bild vom KI-Vortrag&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;p&gt;
+      Beispiel für weiteren Text oder Inhalte, die zum Event oder zur News gehören.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;footer class=&#34;news-detail-footer&#34;&gt;
+    &lt;a class=&#34;back-to-news&#34; href=&#34;http://localhost:1313/news&#34;&gt;← Back to News&lt;/a&gt;
+  &lt;/footer&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Äpfel und Birnen - KI entscheidet</title>
+      <link>http://localhost:1313/news/post2/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/post2/</guid>
+      <description>&lt;section class=&#34;news-page&#34;&gt;
+  &lt;div class=&#34;news-detail-content&#34;&gt;
+    &lt;p&gt;
+      Hier kommt der vollständige Text des Artikels hin. Du kannst mehrere Absätze, Listen, Bilder etc. einfügen.
+    &lt;/p&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;http://localhost:1313/uploads/contact.jpg&#34; alt=&#34;KI Vortrag Bild&#34; /&gt;
+      &lt;figcaption&gt;Ein Bild vom KI-Vortrag&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;p&gt;
+      Beispiel für weiteren Text oder Inhalte, die zum Event oder zur News gehören.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;footer class=&#34;news-detail-footer&#34;&gt;
+    &lt;a class=&#34;back-to-news&#34; href=&#34;http://localhost:1313/news&#34;&gt;← Back to News&lt;/a&gt;
+  &lt;/footer&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vertrauenswürdige KI aus verschiedenen Perspektiven</title>
+      <link>http://localhost:1313/news/post1/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/post1/</guid>
+      <description>&lt;section class=&#34;news-page&#34;&gt;
+  &lt;div class=&#34;news-detail-content&#34;&gt;
+    &lt;p&gt;
+      Hier kommt der vollständige Text des Artikels hin. Du kannst mehrere Absätze, Listen, Bilder etc. einfügen.
+    &lt;/p&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;http://localhost:1313/uploads/ai_vortrag.jpg&#34; alt=&#34;KI Vortrag Bild&#34; /&gt;
+      &lt;figcaption&gt;Ein Bild vom KI-Vortrag&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;p&gt;
+      Beispiel für weiteren Text oder Inhalte, die zum Event oder zur News gehören.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;footer class=&#34;news-detail-footer&#34;&gt;
+    &lt;a class=&#34;back-to-news&#34; href=&#34;http://localhost:1313/news&#34;&gt;← Back to News&lt;/a&gt;
+  &lt;/footer&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
