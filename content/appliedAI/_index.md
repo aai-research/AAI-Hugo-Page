@@ -1,6 +1,5 @@
 ---
-#AAI-LAB-Page
-title: ""
+title: "Applied AI Lab"
 type: page
 share:
   enable: false
@@ -9,7 +8,7 @@ share:
 <!-- Hero Section -->
 <section class="hero-section">
   <div class="hero-image">
-    <img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">
+    <img src="{{ "uploads/group_photo_2.jpg" | relURL }}" alt="AAI Lab Group">
   </div>
 </section>
 
@@ -31,18 +30,19 @@ share:
     <p class="text-block">
       More details on our projects, publications, and research activities can be found on our website. We welcome collaborations and discussions with researchers, industry partners, and practitioners interested in applied AI and explainable machine learning.
     </p>
+</section>
+
 <!-- Logos Section -->
 <section class="logos-section">
   <div class="container logos-container">
     <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-      <img src="/uploads/kite_logo.png" alt="KITE Logo">
+      <img src="{{ "uploads/kite_logo.png" | relURL }}" alt="KITE Logo">
     </a>
     <a href="https://www.thm.de" target="_blank">
-      <img src="/uploads/THM_logo.png" alt="THM Logo">
+      <img src="{{ "uploads/THM_logo.png" | relURL }}" alt="THM Logo">
     </a>
     <a href="https://hessian.ai" target="_blank">
-      <img src="/uploads/HessenAi_logo.png" alt="hessian.ai Logo">
+      <img src="{{ "uploads/HessenAi_logo.png" | relURL }}" alt="hessian.ai Logo">
     </a>
+  </div>
 </section>
-
-
