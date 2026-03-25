@@ -69,17 +69,17 @@ sections:
   content:
     text: |
       <div class="hero-partner-logos text-center">
-        <a href="/appliedAI/" target="_blank">
-          <img src="/uploads/aai_logo.png" alt="Applied AI Lab"/>
+        <a href="{{ "/appliedAI/" | relURL }}" target="_blank">
+          <img src="{{ "/uploads/aai_logo.png" | relURL }}" alt="Applied AI Lab"/>
         </a>
         <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-          <img src="/uploads/kite_logo.png" alt="KITE"/>
+         <img src="{{ "/uploads/kite_logo.png" | relURL }}" alt="KITE"/>
         </a>
         <a href="https://www.thm.de" target="_blank">
-          <img src="/uploads/THM_logo.png" alt="THM"/>
+          <img src="{{ "/uploads/THM_logo.png" | relURL }}" alt="THM"/>
         </a>
         <a href="https://hessian.ai" target="_blank">
-          <img src="/uploads/HessenAi_logo.png" alt="HessenAI"/>
+          <img src="{{ "/uploads/HessenAi_logo.png" | relURL }}" alt="HessenAI"/>
         </a>
       </div>
   design:
@@ -132,17 +132,17 @@ sections:
         <div class="home-open-positions">
           <div class="position-item">
             <a href="https://www.thm.de/site/hochschule/profil/job-und-karriere/aktuelle-stellenangebote.html" target="_blank">
-              <img src="/uploads/thm_job_icon.png" alt="THM Jobs"/>
+              <img src="{{ "/uploads/thm_job_icon.png" | relURL }}" alt="THM Jobs"/>
             </a>         
           </div>
           <div class="position-item">
             <a href="/hiwi-offers">
-              <img src="/uploads/hiwi_job_icon.png" alt="HiWi Positions"/>
+              <img src="{{ "/uploads/hiwi_job_icon.png" | relURL }}" alt="HiWi Positions"/>
             </a>
           </div>
           <div class="position-item">
             <a href="/thesis-offers">
-              <img src="/uploads/thesis_icon.png" alt="Thesis Opportunities"/>
+              <img src="{{ "/uploads/thesis_icon.png" | relURL }}" alt="Thesis Opportunities"/>
             </a>
           </div>
         </div>
