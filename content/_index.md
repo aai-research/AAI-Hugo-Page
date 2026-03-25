@@ -12,7 +12,7 @@ sections:
   content:
     text: |
       <div class="hero-home">
-        <img src="/uploads/hero1.png" alt="Hero Image"/>
+        <img src="{{ "/uploads/hero1.png" | absURL }}" alt="Hero Image"/>
       </div>
   design:
     columns: '1'
