@@ -7,7 +7,7 @@
 # Site Configuration
 # ==============================
 title: "aai-lab"  # leer lassen, weil wir Logo nutzen
-baseURL: 'https://example.com/' # deine URL
+baseURL: 'https://github.com/TimeXAIgroup/TimeXAI-Hugo-Page/' # deine URL
 
 # ==============================
 # Logo Setup
