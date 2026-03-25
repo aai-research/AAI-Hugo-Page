@@ -8,7 +8,6 @@
 # ==============================
 title: "aai-lab"  # leer lassen, weil wir Logo nutzen
 baseURL: 'https://timexaigroup.github.io/TimeXAI-Hugo-Page/' # deine URL
-relativeURLs: true
 
 # ==============================
 # Logo Setup
