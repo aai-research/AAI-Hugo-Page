@@ -11,13 +11,14 @@ sections:
 - block: markdown
   content:
     text: |
-      <div class="hero-fullwidth">
-        {{< figure src="/uploads/hero1.png" alt="Hero Image" class="hero-home" >}}
+      <div class="hero-home">
+        <img src="{{ "/uploads/hero1.png" | relURL }}" alt="Hero Image"/>
       </div>
   design:
     columns: '1'
     spacing:
       padding: ['0','0','0','0']
+    css_class: hero-fullwidth
 
 # ======================
 # INTRO + ANIMATION ICONS
