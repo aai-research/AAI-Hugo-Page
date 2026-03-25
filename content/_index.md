@@ -36,8 +36,8 @@ sections:
         </div>
         <div class="home-about-icons">
           <div class="care-item">
-            <a href="{{ "/appliedAI/" | relURL }}" class="care-inner">
-              <img src="{{ "/uploads/aai_icon2.png" | relURL }}" alt="Applied AI"/>
+            <a href="/appliedAI/" class="care-inner">
+              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_icon2.png" alt="Applied AI"/>
             </a>
           </div>
           <div class="care-item">
