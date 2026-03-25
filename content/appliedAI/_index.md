@@ -2,7 +2,7 @@
 #AAI-LAB-Page
 title: ""
 type: page
-share:
+_build:
   enable: false
 ---
 
