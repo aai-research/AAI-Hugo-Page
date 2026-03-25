@@ -15,8 +15,8 @@ _build:
 <!-- CLICKABLE MEMBER -->
   <section class="team-list">
     <article class="text-center">
-      <a href="{{ "/team/hannig/" | relURL }}">
-        <img src="{{ "/uploads/hannig.jpg" | relURL }}" alt="Prof. Dr. Jennifer Hannig" />
+      <a href="{{ "/team/hannig/" | absURL }}">
+        <img src="{{ "/uploads/hannig.jpg" | absURL }}" alt="Prof. Dr. Jennifer Hannig" />
         <h3 class="text-center">Prof. Dr. Jennifer Hannig</h3>
         <p class="team-role">Chair of the applied AI-Lab</p>
       </a>
