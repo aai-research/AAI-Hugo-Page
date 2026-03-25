@@ -28,7 +28,7 @@ sections:
     text: |
       <div class="home-intro-icons text-center">
         <div class="home-intro">
-          <img src="/uploads/aai_logo_2.png" alt="AAI Logo" class="intro-logo"/>
+          <img src="{{ "/uploads/aai_logo_2.png" | relURL }}" alt="AAI Logo" class="intro-logo"/>
           <h1 class="text-center">Applied AI-Lab</h1>
           <p class="text-center">
             We are exploring practical and innovative solutions in projects in the field of artificial intelligence and contribute to the advancement of knowledge. At the same time, we are committed to teaching and mentoring the next generation of AI engineers. By combining theory and practice, we are working to make AI more accessible, responsible, and effective.
@@ -36,23 +36,23 @@ sections:
         </div>
         <div class="home-about-icons">
           <div class="care-item">
-            <a href="/appliedAI/" class="care-inner">
-              <img src="/uploads/aai_icon2.png" alt="Applied AI"/>
+            <a href="{{ "/appliedAI/" | relURL }}" class="care-inner">
+              <img src="{{ "/uploads/aai_icon2.png" | relURL }}" alt="Applied AI"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="/research" class="care-inner">
-              <img src="/uploads/project_icon2.png" alt="Projects"/>
+            <a href="{{ "/research" | relURL }}" class="care-inner">
+              <img src="{{ "/uploads/project_icon2.png" | relURL }}" alt="Projects"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="/students" class="care-inner">
-              <img src="/uploads/teaching_icon2.png" alt="Students"/>
+            <a href="{{ "/students" | relURL }}" class="care-inner">
+              <img src="{{ "/uploads/teaching_icon2.png" | relURL }}" alt="Students"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="/publications" class="care-inner">
-              <img src="/uploads/paper_icon2.png" alt="Publications"/>
+            <a href="{{ "/publications" | relURL }}" class="care-inner">
+              <img src="{{ "/uploads/paper_icon2.png" | relURL }}" alt="Publications"/>
             </a>
           </div>
         </div>
