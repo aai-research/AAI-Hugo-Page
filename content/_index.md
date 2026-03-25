@@ -41,8 +41,8 @@ sections:
             </a>
           </div>
           <div class="care-item">
-            <a href="{{ "/research" | relURL }}" class="care-inner">
-              <img src="{{ "/uploads/project_icon2.png" | relURL }}" alt="Projects"/>
+            <a href="/research" class="care-inner">
+               <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/project_icon2.png" alt="Projects"/>
             </a>
           </div>
           <div class="care-item">
