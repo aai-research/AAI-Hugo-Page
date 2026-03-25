@@ -3,7 +3,7 @@
 title: ""
 type: page
 _build:
-  enable: false
+  list: false
 ---
 
 <!-- Hero Section -->
