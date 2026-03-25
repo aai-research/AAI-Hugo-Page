@@ -130,10 +130,10 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 
   .intro-logo {
     display: block;
-    margin: 0 auto 20px;
-    max-width: 300px;
-    width: 100%;
-    height: auto;
+    margin: 0 auto 20px !important;
+    max-width: 300px !important;
+    width: 100% !important;
+    height: auto !important;
   }
 }
 
