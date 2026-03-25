@@ -46,13 +46,13 @@ sections:
             </a>
           </div>
           <div class="care-item">
-            <a href="{{ "/students" | relURL }}" class="care-inner">
-              <img src="{{ "/uploads/teaching_icon2.png" | relURL }}" alt="Students"/>
+            <a href="/students" class="care-inner">
+              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/teaching_icon2.png" alt="Students"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="{{ "/publications" | relURL }}" class="care-inner">
-              <img src="{{ "/uploads/paper_icon2.png" | relURL }}" alt="Publications"/>
+            <a href="/publications" class="care-inner">
+              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/paper_icon2.png" alt="Publications"/>
             </a>
           </div>
         </div>
@@ -69,17 +69,17 @@ sections:
   content:
     text: |
       <div class="hero-partner-logos text-center">
-        <a href="{{ "/appliedAI/" | relURL }}" target="_blank">
-          <img src="{{ "/uploads/aai_logo.png" | relURL }}" alt="Applied AI Lab"/>
+        <a href="/appliedAI/" target="_blank">
+          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_logo.png" alt="Applied AI Lab"/>
         </a>
         <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-         <img src="{{ "/uploads/kite_logo.png" | relURL }}" alt="KITE"/>
+         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/kite_logo.png" alt="KITE"/>
         </a>
         <a href="https://www.thm.de" target="_blank">
-          <img src="{{ "/uploads/THM_logo.png" | relURL }}" alt="THM"/>
+          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/THM_logo.png" alt="THM"/>
         </a>
         <a href="https://hessian.ai" target="_blank">
-          <img src="{{ "/uploads/HessenAi_logo.png" | relURL }}" alt="HessenAI"/>
+          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/HessenAi_logo.png" alt="HessenAI"/>
         </a>
       </div>
   design:
@@ -132,17 +132,17 @@ sections:
         <div class="home-open-positions">
           <div class="position-item">
             <a href="https://www.thm.de/site/hochschule/profil/job-und-karriere/aktuelle-stellenangebote.html" target="_blank">
-              <img src="{{ "/uploads/thm_job_icon.png" | relURL }}" alt="THM Jobs"/>
+              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thm_job_icon.png" alt="THM Jobs"/>
             </a>         
           </div>
           <div class="position-item">
             <a href="/hiwi-offers">
-              <img src="{{ "/uploads/hiwi_job_icon.png" | relURL }}" alt="HiWi Positions"/>
+              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hiwi_job_icon.png" alt="HiWi Positions"/>
             </a>
           </div>
           <div class="position-item">
             <a href="/thesis-offers">
-              <img src="{{ "/uploads/thesis_icon.png" | relURL }}" alt="Thesis Opportunities"/>
+              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_icon.png" alt="Thesis Opportunities"/>
             </a>
           </div>
         </div>
