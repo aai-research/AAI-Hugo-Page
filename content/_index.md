@@ -12,7 +12,7 @@ sections:
   content:
     text: |
       <div class="hero-home">
-        {{< img "/uploads/hero1.png" "Hero Image" "hero-home" >}}
+         <img src="{{ "/uploads/hero1.png" | relURL }}" alt="Hero Image" class="hero-home-img"/>
       </div>
   design:
     columns: '1'
