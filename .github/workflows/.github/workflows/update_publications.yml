@@ -1,0 +1,31 @@
+name: Update Publications
+
+on:
+  push:
+    paths:
+      - 'data/publications.bib'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install bibtexparser
+        run: pip install bibtexparser
+
+      - name: Convert BibTeX to JSON
+        run: python data/convert_bibtex.py
+
+      - name: Commit updated JSON
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add data/publications.json
+          git commit -m "Update publications JSON" || echo "No changes"
+          git push
