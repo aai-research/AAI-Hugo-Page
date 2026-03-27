@@ -34,11 +34,11 @@ _build:
       <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_x4neuro/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/ekg.jpg" alt="Project 2 Image" />
+            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/FigX4Neuro.png" alt="Project 2 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">x4Neuro</h2>
-            <p class="research-summary text-block">A short teaser of the Project describing the research goal and scope.</p>
+            <p class="research-summary text-block">XAI for Digital Neuropathology</p>
           </div>
         </div>
       </a>
