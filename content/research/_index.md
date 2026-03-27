@@ -31,7 +31,7 @@ _build:
     </div>
     <!-- Projekt 2 -->
     <div class="research-card">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_x4Neuro/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_x4neuro/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/ekg.jpg" alt="Project 2 Image" />
