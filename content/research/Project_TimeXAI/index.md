@@ -37,6 +37,10 @@ The junior research group “TimeXAI” has a duration of three years and is fun
     <p class="text-block">
       Detailed description of the project. Detailed description of the  project.Detailed description of the  project.Detailed description of the s project.Detailed description of the  project.Detailed description of the project. Detailed description of the project.
     </p>
+    <figure>
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/BMFTR.jpg" alt="BMFTR" />
+      <figcaption>Figure Text.</figcaption>
+    </figure>
   <footer class="research-single-footer">
     <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
