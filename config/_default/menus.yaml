@@ -5,7 +5,7 @@
 
 main:
   - name: applied ai-lab
-    url: appliedAI
+    url: aai
     weight: 10
   - name: Team
     url: team
