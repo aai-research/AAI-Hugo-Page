@@ -6,7 +6,6 @@ _build:
 ---
 
 <section class="research-single">
-
   <header class="research-single-header">
     <h1 class="text-center">x4 NEURO</h1>
     <div class="research-funding">Project Funding Number: XXXXXXXXX</div>
@@ -25,5 +24,4 @@ _build:
   <footer class="research-single-footer">
     <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
-
 </section>
