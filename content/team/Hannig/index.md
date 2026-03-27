@@ -8,7 +8,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="/uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
+    <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
     <h1 class="h1-center">Prof. Dr. Jennifer Hannig</h1>
     <p class="team-role-single text-center">
       Chair of the applied AI-Lab    </p>
