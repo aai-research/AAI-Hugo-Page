@@ -34,7 +34,7 @@ _build:
       <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_vissurg_aid">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/VisSURG-AID.jpg" alt="Project 4 Image" />
+            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/VisSURG-AID.png" alt="Project 4 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">VisSURG-AID</h2>
