@@ -13,14 +13,14 @@ _build:
     <p class="team-role-single text-center">
       Chair of the applied AI-Lab    </p>
     <div class="team-contact">
-      <p>✉️ xyz@example.com</p>
-      <p>📞 +49 123 4567890</p>
+      <p>✉️ jennifer.hannig@kite.thm.de</p>
+      <p>📞 +49 641 3093436</p>
     </div>
   </div>
 
   <!-- LINK -->
   <div class="team-links">
-    <a href="https://scholar.google.com/..." target="_blank" class="team-link">
+    <a href="https://scholar.google.com/citations?user=mUma-k8AAAAJ&hl=de" target="_blank" class="team-link">
       Google Scholar Publications
     </a>
   </div>
@@ -28,7 +28,7 @@ _build:
   <!-- BIO -->
   <div class="team-single-content">
     <p class="text-block">
-      Hier kommen die ausführlichen Informationen zur Wissenschaftlerin hin...
+      Prof. Dr. rer. nat. Jennifer Hannig is a professor at Technische Hochschule Mittelhessen – University of Applied Sciences in Friedberg and head of the BMBF-funded junior research group “TimeXAI: Explainable Artificial Intelligence for Time Series” at the KITE Competence Center.
     </p>
   </div>
 
