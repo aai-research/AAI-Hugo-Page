@@ -8,7 +8,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="/uploads/peter.jpg" alt="M. Sc. Luis Peter" />
+    <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/peter.jpg" alt="M. Sc. Luis Peter" />
     <h1 class="h1-center">M. Sc. Luis Peter</h1>
     <p class="team-role-single text-center">
       Doctoral researcher    </p>
