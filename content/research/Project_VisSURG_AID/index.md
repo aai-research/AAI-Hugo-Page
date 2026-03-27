@@ -9,7 +9,7 @@ _build:
 
   <header class="research-single-header">
     <h1 class="text-center">VisSURG-AID</h1>
-    Visual Surgical Artificial Intelligence for Decision support
+    Visual Surgical Artificial Intelligence for Decision Support
     <!--<div class="research-funding">Project Funding Number: XXXXXXXXX</div>-->
     Hessian Ministry of Science and Research, Arts and Culture (HMWK) 
     FCMH Experimentierräume
