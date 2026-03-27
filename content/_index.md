@@ -36,7 +36,7 @@ sections:
         </div>
         <div class="home-about-icons">
           <div class="care-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/appliedAI/" class="care-inner">
+            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/aai/" class="care-inner">
               <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_icon2.png" alt="Applied AI"/>
             </a>
           </div>
