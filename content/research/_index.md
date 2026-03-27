@@ -59,7 +59,7 @@ _build:
     </div>
     <!-- Projekt 4 -->
     <div class="research-card">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_SINAI_PD/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_sinai_pd/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pancreas.jpg" alt="Project 4 Image" />
@@ -73,7 +73,7 @@ _build:
     </div>
   <!-- Projekt 5 -->
     <div class="research-card">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_BPEAX/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_bpeax/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hero3.jpg" alt="Project 5 Image" />
