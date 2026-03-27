@@ -24,7 +24,7 @@ _build:
           </div>
           <div class="research-info">
             <h2 class="text-left">TimeXAI </h2>
-            <p class="research-summary text-block">A short teaser of the Project describing the research goal and scope.</p>
+            <p class="research-summary text-block">Explainable Artificial Intelligence for Time Series Data.</p>
           </div>
         </div>
       </a>
