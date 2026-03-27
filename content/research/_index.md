@@ -62,11 +62,11 @@ _build:
       <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_sinai_pd/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pancreas.jpg" alt="Project 4 Image" />
+            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/SinaiPD.png" alt="Project 4 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">SINAI-PD</h2>
-            <p class="research-summary text-block">A short teaser of the Project describing the research goal and scope.</p>
+            <p class="research-summary text-block">Synchronous Intraoperative AI-based decision-making in partial duodenoapancreatectomy</p>
           </div>
         </div>
       </a>
