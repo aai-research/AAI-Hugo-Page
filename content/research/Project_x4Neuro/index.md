@@ -7,9 +7,10 @@ _build:
 
 <section class="research-single">
   <header class="research-single-header">
-    <h1 class="text-center">x4 NEURO</h1>
-    <div class="research-funding">Project Funding Number: XXXXXXXXX</div>
-    <div class="research-date">Project Duration: 2025 - 2027</div>
+    <h1 class="text-center">X4Neuro</h1>
+    <h1 class="text-center">XAI for Digital Neuropathology</h1>
+    #<div class="research-funding">Project Funding Number: XXXXXXXXX</div>
+    <div class="research-date">Project Duration: 01.10.2024 - 31.03.2026</div>
     <p class="text-block"></p>
     <p class="text-block">
       Meningiomas account for approximately 35% of brain tumors and require epigenetic classification for accurate prognoses. Currently, obtaining this information involves complex and time-consuming laboratory procedures. The junior research group led by Dr. Daniel Amsel (JLU) has developed an artificial intelligence (AI)-based method for the epigenetic classification of digitized histological slides. The aim of the project “X4Neuro – XAI for Digital Neuropathology” is to further enhance this AI model in collaboration with Dr. Jennifer Hannig (THM) by integrating methods of Explainable Artificial Intelligence (XAI). This approach makes it possible to identify the regions that are most relevant to the AI model’s decisions at the cellular level or even at the pixel level.
