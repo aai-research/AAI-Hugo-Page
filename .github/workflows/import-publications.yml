@@ -10,7 +10,7 @@ permissions:
 on:
   push:
     branches: ['main']
-    branches: ['aai-first-version']
+    #branches: ['aai-first-version']
     paths: ['content/publications/publications.bib']
 
   # Allows you to run this workflow manually from the Actions tab
