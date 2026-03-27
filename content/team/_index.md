@@ -22,28 +22,28 @@ _build:
       </a>
     </article>
     <article class="text-center">
-      <a href="/team/gumpfer/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/gumpfer/">
         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
         <h3 class="text-center">Dr. Nils Gumpfer</h3>
         <p class="team-role">Postdoctoral researcher</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="/team/peter/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/peter/">
         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/peter.jpg" alt="M. Sc. Louis Peter" />
         <h3 class="text-center">M. Sc. Louis Peter</h3>
         <p class="team-role">Doctoral researcher</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="/team/fischer/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/fischer/">
         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/fischer.jpg" alt="M. Sc. Jana Fischer" />
         <h3 class="text-center">M. Sc. Jana Fischer</h3>
         <p class="team-role">Doctoral researcher</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="/team/pietzsch/">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/pietzsch/">
         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
         <h3 class="text-center">M. Sc. Sabrina Pietzsch</h3>
         <p class="team-role">Research assistant</p>
