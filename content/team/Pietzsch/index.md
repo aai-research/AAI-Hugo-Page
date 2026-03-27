@@ -7,7 +7,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
+    <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
     <h1 class="h1-center">M. Sc. Sabrina Müller</h1>
     <p class="team-role-single text-center">
       Research assistants    </p>
