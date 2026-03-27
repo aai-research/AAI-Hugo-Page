@@ -21,7 +21,7 @@ Artificial intelligence (AI)-based systems designed to provide real-time, intrao
 The primary objective of this project is the development of a consolidated data infrastructure comprising high-quality, annotated imaging datasets. These datasets will be systematically generated and enriched based on well-defined clinical scenarios. Building upon this data foundation, domain-specific AI-driven decision support systems can be designed, implemented, and evaluated
     </p>
     <figure>
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/VisSURG-AID.jpg" alt="Time" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/VisSURG-AID.png" alt="Time" />
       <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
     <p class="text-block">
