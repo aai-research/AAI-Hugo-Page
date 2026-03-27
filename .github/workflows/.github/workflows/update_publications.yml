@@ -3,7 +3,7 @@ name: Update Publications
 on:
   push:
     paths:
-      - 'data/publications.bib'
+      - 'https://github.com/TimeXAIgroup/TimeXAI-Hugo-Page/data/publications.bib'
 
 jobs:
   convert:
