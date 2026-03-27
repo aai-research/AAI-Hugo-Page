@@ -23,8 +23,8 @@ _build:
     </figure>
     <p class="text-block">
       The “X4Neuro” project has a duration of one year and is funded with €58,750 by the Hessian Ministry for Science and Research, Art and Culture (HMWK) as part of the “Experimentierräume” funding program of the Forschungscampus Mittelhessen.
-      Projektleitung / Stellv. Projektleitung: 
-      Prof. Dr. Jennifer Hannig 
+      
+      Projektleitung / Stellv. Projektleitung:       Prof. Dr. Jennifer Hannig 
       Dr. Daniel Amsel (Institut für Neuropathologie, Justus‑Liebig‑Universität Gießen)
     </p>
   <footer class="research-single-footer">
