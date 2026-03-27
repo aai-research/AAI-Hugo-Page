@@ -9,7 +9,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="/uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
+    <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
     <h1 class="h1-center">Dr. Nils Gumpfer</h1>
     <p class="team-role-single text-center">
       Postdoctoral researcher of the applied AI-Lab    </p>
