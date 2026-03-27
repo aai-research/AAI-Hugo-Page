@@ -65,7 +65,7 @@ _build:
       <p class="team-role">Master student</p>
     </article>  
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/mem_1.jpg" alt="Sandra Sommerkorn" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/SandraSommerkorn.jpg" alt="Sandra Sommerkorn" />
       <h3 class="text-center">Sandra Sommerkorn</h3>
       <p class="team-role">Bachelor student</p>
     </article>
