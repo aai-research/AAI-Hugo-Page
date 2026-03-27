@@ -37,7 +37,7 @@ _build:
             <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/FigX4Neuro.png" alt="Project 2 Image" />
           </div>
           <div class="research-info">
-            <h2 class="text-left">x4Neuro</h2>
+            <h2 class="text-left">X4Neuro</h2>
             <p class="research-summary text-block">XAI for Digital Neuropathology</p>
           </div>
         </div>
