@@ -16,9 +16,9 @@ _build:
     <div class="contact-card">
       <h3>Office</h3>
       <p>
+        B1.0.12
         Wilhelm-Leuschner-Str. 13<br>
         61169 Friedberg, Germany<br>
-        B1.0.12
       </p>
     </div>
     <!-- Kontakt -->
