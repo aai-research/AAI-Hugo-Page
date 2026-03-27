@@ -37,7 +37,7 @@ The Smart Home application domain is a collaboration with the startup Veli GmbH.
     </p>
     <figure>
       <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/BMFTR.jpg" alt="BMFTR" />
-      <figcaption>Figure Text.</figcaption>
+      <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
   <footer class="research-single-footer">
     <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research">← Back to Projects</a>
