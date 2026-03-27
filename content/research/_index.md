@@ -45,7 +45,7 @@ _build:
     </div>
     <!-- Projekt 3 -->
     <div class="research-card">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_VisSURG_AID">
+      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_vissurg_aid">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hero2.jpg" alt="Project 3 Image" />
