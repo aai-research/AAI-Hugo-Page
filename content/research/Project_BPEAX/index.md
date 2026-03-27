@@ -22,7 +22,7 @@ The objective of the research project “BPEAX – AI-based detection of exagger
     </p>
     <figure>
       <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/BPEAX.png" alt="BPEAX" />
-      <figcaption>Figure Text.</figcaption>
+      <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
     <p class="text-block">
 The project “BPEAX” has a duration of one year and is funded by the Hessian Ministry of Science and Research, Arts and Culture
