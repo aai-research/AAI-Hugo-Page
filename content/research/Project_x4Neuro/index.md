@@ -10,7 +10,7 @@ _build:
     <h1 class="text-center">X4Neuro</h1>
     <h1 class="text-center">XAI for Digital Neuropathology</h1>
     <!-- <div class="research-funding">Project Funding Number: XXXXXXXXX</div> -->
-    HHessian Ministry of Science and Research, Arts and Culture (HMWK) 
+    Hessian Ministry of Science and Research, Arts and Culture (HMWK) 
     FCMH Experimentierräume
     <div class="research-date">Project Duration: 01.10.2024 - 31.03.2026</div>
     <p class="text-block"></p>
