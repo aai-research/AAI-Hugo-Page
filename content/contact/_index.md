@@ -9,7 +9,7 @@ _build:
 <section class="contact-page">
   <header class="contact-header">
     <h1>Contact</h1>
-    <p>TimeXAI-Group</p>
+    <p>Applied AI Lab</p>
   </header>
   <section class="contact-info-grid">
     <!-- Adresse -->
@@ -18,15 +18,15 @@ _build:
       <p>
         Wilhelm-Leuschner-Str. 13<br>
         61169 Friedberg, Germany<br>
-        Office 200, Building 2
+        B1.0.12
       </p>
     </div>
     <!-- Kontakt -->
     <div class="contact-card">
       <h3>Contact</h3>
       <p>
-        📞 +49 (0) 6031 604 - 3400<br>
-        ✉️ <a href="mailto:info@thm.de">info@thm.de</a>
+        📞 +49 641 3093436<br>
+        ✉️ <a href="mailto:jennifer.hannig@kite.thm.de">jennifer.hannig@kite.thm.de</a>
       </p>
     </div>
   </section>
