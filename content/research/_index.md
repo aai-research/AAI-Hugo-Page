@@ -76,11 +76,11 @@ _build:
       <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research/project_bpeax/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hero3.jpg" alt="Project 1 Image" />
+            <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/BPEAX.png" alt="Project 1 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">BPEAX</h2>
-            <p class="research-summary text-block">A short teaser of the Project describing the research goal and scope.</p>
+            <p class="research-summary text-block">AI-based detection of exaggerated blood pressure response to exercise based on central blood pressure estimates and electrocardiogram data</p>
           </div>
         </div>
       </a>
