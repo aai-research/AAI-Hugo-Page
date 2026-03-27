@@ -16,14 +16,14 @@ _build:
       Detailed description of the project. Detailed description of the  project.Detailed description of the  project. Detailed description of the s project. Detailed description of the  project.Detailed description of the project. Detailed description of the project.
     </p>
     <figure>
-      <img src="/uploads/pancreas.jpg" alt="Time" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pancreas.jpg" alt="Time" />
       <figcaption>Figure Text.</figcaption>
     </figure>
     <p class="text-block">
       Detailed description of the project. Detailed description of the  project. Detailed description of the  project. Detailed description of the s project. Detailed description of the  project.Detailed description of the project. Detailed description of the project.
     </p>
   <footer class="research-single-footer">
-    <a href="/research">← Back to Projects</a>
+    <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
 
 </section>
