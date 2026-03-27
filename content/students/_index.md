@@ -16,22 +16,22 @@ _build:
   <section class="students-grid">
     <!-- Courses -->
     <article class="students-card">
-      <img src="/uploads/courses.jpg" alt="Courses" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/courses.jpg" alt="Courses" />
       <h2 class="text-center">Courses</h2>
       <p>
         Current and upcoming courses by
         Prof. Dr. Hannig.
       </p>
-      <a class="students-btn" href="/students/courses/">View Courses</a>
+      <a class="students-btn" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/courses/">View Courses</a>
     </article>
     <!-- Theses -->
     <article class="students-card">
-      <img src="/uploads/thesis.jpg" alt="Thesis opportunities" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis.jpg" alt="Thesis opportunities" />
       <h2 class="text-center">Open Thesis Topics</h2>
       <p>
         Bachelor’s and Master’s thesis in applied and explainable AI.
       </p>
-      <a class="students-btn" href="/students/theses/">View Topics</a>
+      <a class="students-btn" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">View Topics</a>
     </article>
   </section>
   <!-- Office Hours -->
