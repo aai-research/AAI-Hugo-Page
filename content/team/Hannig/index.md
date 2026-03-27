@@ -11,7 +11,9 @@ _build:
     <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
     <h1 class="h1-center">Prof. Dr. Jennifer Hannig</h1>
     <p class="team-role-single text-center">
-     Professor of Artificial Intelligence | Junior Research Group Leader TimeXAI</p>
+     Professor of Artificial Intelligence
+    Junior Research Group Leader TimeXAI
+    </p>
     <div class="team-contact">
       <p>✉️ jennifer.hannig@kite.thm.de</p>
       <p>📞 +49 641 3093436</p>
@@ -32,14 +34,6 @@ _build:
       
   Jennifer obtained her Bachelor's (2011) and Master’s (2013) Degrees in Bionformatics and completed her Ph.D. in lab of Prof. Ina Koch and Ivan Đikić at the Goethe University Frankfurt.
     </p>
-  </div>
-
-  <!-- FUNDING -->
-  <div class="team-funding">
-    <p class="funding-number">
-      Project funding number: XXXXXXXX
-    </p>
-    <img src="/uploads/HessenAi_logo.png" alt="Funding Logo" class="funding-logo"/>
   </div>
 
   <div class="team-single-footer">
