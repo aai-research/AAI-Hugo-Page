@@ -52,8 +52,8 @@ footer:
       share_alike: true
       allow_commercial: false
       links:
-    - name: "Impressum"
-      url: "https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/"
+        - name: "Impressum"
+          url: "https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/"
 
 # Localization
 
