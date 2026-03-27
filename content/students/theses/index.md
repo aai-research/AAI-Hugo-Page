@@ -19,7 +19,7 @@ _build:
     <!-- Thesis 1 -->
     <details class="thesis-card">
       <summary class="thesis-summary">
-        <img src="/uploads/thesis_ekg.jpg" alt="Explainable AI Thesis" />
+        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_ekg.jpg" alt="Explainable AI Thesis" />
         <div class="thesis-preview">
           <h3>Explainable AI for Medical Time Series</h3>
           <p>
@@ -48,7 +48,7 @@ _build:
     <!-- Thesis 2 -->
     <details class="thesis-card">
       <summary class="thesis-summary">
-        <img src="/uploads/thesis_timeseries.jpg" alt="Time Series Thesis" />
+        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_timeseries.jpg" alt="Time Series Thesis" />
         <div class="thesis-preview">
           <h3>Uncertainty Quantification in Time Series Forecasting</h3>
           <p>
@@ -77,6 +77,6 @@ _build:
 
   </section>
 
-  <a class="students-btn" href="/students">← Back to For Students</a>
+  <a class="students-btn" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students">← Back to For Students</a>
 
 </section>
