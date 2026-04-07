@@ -78,15 +78,9 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   100% { transform: scale(1); opacity: 1; }
 }
 
-
-
-
-
 // ==========================================================================
-// BEGIN RESEARCH PROJECTS:
+// BEGIN RESEARCH PROJECTS GRID:
 // ==========================================================================
-
-
 
 .research-page {
   max-width: 1200px;
@@ -143,8 +137,17 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   }
 }
 
+
+// ==========================================================================
+// BEGIN RESEARCH PROJECTS SINNGLE PAGES:
+// ==========================================================================
+
+
 .research-single {
   padding: 1rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
 
   .research-single-header {
     text-align: center;
