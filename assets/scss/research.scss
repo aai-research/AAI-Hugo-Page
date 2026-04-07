@@ -145,6 +145,8 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 
 .research-single {
   padding: 1rem 1rem;
+  max-width: 900px; // maximale Breite auf großen Bildschirmen 
+  margin: 0 auto;
 
   .research-single-header {
     text-align: center;
