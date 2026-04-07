@@ -29,9 +29,9 @@ sections:
       <div class="home-intro-icons text-center">
         <div class="home-intro">        
           <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_logo_2.png" alt="AAI Logo" class="intro-logo"/>
-          <h1 class="text-center">Applied AI-Lab</h1>
+          <h1 class="text-center">Applied AI Lab</h1>
           <p class="text-center">
-            We are exploring practical and innovative solutions in projects in the field of artificial intelligence and contribute to the advancement of knowledge. At the same time, we are committed to teaching and mentoring the next generation of AI engineers. By combining theory and practice, we are working to make AI more accessible, responsible, and effective.
+            The Applied Artificial Intelligence Lab, at [Technische Hochschule Mittelhessen University of Applied Sciences](https://www.thm.de/site/), within the [Department of Mathematics, Natural Sciences and Data Processing] (https://www.thm.de/mnd/), is headed by Prof. Dr. Jennifer Hannig, Professor of Artificial Intelligence at THM and at the [hessian.AI] (https://hessian.ai/)(Hessian Center for Artificial Intelligence).
           </p>
         </div>
         <div class="home-about-icons">
