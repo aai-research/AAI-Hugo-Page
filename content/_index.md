@@ -31,11 +31,9 @@ sections:
           <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_logo_2.png" alt="AAI Logo" class="intro-logo"/>
           <h1 class="text-center">Applied AI Lab</h1>
           <p class="text-center">
-            The Applied Artificial Intelligence Lab, at <a href="https://www.thm.de/site/" target="_blank">Technische Hochschule Mittelhessen - University of Applied Sciences</a> is headed by Prof. Dr. Jennifer Hannig, Professor of Artificial Intelligence at THM and  <a href="https://hessian.ai/" target="_blank">hessian.AI</a> (Hessian Center for Artificial Intelligence).
-</p>  
-<p class="text-center">
-  The lab is affiliated with the Department of Mathematics, Natural Sciences and Data Processing (<a href="https://www.thm.de/mnd/" target="_blank">MND</a>) and the Centre of Competence for Information Technology (<a href="[https://www.thm.de/mnd/](https://www.thm.de/kompetenzzentren/en/kite)" target="_blank">KITE</a>). Its research focuses on trustworthy and explainable artificial intelligence, developing methods that make AI systems transparent and understandable for complex and multimodal data, including time series, images, and video, and applying these approaches in real-world systems.
-          </p>
+            The Applied Artificial Intelligence Lab, at <a href="https://www.thm.de/site/" target="_blank">Technische Hochschule Mittelhessen - University of Applied Sciences</a> is headed by Prof. Dr. Jennifer Hannig, Professor of Artificial Intelligence at THM and  <a href="https://hessian.ai/" target="_blank">hessian.AI</a> (Hessian Center for Artificial Intelligence).</p>
+            <p class="text-center">
+            The lab is affiliated with the Department of Mathematics, Natural Sciences and Data Processing (<a href="https://www.thm.de/mnd/" target="_blank">MND</a>) and the Centre of Competence for Information Technology (<a href="[https://www.thm.de/mnd/](https://www.thm.de/kompetenzzentren/en/kite)" target="_blank">KITE</a>). Its research focuses on trustworthy and explainable artificial intelligence, developing methods that make AI systems transparent and understandable for complex and multimodal data, including time series, images, and video, and applying these approaches in real-world systems.</p>
         </div>
         <div class="home-about-icons">
           <div class="care-item">
