@@ -8,9 +8,9 @@ _build:
 <section class="research-single">
   <header class="research-single-header">
     <h1 class="text-center">TimeXAI</h1>
-    Explainable Artificial Intelligence for Time Series Data
+    <p class="text-block">Explainable Artificial Intelligence for Time Series Data
     Bundesministerium für ­Forschung, Technologie und Raumfahrt (BMFTR)
-    ExperTeam4KI https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php
+    ExperTeam4KI https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php</p>
     <div class="research-funding">Project Funding Number: 16IS24063</div>
     <div class="research-date">Project Duration: 01.09.2024 - 31.08.2027</div>
     <p class="text-block"></p>
