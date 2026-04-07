@@ -13,6 +13,7 @@ _build:
     ExperTeam4KI https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php</p>
     <div class="research-funding">Project Funding Number: 16IS24063</div>
     <div class="research-date">Project Duration: 01.09.2024 - 31.08.2027</div>
+  </header>
     <p class="text-block"></p>
     <p class="text-block">
       The research field of Explainable Artificial Intelligence (XAI) aims to make Artificial Intelligence (AI) more transparent and interpretable. Especially in safety-critical applications, it is essential to be able to understand the algorithmic decisions of black-box models. XAI methods can generate explanations for the decision-making processes of AI models that are understandable to humans. On the one hand, these explanations provide valuable insights for the development and optimization of AI models, and on the other hand, they help build trust among users of such systems.
