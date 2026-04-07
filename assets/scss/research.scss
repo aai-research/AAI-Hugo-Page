@@ -151,6 +151,9 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 
 .research-single {
   padding: 1rem 1rem;
+  max-width: 900px;   $ maximale Breite auf großen Bildschirmen
+  margin: 0 auto;
+  font-size: clamp(1rem, 1.2vw, 1.2rem); $ dynamische Schriftgröße
 
   .research-single-header {
     text-align: center;
