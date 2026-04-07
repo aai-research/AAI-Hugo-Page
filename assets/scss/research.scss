@@ -83,7 +83,7 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 
 
 // ==========================================================================
-// RESEARCH PROJECT GRID (Listenseite)
+// BEGIN RESEARCH PROJECTS:
 // ==========================================================================
 
 
@@ -143,17 +143,8 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   }
 }
 
-
-// ==========================================================================
-// RESEARCH SINGLE PROJECT PAGE
-// ==========================================================================
-
-
 .research-single {
   padding: 1rem 1rem;
-  max-width: 900px;   $ maximale Breite auf großen Bildschirmen
-  margin: 0 auto;
-  font-size: clamp(1rem, 1.2vw, 1.2rem); $ dynamische Schriftgröße
 
   .research-single-header {
     text-align: center;
@@ -179,7 +170,7 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
       
 
       img {
-        max-width: 50%;
+        max-width: 100%;
         border-radius: 8px;
       }
 
@@ -200,44 +191,3 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
     }
   }
 }
-
-// ==========================================================================
-// RESEARCH META BOX (Funding + Duration)
-// ==========================================================================
-
-.research-meta {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-
-  .meta-box {
-    background: #fff;
-    padding: 1rem 1.5rem;
-    border-radius: 12px;
-    box-shadow: $shadow-soft;
-    min-width: 220px;
-    text-align: center;
-    border: 1px solid #eee;
-    transition: 0.25s ease;
-
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: $shadow-hover;
-    }
-
-    .meta-label {
-      font-size: 0.9rem;
-      color: #777;
-      margin-bottom: 0.3rem;
-    }
-
-    .meta-value {
-      font-weight: 600;
-      color: $primary;
-      font-size: 1.1rem;
-    }
-  }
-}
-
