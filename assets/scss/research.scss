@@ -91,10 +91,10 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 .research-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 2rem 0.5rem;
 
   .research-header {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .research-grid {
@@ -144,14 +144,15 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 }
 
 .research-single {
-  padding: 1rem 1rem;
-  max-width: 900px; // maximale Breite auf großen Bildschirmen 
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
 
   .research-single-header {
     text-align: center;
-    margin-bottom: 2rem;
-
+  
     .research-date {
       color: #777;
       font-size: $font-size-text;
@@ -163,19 +164,11 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   }
 
   .research-single-content {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #666;
-
-    figure {
-      margin: 1rem 0;
-      
-
+    figure {  
       img {
         max-width: 100%;
         border-radius: 8px;
       }
-
       figcaption {
         font-size: $font-size-text;
         color: #666;
@@ -185,7 +178,7 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   }
 
   .research-single-footer {
-    margin-top: 5rem;
+    margin-top: 2rem;
 
     a {
       font-weight: 600;
