@@ -91,29 +91,29 @@ sections:
 # ======================
 # LATEST NEWS
 # ======================
-- block: collection
-  content:
-    text: |
-      <div class="latest-news-section">
-        <h1 class="text-center">Latest News</h1>
-        <p class="text-center">
-          Check out the latest activities!
-        </p>
-      </div>
-  filters:
-    folders:
-      - news
-    order: desc
-    limit: 3
-  design:
-    view: card
-    columns: '3'
-    css_id: news
-    show_image: true
-    show_date: true
-    show_summary: true
-    spacing:
-      padding: ['60px','30px','60px','30px']
+#- block: collection
+#  content:
+#    text: |
+#      <div class="latest-news-section">
+#        <h1 class="text-center">Latest News</h1>
+#        <p class="text-center">
+#          Check out the latest activities!
+#        </p>
+#      </div>
+#  filters:
+#    folders:
+#      - news
+#    order: desc
+#    limit: 3
+#  design:
+#    view: card
+#    columns: '3'
+#    css_id: news
+#    show_image: true
+#    show_date: true
+#    show_summary: true
+#    spacing:
+#      padding: ['60px','30px','60px','30px']
 
 # ======================
 # OPEN POSITIONS
