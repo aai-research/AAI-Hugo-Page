@@ -18,3 +18,15 @@
 @import "students";
 @import "publications";
 @import "contact";
+
+/* Research Projects */
+.article-container,
+.prose,
+.prose-lg {
+  max-width: 1200px !important;
+}
+
+/* Applied AI-Lab (page type) */
+body.page-appliedai .container {
+  max-width: 1200px !important;
+}
