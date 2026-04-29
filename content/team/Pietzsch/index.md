@@ -8,7 +8,7 @@ _build:
 
   <div class="team-single-header">
     <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
-    <h1 class="h1-center">M. Sc. Sabrina Müller</h1>
+    <h1 class="h1-center">M. Sc. Sabrina Pietzsch</h1>
     <p class="team-role-single text-center">
       Research assistants    </p>
     <div class="team-contact">
@@ -40,7 +40,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="/team">← Back to Team</a>
+    <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team">← Back to Team</a>
   </div>
 
 </section>
