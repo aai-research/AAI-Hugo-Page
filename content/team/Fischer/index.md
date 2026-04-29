@@ -41,7 +41,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="/team">← Back to Team</a>
+    <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page//team">← Back to Team</a>
   </div>
 
 </section>
