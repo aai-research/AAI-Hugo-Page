@@ -4,20 +4,20 @@
 #   The weight parameter defines the order that the links will appear in.
 
   - name: applied ai-lab
-    url: "appliedAI/"
+    url: "/appliedAI/"
     weight: 10
   - name: Team
-    url: "team/"
+    url: "/team/"
     weight: 30
   - name: Research
-    url: "research/"
+    url: "/research/"
     weight: 40
   - name: Publications
-    url: "publications/"
+    url: "/publications/"
     weight: 50
   - name: For Students
-    url: "students/"
+    url: "/students/"
     weight: 50
   - name: Contact
-    url: "contact/"
+    url: "/contact/"
     weight: 60
