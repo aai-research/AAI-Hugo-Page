@@ -137,12 +137,12 @@ sections:
             </a>         
           </div>
           <div class="position-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/hiwi-offers">
+            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students">
               <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hiwi_job_icon.png" alt="HiWi Positions"/>
             </a>
           </div>
           <div class="position-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses">
+            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">
               <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_icon.png" alt="Thesis Opportunities"/>
             </a>
           </div>
