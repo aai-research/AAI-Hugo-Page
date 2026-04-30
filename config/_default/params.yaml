@@ -19,15 +19,15 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+    #twitter: 'GetResearchDev'
+  #analytics:
+    #google_analytics: ''
+    #baidu_tongji: ''
+    #google_tag_manager: ''
+    #microsoft_clarity: ''
+  #verification:
+    #google: ''
+    #baidu: ''
 
 # Site header
 
@@ -42,21 +42,18 @@ header:
     highlight_active_link: true    #hebt automatisch den aktiven Reiter hervor
 
 branding:
-  logo: https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_lab.png # Pfad zu deinem Logo
+  logo: "uploads/aai_lab.png" # Pfad zu deinem Logo
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license} | <a href='https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/'>Impressum</a>"'
+    notice: '© {year} Me. This work is licensed under {license} | <a href=\"https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/\">Impressum</a>"
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
-      links:
-        - name: "Impressum"
-          url: "https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/"
 
 # Localization
 
