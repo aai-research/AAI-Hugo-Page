@@ -28,7 +28,6 @@ sections:
     text: |
       <div class="home-intro-icons text-center">
         <div class="home-intro">        
-          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_logo_2.png" alt="AAI Logo" class="intro-logo"/>
           <h1 class="text-center">Applied AI Lab</h1>
           <p class="text-center">
             The Applied Artificial Intelligence Lab, at <a href="https://www.thm.de/site/" target="_blank">Technische Hochschule Mittelhessen</a> - University of Applied Sciences is headed by Prof. Dr. Jennifer Hannig, Professor of Artificial Intelligence at THM and  <a href="https://hessian.ai/" target="_blank">hessian.AI</a> (Hessian Center for Artificial Intelligence).</p>
