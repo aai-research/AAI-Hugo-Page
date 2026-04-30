@@ -70,7 +70,7 @@ sections:
     text: |
       <div class="hero-partner-logos text-center">
         <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/aai/" target="_blank">
-          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_logo.png" alt="Applied AI Lab"/>
+          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_lab.png" alt="Applied AI Lab"/>
         </a>
         <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/kite_logo.png" alt="KITE"/>
