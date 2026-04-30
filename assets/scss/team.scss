@@ -93,6 +93,37 @@ a {color: $link; text-decoration: none; &:hover { text-decoration: underline; }}
 }
 
 // ======================
+// REMOVE WOWCHEMY STUFF
+// ======================
+
+// Social Icons (oben / unten)
+.share-box,
+.article-share,
+.share,
+.network-icon,
+ul.share,
+ul.network-icon {
+  display: none !important;
+}
+
+// Author / Meta / Datum
+.article-metadata,
+.article-meta,
+.media.author-card,
+.author-card,
+.post-date,
+.entry-meta,
+.meta,
+.byline {
+  display: none !important;
+}
+
+// Breadcrumb / Titel-Header (falls doppelt)
+.article-header {
+  display: none !important;
+}
+
+// ======================
 // TEAM OVERVIEW PAGE
 // ======================
 
