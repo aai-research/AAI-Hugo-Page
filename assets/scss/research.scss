@@ -164,20 +164,39 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   }
 
   .research-single-content {
-    figure {  
+
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+  
       img {
-        //max-width: 100%;
-        //border-radius: 8px;
         width: 100%;
-        max-width: 700px;
         height: auto;
         display: block;
-        margin: 0 auto;
+        margin: 1.5rem auto;
+        border-radius: 8px;
       }
+  
       figcaption {
         font-size: $font-size-text;
         color: #666;
         margin-top: 0.5rem;
+      }
+  
+      // ======================
+      // SIZE VARIANTS
+      // ======================
+  
+      &.small img {
+        max-width: 400px;
+      }
+  
+      &.medium img {
+        max-width: 700px;
+      }
+  
+      &.large img {
+        max-width: 100%;
       }
     }
   }
