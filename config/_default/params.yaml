@@ -42,7 +42,8 @@ header:
     highlight_active_link: true    #hebt automatisch den aktiven Reiter hervor
 
 branding:
-  logo: "uploads/aai_lab.png" # Pfad zu deinem Logo
+  logo:
+    image: "uploads/aai_lab.png"
 
 # Site footer
 
