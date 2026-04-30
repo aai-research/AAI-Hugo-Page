@@ -41,6 +41,9 @@ header:
     show_search: false
     highlight_active_link: true    #hebt automatisch den aktiven Reiter hervor
 
+branding:
+  logo: https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_lab.png # Pfad zu deinem Logo
+
 # Site footer
 
 footer:
