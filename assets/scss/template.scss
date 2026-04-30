@@ -47,3 +47,16 @@ body.page-appliedai .container {
   max-height: 45px;
   width: auto;
 }
+
+.navbar-brand {
+  font-size: 0; // Text unsichtbar machen
+}
+
+.navbar-brand::after {
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background: url("https://github.com/TimeXAIgroup/TimeXAI-Hugo-Page/edit/aai-first-version/static/uploads/aai_lab.png") no-repeat center;
+  background-size: contain;
+}
