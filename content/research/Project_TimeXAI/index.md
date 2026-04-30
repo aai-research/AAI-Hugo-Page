@@ -28,7 +28,7 @@ The application domain of cardiology is a collaboration with, among others, Prof
 <p class="text-block">
 The Smart Home application domain is a collaboration with the startup Veli GmbH. Veli is a spin-off of the University of Kassel, and its product enables elderly people to live independently in their own homes for as long as possible by analyzing water and electricity consumption using AI-based sensor data.
 </p>
-    <figure>
+    <figure class="medium">
       <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/time_series.jpg" alt="Time" />
       <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
