@@ -20,6 +20,20 @@ params:
     link: "/"                      # klickt auf Home
 
 
+# ==============================
+# FOOTER MENU
+# ==============================
+menu:
+  footer:
+    - name: "Contact"
+      url: "/contact/"
+      weight: 1
+
+    - name: "Impressum"
+      url: "/contact/imprint/"
+      weight: 2
+
+
 ############################
 ## LANGUAGE
 ############################
