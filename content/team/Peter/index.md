@@ -32,14 +32,6 @@ _build:
     </p>
   </div>
 
-  <!-- FUNDING -->
-  <div class="team-funding">
-    <p class="funding-number">
-      Project funding number: XXXXXXXX
-    </p>
-    <img src="/uploads/HessenAi_logo.png" alt="Funding Logo" class="funding-logo"/>
-  </div>
-
   <div class="team-single-footer">
     <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team">← Back to Team</a>
   </div>
