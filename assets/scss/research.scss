@@ -166,8 +166,11 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   .research-single-content {
     figure {  
       img {
-        max-width: 100%;
-        border-radius: 8px;
+        //max-width: 100%;
+        //border-radius: 8px;
+        width: 100%;
+        max-width: min(700px, 90vw);
+        height: auto;
       }
       figcaption {
         font-size: $font-size-text;
@@ -176,6 +179,7 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
       }
     }
   }
+
 
   .research-single-footer {
     margin-top: 2rem;
