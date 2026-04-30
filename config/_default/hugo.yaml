@@ -15,7 +15,7 @@ baseURL: 'https://timexaigroup.github.io/TimeXAI-Hugo-Page/' # deine URL
 params:
   logo:
     path: "https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_lab.png"  # Logo Datei in static/uploads/
-    alt: ""                        # Alt Text für SEO/Accessibility
+    alt: "aai-lab"                        # Alt Text für SEO/Accessibility
     height: 50                     # optional: Höhe in px, passt auf Navbar
     link: "/"                      # klickt auf Home
 
