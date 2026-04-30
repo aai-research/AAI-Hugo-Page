@@ -48,7 +48,7 @@ branding:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license} | <a href=\"https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/\">Impressum</a>"
+    notice: "© {year} Me. This work is licensed under {license} | <a href='https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact/imprint/'>Impressum</a>"
     license:
       enable: true
       allow_derivatives: false
