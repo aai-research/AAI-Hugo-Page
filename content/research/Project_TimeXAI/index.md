@@ -4,16 +4,31 @@ title: ""
 _build:
   list: false
 ---
-
 <section class="research-single">
+  <!-- HEADER -->
   <header class="research-single-header">
     <h1 class="text-center">TimeXAI</h1>
-    <h2 class="text-center"> Explainable Artificial Intelligence for Time Series Data</h2>
-    <h3 class="text-center">Bundesministerium für ­Forschung, Technologie und Raumfahrt (BMFTR)<br>
-      <a href="https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php"> ExperTeam4KI</a>
+  </header>
+  <!-- ✅ NEU: META ALS CARD -->
+  <div class="card research-meta">
+    <h2 class="text-center">
+      Explainable Artificial Intelligence for Time Series Data
+    </h2>
+    <h3 class="text-center">
+      Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)<br>
+      <a href="https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php">
+        ExperTeam4KI
+      </a>
     </h3> 
-    <div class="research-funding">Project Funding Number: 16IS24063</div>
-    <div class="research-date">Project Duration: 01.09.2024 - 31.08.2027</div>
+    <div class="research-funding">
+      <strong>Project Funding Number:</strong> 16IS24063
+    </div>
+    <div class="research-date">
+      <strong>Project Duration:</strong> 01.09.2024 - 31.08.2027
+    </div>
+  </div>
+  <!-- CONTENT -->
+  <div class="research-single-content">
     <p class="text-block"></p>
     <p class="text-block">
       The research field of Explainable Artificial Intelligence (XAI) aims to make Artificial Intelligence (AI) more transparent and interpretable. Especially in safety-critical applications, it is essential to be able to understand the algorithmic decisions of black-box models. XAI methods can generate explanations for the decision-making processes of AI models that are understandable to humans. On the one hand, these explanations provide valuable insights for the development and optimization of AI models, and on the other hand, they help build trust among users of such systems.
