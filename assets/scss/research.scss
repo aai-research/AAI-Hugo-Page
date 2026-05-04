@@ -78,15 +78,9 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   100% { transform: scale(1); opacity: 1; }
 }
 
-
-
-
-
 // ==========================================================================
 // BEGIN RESEARCH PROJECTS:
 // ==========================================================================
-
-
 
 .research-page {
   max-width: 1200px;
@@ -143,6 +137,10 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   }
 }
 
+// ==========================================================================
+// BEGIN SINGLE RESEARCH PROJECT:
+// ==========================================================================
+
 .research-single {
   max-width: 1200px;
   width: 100%;
@@ -153,16 +151,23 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   .research-single-header {
     text-align: center;
   
-    .research-date {
+    /*.research-date {
       color: #777;
       font-size: $font-size-text;
     }
     .research-funding {
       color: #777;
       font-size: $font-size-text;
-    }
+    }*/
   }
 
+// Modifier für Meta-Card
+.research-meta {
+  max-width: 900px;
+  margin: 2rem auto 3rem auto;
+  text-align: center;
+}
+  
   .research-single-content {
 
     figure {
