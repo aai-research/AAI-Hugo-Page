@@ -7,9 +7,9 @@ _build:
 <section class="research-single">
   <!-- HEADER -->
   <header class="research-single-header">
-    <h1 class="text-center">TimeXAI</h1>
+    <h1 class="text-center">TimeXAI...</h1>
   </header>
-  <!-- ✅ NEU: META ALS CARD -->
+  <! META ALS CARD -->
   <div class="card research-meta">
     <h2 class="text-center">
       Explainable Artificial Intelligence for Time Series Data
