@@ -7,19 +7,19 @@ _build:
 <section class="research-single">
   <!-- HEADER -->
   <header class="research-single-header">
-    <h1 class="text-center">TimeXAI...</h1>
+    <h1 class="text-center">TimeXAI</h1>
   </header>
   <! META ALS CARD -->
   <div class="card research-meta">
     <h2 class="text-center">
       Explainable Artificial Intelligence for Time Series Data
     </h2>
-    <h3 class="text-center">
+    <h2 class="text-center">
       Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)<br>
       <a href="https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php">
         ExperTeam4KI
       </a>
-    </h3> 
+    </h2> 
     <div class="research-funding">
       <strong>Project Funding Number:</strong> 16IS24063
     </div>
