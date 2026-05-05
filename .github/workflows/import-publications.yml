@@ -1,3 +1,4 @@
+
 # Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages
 name: Import Publications From Bibtex
 
@@ -34,7 +35,11 @@ jobs:
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publication/ --compact
+        run: | 
+          mkdir -p content/publication
+          academic import publications.bib content/publication --compact
+          ls -R content/publication
+        #run: academic import publications.bib content/publication/ --compact
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
