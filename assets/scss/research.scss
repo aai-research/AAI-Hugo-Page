@@ -151,14 +151,14 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   .research-single-header {
     text-align: center;
   
-    /*.research-date {
+    .research-date {
       color: #777;
       font-size: $font-size-text;
     }
     .research-funding {
       color: #777;
       font-size: $font-size-text;
-    }*/
+    }
   }
 
 // Modifier für Meta-Card
