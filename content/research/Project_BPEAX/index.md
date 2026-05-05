@@ -11,10 +11,12 @@ _build:
   </header>
   <! META ALS CARD -->
   <div class="card research-meta">
+    <h2 class="text-center">
+      AI-based detection of exaggerated blood pressure response to exercise based on <br>
+      central blood pressure estimates and electrocardiogram data <br>
     <p class="text-center">
-      AI-based detection of exaggerated blood pressure response to exercise based on central blood pressure estimates and electrocardiogram data <br>
-    Hessian Ministry of Science and Research, Arts and Culture (HMWK) <br>
-    THMconnectFCMH - PB-A
+      Hessian Ministry of Science and Research, Arts and Culture (HMWK) </h2>
+    THMconnect FCMH - PB-A
     </p> 
     <div class="research-date">
       <strong>Project Duration:</strong> 01.05.2024 - 31.10.2025
