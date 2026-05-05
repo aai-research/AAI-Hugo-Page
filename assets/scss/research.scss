@@ -202,7 +202,8 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   
       &.large img {
         max-width: 100%;
-        max-height:60%;
+        max-height: 60vh;   // 🔥 statt %
+        object-fit: contain; // verhindert Verzerrung
       }
     }
   }
