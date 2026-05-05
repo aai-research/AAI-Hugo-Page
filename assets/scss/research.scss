@@ -193,15 +193,16 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
       // ======================
   
       &.small img {
-        max-width: 100px;
+        max-width: 400px;
       }
   
       &.medium img {
-        max-width: 400px;
+        max-width: 800px;
       }
   
       &.large img {
         max-width: 100%;
+        max-height:60%;
       }
     }
   }
