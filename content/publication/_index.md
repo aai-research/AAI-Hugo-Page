@@ -3,7 +3,7 @@ title: Publications
 type: publication
 
 # Listing view
-view: cite
+view: citation
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
