@@ -34,9 +34,13 @@ _build:
     </figure>
     <p class="text-block">
       The “X4Neuro” project has a duration of one year and is funded with €58,750 by the Hessian Ministry of Science and Research, Arts and Culture (HMWK) as part of the “Experimentierräume” funding program of the Research Campus Central Hesse (FCMH).<br>
-      <br>
-      Projektleitung / Stellv. Projektleitung:       Prof. Dr. Jennifer Hannig <br>
-      Dr. Daniel Amsel (Institut für Neuropathologie, Justus‑Liebig‑Universität Gießen)
+      <\p>
+     <h2 class="text-left"> 
+      Principal Investigator
+     </h2>
+    <p class="text-block">
+    Prof. Dr. Jennifer Hannig (Technische Hochschule Mittelhessen, KITE) <br>
+    Dr. Daniel Amsel (Institut für Neuropathologie, Justus‑Liebig‑Universität Gießen)
     </p>
   <footer class="research-single-footer">
     <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research">← Back to Projects</a>
