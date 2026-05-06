@@ -60,12 +60,12 @@ _build:
 
   <section class="team-list">
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Masuma Fozilatunnesa" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Masuma Fozilatunnesa" />
       <h3 class="text-center">Masuma Fozilatunnesa</h3>
       <p class="team-role">Master student</p>
     </article>  
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Justus Schmidt" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Justus Schmidt" />
       <h3 class="text-center">Justus Schmidt</h3>
       <p class="team-role">Bachelor student</p>
     </article>
@@ -82,12 +82,12 @@ _build:
 
   <section class="team-list">
     <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Yolande Tchuendem Teto" />
-      <h3 class="text-center">B. Sc. Yolande Tchuendem Teto</h3>
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Yolande Tchuendem Teto" />
+      <h3 class="text-center">Yolande Tchuendem Teto</h3>
       <p class="team-role">Master student</p>
     </article>
     <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Sandra Sommerkorn" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Sandra Sommerkorn" />
       <h3 class="text-center">Sandra Sommerkorn</h3>
       <p class="team-role">Bachelor student</p>
     </article>
