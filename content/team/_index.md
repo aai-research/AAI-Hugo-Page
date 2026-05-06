@@ -60,13 +60,13 @@ _build:
 
   <section class="team-list">
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/mem_3.jpg" alt="B. Sc. Yolande Tchuendem Teto" />
-      <h3 class="text-center">Yolande Tchuendem Teto</h3>
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Masuma Fozilatunnesa" />
+      <h3 class="text-center">Masuma Fozilatunnesa</h3>
       <p class="team-role">Master student</p>
     </article>  
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/SandraSommerkorn.jpg" alt="Sandra Sommerkorn" />
-      <h3 class="text-center">Sandra Sommerkorn</h3>
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Justus Schmidt" />
+      <h3 class="text-center">Justus Schmidt</h3>
       <p class="team-role">Bachelor student</p>
     </article>
   </section>
@@ -82,10 +82,19 @@ _build:
 
   <section class="team-list">
     <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/mem_1.jpg" alt="Alumni Name" />
-      <h3 class="text-center">Alumni Name</h3>
-      <p class="team-role">Former doctoral researcher</p>
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Yolande Tchuendem Teto" />
+      <h3 class="text-center">B. Sc. Yolande Tchuendem Teto</h3>
+      <p class="team-role">Master student</p>
+    </article>
+    <article class="team-member alumni text-center">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Sandra Sommerkorn" />
+      <h3 class="text-center">Sandra Sommerkorn</h3>
+      <p class="team-role">Bachelor student</p>
     </article>
   </section>
-
+      <article class="team-member alumni text-center">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Dominic Eckerle" />
+      <h3 class="text-center">Dominic Eckerle</h3>
+      <p class="team-role">Master student</p>
+    </article>
 </section>
