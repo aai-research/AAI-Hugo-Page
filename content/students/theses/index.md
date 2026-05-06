@@ -45,7 +45,8 @@ _build:
       <summary class="thesis-summary">
         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_ekg.jpg" alt="Explainable AI Thesis" />
         <div class="thesis-preview">
-          <h3>Explainable AI for Medical Time Series</h3>
+          <h3>Thesis <br>
+            Explainable AI for Medical Time Series</h3>
           <p>
             Develop interpretable machine learning models for ECG and ICU data.
           </p>
