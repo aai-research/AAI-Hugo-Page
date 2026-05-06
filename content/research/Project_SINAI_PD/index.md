@@ -15,11 +15,13 @@ _build:
      Synchronous Intraoperative AI-based decision-making in partial duodenoapancreatectomy
     </h2>
     <p class="text-center">
-      hessian.A <br>
-    Connectom Fonds
+      hessian.AI, 
+    <a href="[https://www.softwaresysteme.dlr-pt.de/de/experteam4ki.php](https://hessian.ai/de/forschung/connectom-vernetzungsfonds/)">
+        Connectom Fonds
+     </a>
     </p> 
     <div class="research-date">
-      <strong>Project Duration:</strong>01.05.2025 – 31.12.2025
+      <strong>Project Duration:</strong> 01.05.2025 – 31.12.2025
     </div>
   </div>
   <!-- CONTENT -->
