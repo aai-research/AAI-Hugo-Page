@@ -28,7 +28,6 @@ _build:
   <div class="research-single-content">
     <p class="text-block"></p>
     <p class="text-block">
-<section class="research-single">
   Removal of the pancreatic head for cancer or chronic inflammation is one of the riskiest visceral surgical operations with a postoperative mortality rate of approx. 5-8% in specialized centers. In the standard operation, partial duodenopancreatectomy, the tail of the pancreas is preserved and connected to the small intestine. This prevents diabetes, but carries a high risk of pancreatic fistulas (30%), which can lead to life-threatening complications. A decision must be made intraoperatively as to whether it makes sense to preserve the pancreatic remnant (with possible complications) or whether complete removal (with subsequent diabetes) is necessary. This decision is based on the intraoperative assessment of tissue quality and has far-reaching consequences for the postoperative outcome of the patient. The overarching goal of the project is to develop a decision support system using artificial intelligence (AI), that combines intraoperative image analyses and perioperative patient data to enable an objective risk assessment. This can minimize subjective influences and sustainably improve patient safety through data-based decision-making.
     </p>
     <figure>
