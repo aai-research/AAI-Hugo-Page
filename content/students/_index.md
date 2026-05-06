@@ -48,7 +48,7 @@ _build:
         </ul>
       </div>
       <div class="office-action">
-        <a class="btn-primary text-center" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">Workflow for Thesis →</a>
+        <a class="btn-primary text-center" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">Thesis Workflow →</a>
       </div>
     </div>
   </section>
