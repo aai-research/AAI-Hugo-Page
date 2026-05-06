@@ -8,13 +8,37 @@ _build:
 <section class="theses-page">
 
   <header class="theses-header">
-    <h1>Open Thesis Topics</h1>
+    <h1>Open Thesis and HiWi Topics </h1>
     <p>
       We offer Bachelor’s and Master’s thesis opportunities in explainable AI,
-      time series analysis, and medical data science.
+      time series analysis, and medical data science and HiWi jobs.
     </p>
   </header>
 
+  <section class="theses-list">
+    <!-- Workflow -->
+    <details class="thesis-card">
+      <summary class="thesis-summary">
+        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_ekg.jpg" alt="Workflow" />
+        <div class="thesis-preview">
+          <h3>FAQs by Thesis </h3>
+          <p>
+            How can I start to work on a bachelor/master thesis?
+          </p>
+        </div>
+      </summary>
+      <div class="thesis-content">
+        <p>
+          The following steps describe the process for starting a Bachelor’s or Master’s thesis with our group.
+        </p>
+        <p>
+          <strong>Select a topic:</strong> Choose a potential topic from the list above.<br/>
+          <strong>Contact a supervisor:</strong>  Reach out to the supervisor listed for the topic and send your CV.<br/>
+          <strong>Meet a supervisor:</strong>  If we receive a positive response, we will schedule a personal meeting to provide you with more detailed information on the topic.<br/>
+          <strong>Prepare an Exposé (2–4 pages):</strong>   After initial agreement with the supervisor, prepare an exposé using the provided template.
+        </p>      
+      </div>
+    </details>
   <section class="theses-list">
     <!-- Thesis 1 -->
     <details class="thesis-card">
