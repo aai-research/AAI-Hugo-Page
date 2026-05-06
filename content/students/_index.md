@@ -26,9 +26,10 @@ _build:
     <!-- Theses -->
     <article class="students-card">
       <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis.jpg" alt="Thesis opportunities" />
-      <h2 class="text-center">Open Thesis / HiWi Jobs</h2>
+      <h2 class="text-center">Open Thesis and <br> 
+        HiWi Jobs</h2>
       <p>
-        Bachelor, Master and HiWi topics in AAI
+        Topics in applied AI
       </p>
       <a class="students-btn" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">View Topics</a>
     </article>
