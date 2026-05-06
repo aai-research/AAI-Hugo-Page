@@ -19,9 +19,9 @@ _build:
     <!-- Workflow -->
     <details class="thesis-card">
       <summary class="thesis-summary">
-        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_ekg.jpg" alt="Workflow" />
+        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/FAQ.jpg" alt="Workflow" />
         <div class="thesis-preview">
-          <h3>FAQs by Thesis </h3>
+          <h3>FAQs by Thesis Workflow </h3>
           <p>
             How can I start to work on a bachelor/master thesis?
           </p>
