@@ -8,7 +8,7 @@ _build:
 <section class="theses-page">
 
   <header class="theses-header">
-    <h1>Open Thesis and HiWi Topics </h1>
+    <h1>Open Thesis and HiWi Jobs </h1>
     <p>
       We offer Bachelor’s and Master’s thesis opportunities in explainable AI,
       time series analysis, and medical data science and HiWi jobs.
@@ -23,7 +23,7 @@ _build:
         <div class="thesis-preview">
           <h3>FAQs by Thesis Workflow </h3>
           <p>
-            How can I start to work on a bachelor/master thesis?
+            How can I start to work on a thesis?
           </p>
         </div>
       </summary>
