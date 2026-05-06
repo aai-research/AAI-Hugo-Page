@@ -162,14 +162,14 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 .btn-primary {
   padding: 0.8rem 1.6rem;
   border-radius: $card-radius;
-  background: #a453bd;
+  background: #80ba27;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
   transition: 0.2s ease;
 
   &:hover {
-    background: #c8a7d4;
+    background: #80ba27;
   }
 }
 
