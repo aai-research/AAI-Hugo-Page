@@ -35,6 +35,7 @@ _build:
     </figure>
     <p class="text-block">
       The aim of the project is to establish interdisciplinary cooperation between the Department of Surgery at Giessen University Hospital (Prof. Hecker, Dr. Anca) and the KITE Competence Center (Prof. Guckert, Prof. Hannig), which will form the basis for further applications for third-party funding initiated by this project. The project pursues an interdisciplinary approach in which state-of-the-art image processing technologies are combined with clinical expertise in order to establish evidence-based, AI-supported support for surgical decision-making situations. <br>
+<br>
 Prof. Andreas Hecker, Justus Liebig University Giessen, University Hospital Giessen & Marburg GmbH  <br>
 Prof. Michael Guckert, Technische Hochschule Mittelhessen, KITE <br>
 Dr. Anca-Laura Amati, University Hospital Giessen & Marburg GmbH <br>
