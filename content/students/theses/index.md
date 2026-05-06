@@ -10,11 +10,10 @@ _build:
   <header class="theses-header">
     <h1>Open Thesis and HiWi Jobs </h1>
     <p>
-      We offer Bachelor’s and Master’s thesis opportunities in explainable AI,
-      time series analysis, and medical data science and HiWi jobs.
-    </p>
+    We offer Bachelor’s and Master’s thesis topics in explainable AI, time series analysis, and medical data science, as well as HiWi positions.
+Available openings are listed below. <br>
+If you do not find a matching topic, we also welcome unsolicited applications — please refer to Prof. Dr. Hannig. </p>
   </header>
-
   <section class="theses-list">
     <!-- Workflow -->
     <details class="thesis-card">
