@@ -6,14 +6,25 @@ _build:
 ---
 
 <section class="research-single">
-
+  <!-- HEADER -->
   <header class="research-single-header">
     <h1 class="text-center">VisSURG-AID</h1>
-    Visual Surgical Artificial Intelligence for Decision Support
-    <!--<div class="research-funding">Project Funding Number: XXXXXXXXX</div>-->
-    Hessian Ministry of Science and Research, Arts and Culture (HMWK) 
+  </header>
+  <! META ALS CARD -->
+  <div class="card research-meta">
+    <h2 class="text-center">
+      Visual Surgical Artificial Intelligence for Decision Support
+    </h2>
+    <p class="text-center">
+      Hessian Ministry of Science and Research, Arts and Culture (HMWK) <br>
     FCMH Experimentierräume
-    <div class="research-date">Project Duration: 01.01-2026 – 31.12.2026</div>
+    </p> 
+    <div class="research-date">
+      <strong>Project Duration:</strong> 01.01-2026 – 31.12.2026
+    </div>
+  </div>
+  <!-- CONTENT -->
+  <div class="research-single-content">
     <p class="text-block"></p>
     <p class="text-block">
       Surgical decision-making in complex or emergency interventions is inherently high-risk and frequently influenced by the individual expertise and experience of the operating surgeon. Cognitive biases and subjective judgment errors represent a major source of preventable adverse events.
