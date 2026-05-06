@@ -7,7 +7,7 @@ _build:
 ---
 
 <section class="team-page">
-  <h1 class="h1-center"> Meet the applied AI-Lab Team </h1>
+  <h1 class="h1-center"> Meet the Applied AI Lab Team </h1>
 
   <header class="team-subheader">    
   </header>
@@ -93,7 +93,7 @@ _build:
     </article>
   </section>
       <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.jpg" alt="Dominic Eckerle" />
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/Eckerle.jpg" alt="Dominic Eckerle" />
       <h3 class="text-center">Dominic Eckerle</h3>
       <p class="team-role">Master student</p>
     </article>
