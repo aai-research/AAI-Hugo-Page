@@ -19,17 +19,16 @@ _build:
       <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/courses.jpg" alt="Courses" />
       <h2 class="text-center">Courses</h2>
       <p>
-        Current and upcoming courses by
-        Prof. Dr. Hannig.
+        Current and upcoming courses by Prof. Dr. Hannig
       </p>
       <a class="students-btn" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/courses/">View Courses</a>
     </article>
     <!-- Theses -->
     <article class="students-card">
       <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis.jpg" alt="Thesis opportunities" />
-      <h2 class="text-center">Open Thesis and HiWi Jobs</h2>
+      <h2 class="text-center">Open Thesis / HiWi Jobs</h2>
       <p>
-        Bachelor and Master thesis topics in AAI and HiWi Jobs.
+        Bachelor, Master and HiWi topics in AAI
       </p>
       <a class="students-btn" href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">View Topics</a>
     </article>
