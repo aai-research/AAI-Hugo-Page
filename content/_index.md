@@ -6,7 +6,7 @@ type: landing
 sections:
 
 # ======================
-# TITEL IMAGE
+# TITEL IMAGE SMALLER WIDTH
 # ======================
 - block: markdown
   content:
@@ -18,7 +18,22 @@ sections:
     columns: '1'
     spacing:
       padding: ['0','0','0','0']
-    css_class: hero-fullwidth
+    css_class: hero-centered
+  
+# ======================
+# TITEL IMAGE FULL WIDTH
+# ======================
+#- block: markdown
+#  content:
+#    text: |
+#      <div class="hero-home">
+#          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/teaser_homepage_aaiLab.png" alt="Hero Image"/>
+#      </div>
+#  design:
+#    columns: '1'
+#    spacing:
+#      padding: ['0','0','0','0']
+#    css_class: hero-fullwidth
 
 # ======================
 # INTRO + ANIMATION ICONS
