@@ -1,6 +1,6 @@
 ---
 title: Deep Learning for Computer Vision Applications
-author:
+authors:
 - Anna Smith
 - John Doe
 date: '2023-01-01'

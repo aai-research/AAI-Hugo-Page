@@ -1,6 +1,6 @@
 ---
 title: An Example Conference Paper on Applied AI
-author:
+authors:
 - John Doe
 - Anna Smith
 - Robert Ford
