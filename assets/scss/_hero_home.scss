@@ -141,8 +141,9 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
       width: 100%;
       height: auto;
       max-height: 85vh;
-      object-fit: cover;
-      object-position: top; // oben abschneiden
+      //object-fit: cover;
+      object-fit: contain;
+      //object-position: top; // oben abschneiden
       display: block;
     }
   }
