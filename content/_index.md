@@ -11,7 +11,7 @@ sections:
 - block: markdown
   content:
     text: |
-      <div class="hero-home">
+      <div class="hero-home-small">
           <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/teaser_homepage_aaiLab.png" alt="Hero Image"/>
       </div>
   design:
