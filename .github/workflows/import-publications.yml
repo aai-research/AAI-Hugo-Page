@@ -43,7 +43,7 @@ jobs:
 
       - name: Normalize author field (IMPORTANT FIX)
         run: |
-          find content/publication -name "index.md" -type f -exec sed -i 's/^authors:/author:/g' {} +
+          find content/publication -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
 
       - name: Commit generated publications
         run: |
