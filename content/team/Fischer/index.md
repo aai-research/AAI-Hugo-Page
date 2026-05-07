@@ -13,14 +13,13 @@ _build:
     <p class="team-role-single text-center">
       Doctoral researcher    </p>
     <div class="team-contact">
-      <p>✉️ xyz@example.com</p>
-      <p>📞 +49 123 4567890</p>
+      <p>✉️ jana.fischer@kite.thm.de</p>
     </div>
   </div>
 
   <!-- LINK -->
   <div class="team-links">
-    <a href="https://scholar.google.com/..." target="_blank" class="team-link">
+    <a href="https://scholar.google.com/citations?user=2ihf_YwAAAAJ&hl=de" target="_blank" class="team-link">
       Google Scholar Publications
     </a>
   </div>
@@ -28,7 +27,7 @@ _build:
   <!-- BIO -->
   <div class="team-single-content">
     <p class="text-block">
-      Hier kommen die ausführlichen Informationen zur Wissenschaftlerin hin...
+     Jana Fischer is a doctoral researcher at THM in the TimeXAI project on explainable AI (XAI) for time series data. She earned her bachelor's and master's degree in computer science at the University of Kassel. In her doctoral research, she aims to develop faithful and human-understandable explanations for complex time series data.
     </p>
   </div>
 
