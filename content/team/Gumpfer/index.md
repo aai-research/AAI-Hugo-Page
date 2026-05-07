@@ -19,13 +19,41 @@ _build:
     </div>
   </div>
 
-  <!-- LINK -->
+  <!-- LINK
   <div class="team-links">
     <a href="https://nilsgumpfer.github.io/" target="_blank" class="team-link">
       More Information - visit my website 
     </a>
-  </div>
+  </div>-->
 
+   <!-- ======================
+  ACADEMIC / PROFILE LINKS
+  ====================== -->
+  <div class="team-links">
+    <a href="https://scholar.google.com/citations?user=cbLOkB4AAAAJ" target="_blank" class="team-link">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/scholar.jpg" alt="Google Scholar Icon" />
+      <span>Google Scholar</span>
+    </a>
+    <a href="https://orcid.org/0000-0001-8644-9885" target="_blank" class="team-link">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/ORCID.png" alt="ORCID Icon" />
+      <span>ORCID</span>
+    </a>
+    <a href="https://www.researchgate.net/profile/Nils-Gumpfer" target="_blank" class="team-link">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/researchGate.png" alt="ResearchGate Icon" />
+      <span>ResearchGate</span>
+    </a>
+    <a href="https://www.scopus.com/authid/detail.uri?authorId=57219450625" target="_blank" class="team-link">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/scopus.png" alt="Scopus Icon" />
+      <span>Scopus</span>
+    </a>
+    <a href="https://github.com/nilsgumpfer" target="_blank" class="team-link">
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/github.png" alt="GitHub Icon" />
+      <span>GitHub</span>
+    </a>
+    <a href="https://nilsgumpfer.github.io/" target="_blank" class="team-link">
+      <span>My Website</span>
+    </a>
+  </div>
   <!-- BIO -->
   <div class="team-single-content">
     <p class="text-block">
