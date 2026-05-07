@@ -3,7 +3,8 @@ title: Publications
 type: publication
 
 # Listing view
-view: list
+view: citation
+show_authors: true
 
 # Optional banner image (relative to `assets/media/` folder).
 # banner:
