@@ -19,16 +19,16 @@ _build:
   </div>
 
   <!-- LINK -->
-  <div class="team-links">
+  <!--<div class="team-links">
     <a href="https://scholar.google.com/..." target="_blank" class="team-link">
       Google Scholar Publications
     </a>
-  </div>
+  </div>-->
 
   <!-- BIO -->
   <div class="team-single-content">
     <p class="text-block">
-      Hier kommen die ausführlichen Informationen zur Wissenschaftlerin hin...
+      Louis Peter studied Computer Engineering at THM, receiving his bachelor’s degree in 2020 and M. Sc. in 2023. The topic of his master thesis was the compensation of resonances in stepper motor controllers, solving optimization problems on time series data with microcontrollers. After a brief stay in the industry, he joined the Applied-AI Lab as a PhD Student in 2025 under Prof. Dr. Hannig’s supervision, researching eXplainable AI for time series data with a focus on human interpretability and it’s relationship to explanation faithfulness, which describes how accurate an explanation represents the behavior of the underlying predictive model.
     </p>
   </div>
 
