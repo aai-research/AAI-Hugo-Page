@@ -1,6 +1,6 @@
 ---
 title: test
-authors:
+author:
 - Anna Smith
 - John Doe
 date: '2020-01-01'

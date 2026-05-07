@@ -1,6 +1,6 @@
 ---
 title: TimeXAI
-authors:
+author:
 - Max Mustermann
 - Julia Müller
 date: '2026-01-01'
