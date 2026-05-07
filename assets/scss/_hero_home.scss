@@ -94,7 +94,33 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 // ==========================================================================
 
 // ==========================================================================
-// TITEL IMAGE
+// HERO SMALL IMAGE (NICHT FULL WIDTH, ZENTRIERT, KEIN CROPPING)
+// ==========================================================================
+.hero-centered {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  .hero-home-small {
+    display: flex;
+    justify-content: center;  // zentriert das Bild
+    padding: 20px 0;          // optional etwas Abstand oben/unten
+
+    img {
+      width: 100%;
+      max-width: 1200px;      // 
+      height: auto;           // kein Verzerren
+      display: block;
+
+      object-fit: contain;    // kein Abschneiden
+      border-radius: 8px;     // optional
+    }
+  }
+}
+
+
+// ==========================================================================
+// TITEL FULL IMAGE
 // ==========================================================================
 .hero-fullwidth {
   width: 100% !important;
