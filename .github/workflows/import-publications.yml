@@ -39,8 +39,7 @@ jobs:
             exit 0
           fi
 
-          academic import publications.bib content/publication/ --compact
-
+          academic import publications.bib content/publication/ --compact --normalize
       - name: Commit generated publications
         run: |
           git config user.name "github-actions"
