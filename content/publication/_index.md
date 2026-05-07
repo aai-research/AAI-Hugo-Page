@@ -1,13 +1,20 @@
 ---
 title: Publications
-type: publication
+type: page
+---
+
+{{< partial "publications.html" >}}
+
+
+#title: Publications
+#type: publication
 
 # Listing view
-view: compact
-show_authors: true
+#view: citation
+#show_authors: true
 
 # Optional banner image (relative to `assets/media/` folder).
 # banner:
 #  caption: ''
 #  image: ''
----
+#---
