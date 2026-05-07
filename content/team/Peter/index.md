@@ -13,8 +13,8 @@ _build:
     <p class="team-role-single text-center">
       Doctoral researcher    </p>
     <div class="team-contact">
-      <p>✉️ xyz@example.com</p>
-      <p>📞 +49 123 4567890</p>
+      <p>✉️ louis.peter@kite.thm.de</p>
+      <!-- <p>📞 +49 123 4567890</p>-->
     </div>
   </div>
 
