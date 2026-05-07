@@ -19,14 +19,13 @@ _build:
       <p>📞 +49 641 3093436</p>
     </div>
   </div>
-
   <!-- LINK -->
-  <div class="team-links">
+    <div class="team-links">
     <a href="https://scholar.google.com/citations?user=mUma-k8AAAAJ&hl=de" target="_blank" class="team-link">
-      Google Scholar Publications
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/scholar.jpg" alt="Google Scholar Icon" />
+      <span>Google Scholar</span>
     </a>
   </div>
-
   <!-- BIO -->
   <div class="team-single-content">
     <p class="text-block">
