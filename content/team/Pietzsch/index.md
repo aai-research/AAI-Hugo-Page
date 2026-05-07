@@ -19,7 +19,8 @@ _build:
   <!-- LINK -->
   <div class="team-links">
     <a href="https://www.researchgate.net/profile/Sabrina-Pietzsch" target="_blank" class="team-link">
-      ResearchGate Publications
+      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/researchGate.png" alt="ResearchGate Icon" />
+      <span>ResearchGate</span>
     </a>
   </div>
 
