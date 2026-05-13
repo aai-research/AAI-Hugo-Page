@@ -27,7 +27,7 @@ sections:
   content:
     text: |
       <div class="hero-home">
-          <img src="/uploads/teaser_homepage_aaiLab.png" alt="Hero Image"/>
+          <img src="uploads/teaser_homepage_aaiLab.png" alt="Hero Image"/>
       </div>
   design:
     columns: '1'
@@ -51,23 +51,23 @@ sections:
         </div>
         <div class="home-about-icons">
           <div class="care-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/aai/" class="care-inner">
-              <img src="https://aai-research.github.io/AAI-Hugo-Page/uploads/aai_icon2.png" alt="Applied AI"/>
+            <a href="aai/" class="care-inner">
+              <img src="uploads/aai_icon2.png" alt="Applied AI"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research" class="care-inner">
-               <img src="/uploads/project_icon2.png" alt="Projects"/>
+            <a href="research" class="care-inner">
+               <img src="uploads/project_icon2.png" alt="Projects"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students" class="care-inner">
+            <a href="students" class="care-inner">
               <img src="uploads/teaching_icon2.png" alt="Students"/>
             </a>
           </div>
           <div class="care-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/publications" class="care-inner">
-              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/paper_icon2.png" alt="Publications"/>
+            <a href="publications" class="care-inner">
+              <img src="uploads/paper_icon2.png" alt="Publications"/>
             </a>
           </div>
         </div>
@@ -84,17 +84,17 @@ sections:
   content:
     text: |
       <div class="hero-partner-logos text-center">
-        <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/aai/" target="_blank">
-          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/aai_lab.png" alt="Applied AI Lab"/>
+        <a href="aai/" target="_blank">
+          <img src="uploads/aai_lab.png" alt="Applied AI Lab"/>
         </a>
         <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-         <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/kite_logo.png" alt="KITE"/>
+         <img src="uploads/kite_logo.png" alt="KITE"/>
         </a>
         <a href="https://www.thm.de" target="_blank">
-          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/THM_logo.png" alt="THM"/>
+          <img src="uploads/THM_logo.png" alt="THM"/>
         </a>
         <a href="https://hessian.ai" target="_blank">
-          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/HessenAi_logo.png" alt="HessenAI"/>
+          <img src="uploads/HessenAi_logo.png" alt="HessenAI"/>
         </a>
       </div>
   design:
@@ -147,17 +147,17 @@ sections:
         <div class="home-open-positions">
           <div class="position-item">
             <a href="https://www.thm.de/site/hochschule/profil/job-und-karriere/aktuelle-stellenangebote.html" target="_blank">
-              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thm_job_icon.png" alt="THM Jobs"/>
+              <img src="uploads/thm_job_icon.png" alt="THM Jobs"/>
             </a>         
           </div>
           <div class="position-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students">
-              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hiwi_job_icon.png" alt="HiWi Positions"/>
+            <a href="students">
+              <img src="uploads/hiwi_job_icon.png" alt="HiWi Positions"/>
             </a>
           </div>
           <div class="position-item">
-            <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students/theses/">
-              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/thesis_icon.png" alt="Thesis Opportunities"/>
+            <a href="students/theses/">
+              <img src="uploads/thesis_icon.png" alt="Thesis Opportunities"/>
             </a>
           </div>
         </div>
