@@ -15,36 +15,36 @@ _build:
 <!-- CLICKABLE MEMBER -->
   <section class="team-list">
     <article class="text-center">
-      <a href= "https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/hannig/">
-        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
+      <a href= "team/hannig/">
+        <img src="uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
         <h3 class="text-center">Prof. Dr. Jennifer Hannig</h3>
         <p class="team-role">Research group leader of the Applied AI Lab</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/gumpfer/">
-        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
+      <a href="team/gumpfer/">
+        <img src="uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
         <h3 class="text-center">Dr. Nils Gumpfer</h3>
         <p class="team-role">Postdoctoral researcher</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/peter/">
-        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/peter.jpg" alt="M. Sc. Louis Peter" />
+      <a href="team/peter/">
+        <img src="uploads/peter.jpg" alt="M. Sc. Louis Peter" />
         <h3 class="text-center">Louis Peter</h3>
         <p class="team-role">Doctoral researcher</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/fischer/">
-        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/fischer.jpg" alt="M. Sc. Jana Fischer" />
+      <a href="team/fischer/">
+        <img src="uploads/fischer.jpg" alt="M. Sc. Jana Fischer" />
         <h3 class="text-center">Jana Fischer</h3>
         <p class="team-role">Doctoral researcher</p>
       </a>
     </article>
     <article class="text-center">
-      <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team/pietzsch/">
-        <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
+      <a href="team/pietzsch/">
+        <img src="uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
         <h3 class="text-center">Sabrina Pietzsch</h3>
         <p class="team-role">Research assistant</p>
       </a>
@@ -60,12 +60,12 @@ _build:
 
   <section class="team-list">
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Masuma Fozilatunnesa" />
+      <img src="uploads/human_icon.png" alt="Masuma Fozilatunnesa" />
       <h3 class="text-center">Masuma Fozilatunnesa</h3>
       <p class="team-role">Master student</p>
     </article>  
     <article class="text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Justus Schmidt" />
+      <img src="uploads/human_icon.png" alt="Justus Schmidt" />
       <h3 class="text-center">Justus Schmidt</h3>
       <p class="team-role">Bachelor student</p>
     </article>
@@ -82,18 +82,18 @@ _build:
 
   <section class="team-list">
     <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Yolande Tchuendem Teto" />
+      <img src="uploads/human_icon.png" alt="Yolande Tchuendem Teto" />
       <h3 class="text-center">Yolande Tchuendem Teto</h3>
       <p class="team-role">Master student</p>
     </article>
     <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/human_icon.png" alt="Sandra Sommerkorn" />
+      <img src="uploads/human_icon.png" alt="Sandra Sommerkorn" />
       <h3 class="text-center">Sandra Sommerkorn</h3>
       <p class="team-role">Bachelor student</p>
     </article>
   </section>
       <article class="team-member alumni text-center">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/Eckerle.jpg" alt="Dominic Eckerle" />
+      <img src="uploads/Eckerle.jpg" alt="Dominic Eckerle" />
       <h3 class="text-center">Dominic Eckerle</h3>
       <p class="team-role">Master student</p>
     </article>
