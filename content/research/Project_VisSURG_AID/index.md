@@ -32,14 +32,14 @@ Artificial intelligence (AI)-based systems designed to provide real-time, intrao
 The primary objective of this project is the development of a consolidated data infrastructure comprising high-quality, annotated imaging datasets. These datasets will be systematically generated and enriched based on well-defined clinical scenarios. Building upon this data foundation, domain-specific AI-driven decision support systems can be designed, implemented, and evaluated
     </p>
     <figure>
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/VisSURG-AID.png" alt="Time" />
+      <img src="uploads/VisSURG-AID.png" alt="Time" />
       <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
     <p class="text-block">
      The project VisSURG-AID – Visual Surgical Artificial Intelligence for Decision Support has a duration of one year and is funded by the Research Campus Central Hesse (FCMH) as part of the Experimentierräume funding program. The project receives total funding of €29,407.
     </p>
   <footer class="research-single-footer">
-    <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research">← Back to Projects</a>
+    <a href="research">← Back to Projects</a>
   </footer>
 
 </section>
