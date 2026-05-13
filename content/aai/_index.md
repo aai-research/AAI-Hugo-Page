@@ -35,7 +35,7 @@ _build:
 <section class="logos-section">
   <div class="container logos-container">
     <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-      <img src="uploads/kite_logo.png" alt="KITE Logo">
+      <img src="{{ "/uploads/kite_logo.png" | relURL }}" alt="KITE Logo">
     </a>
     <a href="https://www.thm.de" target="_blank">
       <img src="uploads/THM_logo.png" alt="THM Logo">
