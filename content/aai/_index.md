@@ -35,13 +35,13 @@ _build:
 <section class="logos-section">
   <div class="container logos-container">
     <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-      <img src="{{ "/static/uploads/kite_logo.png" | relURL }}" alt="KITE Logo">
+      <img src="{{ "AAI-Hugo-Page/static/uploads/kite_logo.png" | relURL }}" alt="KITE Logo">
     </a>
     <a href="https://www.thm.de" target="_blank">
-      <img src="static/uploads/THM_logo.png" alt="THM Logo">
+      <img src="{{ "AAI-Hugo-Page/uploads/THM_logo.png" | relURL }}" alt="THM Logo">
     </a>
     <a href="https://hessian.ai" target="_blank">
-      <img src="uploads/HessenAi_logo.png" alt="hessian.ai Logo">
+      <img src="{{ "/AAI-Hugo-Page/uploads/HessenAi_logo.png" | relURL }}" alt="hessian.ai Logo">
     </a>
 </section>
 
