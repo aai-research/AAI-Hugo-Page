@@ -1,1 +1,2 @@
-# [TimeXAI Research Group](http://timexaigroup.github.io/TimeXAI-Hugo-Page/)
+# [AAI Research Group](http://aai-research.github.io/AAI-Hugo-Page/)
+
