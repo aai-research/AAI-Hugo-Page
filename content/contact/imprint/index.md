@@ -24,7 +24,7 @@ _build:
 
   <!-- Back Button -->
   <div class="imprint-back">
-    <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/contact" class="btn-primary">← Back to Contact</a>
+    <a href="contact" class="btn-primary">← Back to Contact</a>
   </div>
 
 </div>
