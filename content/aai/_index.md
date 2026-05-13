@@ -6,10 +6,10 @@ _build:
   list: false
 ---
 
-<!-- Hero Section -->
+<!-- Hero Section -->  <!--<img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">-->
 <section class="hero-section">
   <div class="hero-image">
-    <img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">
+    ![AAI Lab Group](/uploads/group_photo_2.jpg)
   </div>
 </section>
 
