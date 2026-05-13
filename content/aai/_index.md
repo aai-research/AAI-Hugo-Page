@@ -9,7 +9,7 @@ _build:
 <!-- Hero Section -->  <!--<img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">-->
 <section class="hero-section">
   <div class="hero-image">
-    ![AAI Lab Group](/uploads/group_photo_2.jpg)
+    <img src="{{ "uploads/group_photo_2.jpg" | relURL }}" alt="AAI Lab Group">
   </div>
 </section>
 
