@@ -8,7 +8,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
+    <img src="uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
     <h1 class="h1-center">Prof. Dr. Jennifer Hannig</h1>
     <p class="team-role-single text-center">
      Professor of Artificial Intelligence
@@ -22,7 +22,7 @@ _build:
   <!-- LINK -->
     <div class="team-links">
     <a href="https://scholar.google.com/citations?user=mUma-k8AAAAJ&hl=de" target="_blank" class="team-link">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/scholar.jpg" alt="Google Scholar Icon" />
+      <img src="uploads/scholar.jpg" alt="Google Scholar Icon" />
       <span>Google Scholar</span>
     </a>
   </div>
@@ -36,7 +36,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/team">← Back to Team</a>
+    <a href="team">← Back to Team</a>
   </div>
 
 </section>
