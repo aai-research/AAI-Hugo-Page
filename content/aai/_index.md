@@ -9,7 +9,7 @@ _build:
 <!-- Hero Section -->
 <section class="hero-section">
   <div class="hero-image">
-    <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/group_photo_2.jpg" alt="AAI Lab Group">
+    <img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">
   </div>
 </section>
 
@@ -35,13 +35,13 @@ _build:
 <section class="logos-section">
   <div class="container logos-container">
     <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/kite_logo.png" alt="KITE Logo">
+      <img src="uploads/kite_logo.png" alt="KITE Logo">
     </a>
     <a href="https://www.thm.de" target="_blank">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/THM_logo.png" alt="THM Logo">
+      <img src="uploads/THM_logo.png" alt="THM Logo">
     </a>
     <a href="https://hessian.ai" target="_blank">
-      <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/HessenAi_logo.png" alt="hessian.ai Logo">
+      <img src="uploads/HessenAi_logo.png" alt="hessian.ai Logo">
     </a>
 </section>
 
