@@ -9,7 +9,7 @@ _build:
 <!-- Hero Section -->  <!--<img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">-->
 <section class="hero-section">
   <div class="hero-image">
-    <img src="{{ "uploads/group_photo_2.jpg" | relURL }}" alt="AAI Lab Group">
+    <img src="{{ "/static/uploads/group_photo_2.jpg" | relURL }}" alt="AAI Lab Group">
   </div>
 </section>
 
@@ -35,10 +35,10 @@ _build:
 <section class="logos-section">
   <div class="container logos-container">
     <a href="https://www.thm.de/kompetenzzentren/kite/profil.html" target="_blank">
-      <img src="{{ "/uploads/kite_logo.png" | relURL }}" alt="KITE Logo">
+      <img src="{{ "/static/uploads/kite_logo.png" | relURL }}" alt="KITE Logo">
     </a>
     <a href="https://www.thm.de" target="_blank">
-      <img src="uploads/THM_logo.png" alt="THM Logo">
+      <img src="static/uploads/THM_logo.png" alt="THM Logo">
     </a>
     <a href="https://hessian.ai" target="_blank">
       <img src="uploads/HessenAi_logo.png" alt="hessian.ai Logo">
