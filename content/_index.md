@@ -57,12 +57,12 @@ sections:
           </div>
           <div class="care-item">
             <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/research" class="care-inner">
-               <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/project_icon2.png" alt="Projects"/>
+               <img src="/uploads/project_icon2.png" alt="Projects"/>
             </a>
           </div>
           <div class="care-item">
             <a href="https://timexaigroup.github.io/TimeXAI-Hugo-Page/students" class="care-inner">
-              <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/teaching_icon2.png" alt="Students"/>
+              <img src="uploads/teaching_icon2.png" alt="Students"/>
             </a>
           </div>
           <div class="care-item">
