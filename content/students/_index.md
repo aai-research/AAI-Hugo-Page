@@ -16,22 +16,22 @@ _build:
   <section class="students-grid">
     <!-- Courses -->
     <article class="students-card">
-      <img src="/AAI-Hugo-Page/uploads/courses.jpg" alt="Courses" />
+      <img src="/uploads/courses.jpg" alt="Courses" />
       <h2 class="text-center">Courses</h2>
       <p>
         Current and upcoming courses by Prof. Dr. Hannig
       </p>
-      <a class="students-btn" href="/AAI-Hugo-Page/students/courses/">View Courses</a>
+      <a class="students-btn" href="/students/courses/">View Courses</a>
     </article>
     <!-- Theses -->
     <article class="students-card">
-      <img src="/AAI-Hugo-Page/uploads/thesis.jpg" alt="Thesis opportunities" />
+      <img src="/uploads/thesis.jpg" alt="Thesis opportunities" />
       <h2 class="text-center">Open Thesis and <br> 
         HiWi Jobs</h2>
       <p>
         Topics in applied AI
       </p>
-      <a class="students-btn" href="/AAI-Hugo-Page/students/theses/">View Topics</a>
+      <a class="students-btn" href="/students/theses/">View Topics</a>
     </article>
   </section>
   <!-- Office Hours -->
@@ -48,7 +48,7 @@ _build:
         </ul>
       </div>
       <div class="office-action">
-        <a class="btn-primary text-center" href="/AAI-Hugo-Page/students/theses/">Thesis Workflow →</a>
+        <a class="btn-primary text-center" href="/students/theses/">Thesis Workflow →</a>
       </div>
     </div>
   </section>
