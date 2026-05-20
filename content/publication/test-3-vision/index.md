@@ -8,3 +8,4 @@ publication_types:
 - paper-conference
 publication: '*CVPR Workshop on AI Vision*'
 ---
+<p><strong>Authors:</strong> {{ .Params.custom_authors }}</p>
