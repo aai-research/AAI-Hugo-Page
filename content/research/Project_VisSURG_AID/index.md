@@ -39,7 +39,7 @@ The primary objective of this project is the development of a consolidated data 
      The project VisSURG-AID – Visual Surgical Artificial Intelligence for Decision Support has a duration of one year and is funded by the Research Campus Central Hesse (FCMH) as part of the Experimentierräume funding program. The project receives total funding of €29,407.
     </p>
   <footer class="research-single-footer">
-    <a href="research">← Back to Projects</a>
+    <a href="/AAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
 
 </section>
