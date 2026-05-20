@@ -17,10 +17,10 @@ _build:
   <section class="research-grid">
     <!-- Projekt 5 -->
     <div class="research-card">
-      <a href="/AAI-Hugo-Page/research/project_timexai/">
+      <a href="/research/project_timexai/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="/AAI-Hugo-Page/uploads/time_series.jpg" alt="Project 5 Image" />
+            <img src="/uploads/time_series.jpg" alt="Project 5 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">TimeXAI </h2>
@@ -31,10 +31,10 @@ _build:
     </div>
     <!-- Projekt 4 -->
     <div class="research-card">
-      <a href="/AAI-Hugo-Page/research/project_vissurg_aid">
+      <a href="/research/project_vissurg_aid">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="/AAI-Hugo-Page/uploads/VisSURG-AID.png" alt="Project 4 Image" />
+            <img src="/uploads/VisSURG-AID.png" alt="Project 4 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">VisSURG-AID</h2>
@@ -45,10 +45,10 @@ _build:
     </div>
      <!-- Projekt 3 -->
     <div class="research-card">
-      <a href="/AAI-Hugo-Page/research/project_x4neuro/">
+      <a href="/research/project_x4neuro/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="/AAI-Hugo-Page/uploads/FigX4Neuro.png" alt="Project 3 Image" />
+            <img src="/uploads/FigX4Neuro.png" alt="Project 3 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">X4Neuro</h2>
@@ -59,10 +59,10 @@ _build:
     </div>
     <!-- Projekt 2 -->
     <div class="research-card">
-      <a href="/AAI-Hugo-Page/research/project_sinai_pd/">
+      <a href="/research/project_sinai_pd/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="/AAI-Hugo-Page/uploads/SinaiPD.png" alt="Project 2 Image" />
+            <img src="/uploads/SinaiPD.png" alt="Project 2 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">SINAI-PD</h2>
@@ -73,10 +73,10 @@ _build:
     </div>
   <!-- Projekt 1 -->
     <div class="research-card">
-      <a href="/AAI-Hugo-Page/research/project_bpeax/">
+      <a href="/research/project_bpeax/">
         <div class="research-card-inner">
           <div class="research-image">
-            <img src="/AAI-Hugo-Page/uploads/BPEAX.png" alt="Project 1 Image" />
+            <img src="/uploads/BPEAX.png" alt="Project 1 Image" />
           </div>
           <div class="research-info">
             <h2 class="text-left">BPEAX</h2>
