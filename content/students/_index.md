@@ -21,7 +21,7 @@ _build:
       <p>
         Current and upcoming courses by Prof. Dr. Hannig
       </p>
-      <a class="students-btn" href="students/courses/">View Courses</a>
+      <a class="students-btn" href="/AAI-Hugo-Page/students/courses/">View Courses</a>
     </article>
     <!-- Theses -->
     <article class="students-card">
@@ -31,7 +31,7 @@ _build:
       <p>
         Topics in applied AI
       </p>
-      <a class="students-btn" href="students/theses/">View Topics</a>
+      <a class="students-btn" href="/AAI-Hugo-Page/students/theses/">View Topics</a>
     </article>
   </section>
   <!-- Office Hours -->
@@ -48,7 +48,7 @@ _build:
         </ul>
       </div>
       <div class="office-action">
-        <a class="btn-primary text-center" href="students/theses/">Thesis Workflow →</a>
+        <a class="btn-primary text-center" href="/AAI-Hugo-Page/students/theses/">Thesis Workflow →</a>
       </div>
     </div>
   </section>
