@@ -7,7 +7,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
+    <img src="/AAI-Hugo-Page/uploads/pietzsch1.png" alt="M. Sc. Sabrina Pietzsch" />
     <h1 class="h1-center">M. Sc. Sabrina Pietzsch</h1>
     <p class="team-role-single text-center">
       Research assistants    </p>
@@ -19,7 +19,7 @@ _build:
   <!-- LINK -->
   <div class="team-links">
     <a href="https://www.researchgate.net/profile/Sabrina-Pietzsch" target="_blank" class="team-link">
-      <img src="uploads/researchGate.png" alt="ResearchGate Icon" />
+      <img src="/AAI-Hugo-Page/uploads/researchGate.png" alt="ResearchGate Icon" />
       <span>ResearchGate</span>
     </a>
   </div>
@@ -38,7 +38,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="team">← Back to Team</a>
+    <a href="/AAI-Hugo-Page/team">← Back to Team</a>
   </div>
 
 </section>
