@@ -1,9 +1,9 @@
 ---
 title: An Example Conference Paper on Applied AI
 authors:
-- John Doe
-- Anna Smith
-- Robert Ford
+- john-doe
+- anna-smith
+- robert-ford
 date: '2025-01-01'
 publishDate: '2026-05-20T10:02:32.703162Z'
 publication_types:
