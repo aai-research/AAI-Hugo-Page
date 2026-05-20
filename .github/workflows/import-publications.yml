@@ -41,61 +41,16 @@ jobs:
 
           academic import publications.bib content/publication/ --compact --normalize
 
-      - name: Generate author pages
+      - name: Normalize author field (IMPORTANT FIX)
         run: |
-          cat > generate_authors.py << 'EOF'
-import os
-import glob
-import re
+          find content/publication -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
 
-def slugify(name):
-    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-
-files = glob.glob("content/publication/*/index.md")
-authors = set()
-
-for f in files:
-    with open(f, "r", encoding="utf-8") as file:
-        lines = file.readlines()
-
-    in_authors = False
-
-    for line in lines:
-        line = line.strip()
-
-        if line.startswith("authors:"):
-            in_authors = True
-            continue
-
-        if in_authors:
-            if line.startswith("- "):
-                authors.add(line.replace("- ", "").strip())
-            else:
-                break
-
-for author in authors:
-    slug = slugify(author)
-    path = f"content/authors/{slug}"
-    os.makedirs(path, exist_ok=True)
-
-    with open(f"{path}/_index.md", "w", encoding="utf-8") as f:
-        f.write(f"""---
-title: "{author}"
----
-""")
-
-print(f"Generated {len(authors)} authors")
-EOF
-
-          python generate_authors.py
-
-      - name: Commit generated publications and authors
+      - name: Commit generated publications
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add content/publication/
-          git add content/authors/
 
           git commit -m "auto: import publications from bibtex" || echo "No changes to commit"
 
