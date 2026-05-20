@@ -43,7 +43,7 @@ jobs:
 
       - name: Generate author pages
         run: |
-          python - <<'EOF'
+          cat > generate_authors.py << 'EOF'
 import os
 import glob
 import re
@@ -86,6 +86,8 @@ title: "{author}"
 
 print(f"Generated {len(authors)} authors")
 EOF
+
+          python generate_authors.py
 
       - name: Commit generated publications and authors
         run: |
