@@ -70,6 +70,6 @@ If you do not find a matching topic, we also welcome unsolicited applications. P
         </p>
       </div>
   </section>
-  <a class="students-btn" href="students">← Back to For Students</a>
+  <a class="students-btn" href="/AAI-Hugo-Page/students">← Back to For Students</a>
 
 </section>
