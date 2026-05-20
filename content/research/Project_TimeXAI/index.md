@@ -51,7 +51,7 @@ The Smart Home application domain is a collaboration with the startup Veli GmbH.
       The junior research group TimeXAI is funded for a duration of three years by the Federal Ministry of Research, Technology and Space (BMFTR) under the funding program ExperTeam4KI. The project receives a total funding of €1.09 million (funding reference: 01IS24063).
     </p>
     <figure class="small">
-      <img src="uploads/BMFTR.jpg" alt="BMFTR" />
+      <img src="/AAI-Hugo-Page/uploads/BMFTR.jpg" alt="BMFTR" />
       <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
   <footer class="research-single-footer">
