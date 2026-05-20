@@ -1,0 +1,32 @@
+{{/* Simple working publication citation view */}}
+
+<div class="publication">
+
+  <!-- Title -->
+  <h3>{{ .Title }}</h3>
+
+  <!-- Authors -->
+  {{ with .Params.authors }}
+    <div class="authors">
+      {{ range $index, $author := . }}
+        {{ if $index }}, {{ end }}
+        {{ $author | humanize }}
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <!-- Publication -->
+  {{ with .Params.publication }}
+    <div class="publication-venue">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  <!-- Date -->
+  {{ with .Date }}
+    <div class="publication-date">
+      {{ .Format "2006" }}
+    </div>
+  {{ end }}
+
+</div>
