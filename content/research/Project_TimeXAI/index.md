@@ -55,6 +55,6 @@ The Smart Home application domain is a collaboration with the startup Veli GmbH.
       <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
   <footer class="research-single-footer">
-    <a href="research">← Back to Projects</a>
+    <a href="/AAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
 </section>
