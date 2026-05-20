@@ -43,6 +43,6 @@ _build:
     Dr. Daniel Amsel (Institut für Neuropathologie, Justus‑Liebig‑Universität Gießen)
     </p>
   <footer class="research-single-footer">
-    <a href="research">← Back to Projects</a>
+    <a href="/AAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
 </section>
