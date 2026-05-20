@@ -43,7 +43,7 @@ Dr. Anca-Laura Amati, University Hospital Giessen & Marburg GmbH <br>
 Dr. Jennifer Hannig, Technische Hochschule Mittelhessen, KITE, Junior Research Group TimeXAI
     </p>
   <footer class="research-single-footer">
-    <a href="research">← Back to Projects</a>
+    <a href="/AAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
 
 </section>
