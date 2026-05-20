@@ -1,6 +1,6 @@
 ---
 title: Publications
-type: publication
+# type: publication
 
 # Listing view
 view: citation
