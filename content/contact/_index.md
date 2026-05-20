@@ -45,7 +45,7 @@ _build:
   </section>
   <!-- Impressum -->
   <section class="contact-impressum">
-    <a class="btn-primary" href="/AAI-Hugo-Page/contact/imprint/">Impressum →</a>
+    <a class="btn-primary" href="/contact/imprint/">Impressum →</a>
   </section>
 
 </section>
