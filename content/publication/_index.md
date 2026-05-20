@@ -1,14 +1,12 @@
 ---
 title: Publications
-# type: publication
+cms_exclude: true
 
-# Listing view
-# view: citation
-view: detailed
-show_authors: true
+# View.
+view: citation
 
-# Optional banner image (relative to `assets/media/` folder).
-# banner:
-#  caption: ''
-#  image: ''
+# Optional header image (relative to `static/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---
