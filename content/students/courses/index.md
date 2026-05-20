@@ -17,5 +17,5 @@ _build:
       Bachelor course, Summer Semester 2026
     </li>
   </ul>
-  <a class="students-btn" href="students">← Back to For Students</a>
+  <a class="students-btn" href="/AAI-Hugo-Page/students">← Back to For Students</a>
 </section>
