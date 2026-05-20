@@ -1,14 +1,7 @@
-<div>
-  {{ with .Params.authors }}
-    {{ range . }}
-      {{ $author := site.GetPage (printf "authors/%s" .) }}
-      {{ if $author }}
-        <span>{{ $author.Params.title }}</span>
-      {{ else }}
-        <span>{{ . }}</span>
-      {{ end }}
-    {{ end }}
+<div class="authors">
+  {{ with .Params.authors_raw }}
+    {{ . }}
   {{ else }}
-    <span>NO AUTHORS FOUND</span>
+    <span style="color:red;">No authors set</span>
   {{ end }}
 </div>
