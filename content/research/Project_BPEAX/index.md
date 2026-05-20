@@ -30,7 +30,7 @@ Even individuals with normal resting blood pressure may exhibit an excessive inc
 The objective of the research project “BPEAX – AI-based detection of exaggerated blood pressure response to exercise based on central blood pressure estimates and electrocardiogram data” is the development of an artificial neural network to predict exercise-induced hypertension in individuals with normal resting blood pressure, based on ECG data and/or central blood pressure waveforms.
     </p>
      <figure class="large">
-      <img src="uploads/BEPEAX_small.png" alt="BPEAX" />
+      <img src="/AAI-Hugo-Page/uploads/BEPEAX_small.png" alt="BPEAX" />            
       <!--<figcaption>Figure Text.</figcaption>-->
     </figure>
     <p class="text-block">
