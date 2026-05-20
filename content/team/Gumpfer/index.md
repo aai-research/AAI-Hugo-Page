@@ -9,7 +9,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
+    <img src="/AAI-Hugo-Page/uploads/gumpfer.jpg" alt="Dr. Nils Gumpfer" />
     <h1 class="h1-center">Dr. Nils Gumpfer</h1>
     <p class="team-role-single text-center">
       Postdoctoral researcher of the applied AI Lab    </p>
@@ -31,23 +31,23 @@ _build:
   ====================== -->
   <div class="team-links">
     <a href="https://scholar.google.com/citations?user=cbLOkB4AAAAJ" target="_blank" class="team-link">
-      <img src="uploads/scholar.jpg" alt="Google Scholar Icon" />
+      <img src="/AAI-Hugo-Page/uploads/scholar.jpg" alt="Google Scholar Icon" />
       <span>Google Scholar</span>
     </a>
     <a href="https://orcid.org/0000-0001-8644-9885" target="_blank" class="team-link">
-      <img src="uploads/ORCID.png" alt="ORCID Icon" />
+      <img src="/AAI-Hugo-Page/uploads/ORCID.png" alt="ORCID Icon" />
       <span>ORCID</span>
     </a>
     <a href="https://www.researchgate.net/profile/Nils-Gumpfer" target="_blank" class="team-link">
-      <img src="uploads/researchGate.png" alt="ResearchGate Icon" />
+      <img src="/AAI-Hugo-Page/uploads/researchGate.png" alt="ResearchGate Icon" />
       <span>ResearchGate</span>
     </a>
     <a href="https://www.scopus.com/authid/detail.uri?authorId=57219450625" target="_blank" class="team-link">
-      <img src="uploads/scopus.png" alt="Scopus Icon" />
+      <img src="/AAI-Hugo-Page/uploads/scopus.png" alt="Scopus Icon" />
       <span>Scopus</span>
     </a>
     <a href="https://github.com/nilsgumpfer" target="_blank" class="team-link">
-      <img src="uploads/github.png" alt="GitHub Icon" />
+      <img src="/AAI-Hugo-Page/uploads/github.png" alt="GitHub Icon" />
       <span>GitHub</span>
     </a>
     <a href="https://nilsgumpfer.github.io/" target="_blank" class="team-link">
@@ -62,7 +62,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="team">← Back to Team</a>
+    <a href="/AAI-Hugo-Page/team">← Back to Team</a>
   </div>
 
 </section>
