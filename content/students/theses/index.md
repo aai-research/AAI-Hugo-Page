@@ -19,7 +19,7 @@ If you do not find a matching topic, we also welcome unsolicited applications. P
     <!-- Workflow -->
     <details class="thesis-card">
       <summary class="thesis-summary">
-        <img src="/AAI-Hugo-Page/uploads/FAQ.jpg" alt="Workflow" />
+        <img src="/uploads/FAQ.jpg" alt="Workflow" />
         <div class="thesis-preview">
           <h3>FAQs by Thesis Workflow </h3>
           <p>
@@ -43,7 +43,7 @@ If you do not find a matching topic, we also welcome unsolicited applications. P
     <!-- Thesis 1 -->
     <details class="thesis-card">
       <summary class="thesis-summary">
-        <img src="/AAI-Hugo-Page/uploads/thesis_ekg.jpg" alt="Explainable AI Thesis" />
+        <img src="/uploads/thesis_ekg.jpg" alt="Explainable AI Thesis" />
         <div class="thesis-preview">
           <h3>Thesis/HiWi <br>
             Explainable AI for Medical Time Series</h3>
@@ -70,6 +70,6 @@ If you do not find a matching topic, we also welcome unsolicited applications. P
         </p>
       </div>
   </section>
-  <a class="students-btn" href="/AAI-Hugo-Page/students">← Back to For Students</a>
+  <a class="students-btn" href="/students">← Back to For Students</a>
 
 </section>
