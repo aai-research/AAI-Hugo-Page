@@ -1,7 +1,7 @@
 ---
 title: 'An Example Conference Paper on Applied AI'
 authors:
-- John Doe
+- admin
 date: '2025-01-01'
 publishDate: '2026-05-20T10:02:32.703162Z'
 publication_types:
