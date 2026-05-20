@@ -1,2 +1,2 @@
-# [AAI Lab - Homepage Link](aai-lab.org)
+# [AAI Lab - Homepage Link](http://www.aai-lab.org)
 
