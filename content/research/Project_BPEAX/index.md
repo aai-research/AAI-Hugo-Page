@@ -38,7 +38,7 @@ The project “BPEAX” has a duration of one year and is funded by the Hessian 
 (HMWK) as part of the “Experimentierräume” funding program of the Research Campus Central Hesse (FCMH) with €62,757.    
     </p>
   <footer class="research-single-footer">
-    <a href="research">← Back to Projects</a>
+    <a href="/AAI-Hugo-Page/research">← Back to Projects</a>
   </footer>
 
 </section>
