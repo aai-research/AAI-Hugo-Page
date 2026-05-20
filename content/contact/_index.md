@@ -24,7 +24,8 @@ _build:
     <!-- Kontakt -->
     <div class="contact-card">
       <h3>Contact</h3>
-      <p>
+      <p> 
+        Prof. Dr. Jennifer Hannig<br>
         📞 +49 641 3093436<br>
         ✉️ <a href="mailto:jennifer.hannig@kite.thm.de">jennifer.hannig@kite.thm.de</a>
       </p>
@@ -44,7 +45,7 @@ _build:
   </section>
   <!-- Impressum -->
   <section class="contact-impressum">
-    <a class="btn-primary" href="contact/imprint/">Impressum →</a>
+    <a class="btn-primary" href="/AAI-Hugo-Page/contact/imprint/">Impressum →</a>
   </section>
 
 </section>
