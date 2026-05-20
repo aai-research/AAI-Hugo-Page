@@ -172,7 +172,7 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
     }
 
     p {
-      font-size: 1rem;
+      font-size: $font-size-text;
       text-align: justify;
       color: $text;
       line-height: 1.5;
@@ -185,16 +185,16 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 // ==========================================================================
 @media (max-width: 1024px) {
   .icon-row .icon-item { flex: 1 1 45%; }
-  .about-section p { font-size: 1.1rem; }
+  .about-section p { font-size: $font-size-text; }
 }
 
 @media (max-width: 768px) {
   .icon-row { flex-direction: column; align-items: center; }
   .icon-row .icon-item { flex: 1 1 100%; }
-  .about-section p { font-size: 1rem; }
+  .about-section p { font-size: 0.5; }
 }
 
 @media (max-width: 480px) {
-  .icon-row .icon-item { flex: 1 1 100%; font-size: 0.95rem; }
-  .about-section p { font-size: 0.95rem; line-height: 1.4; }
+  .icon-row .icon-item { flex: 1 1 100%; font-size: 0.2rem; }
+  .about-section p { font-size: 0.2rem; line-height: 1.4; }
 }
