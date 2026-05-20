@@ -16,7 +16,7 @@ _build:
   <section class="students-grid">
     <!-- Courses -->
     <article class="students-card">
-      <img src="uploads/courses.jpg" alt="Courses" />
+      <img src="/AAI-Hugo-Page/uploads/courses.jpg" alt="Courses" />
       <h2 class="text-center">Courses</h2>
       <p>
         Current and upcoming courses by Prof. Dr. Hannig
@@ -25,7 +25,7 @@ _build:
     </article>
     <!-- Theses -->
     <article class="students-card">
-      <img src="uploads/thesis.jpg" alt="Thesis opportunities" />
+      <img src="/AAI-Hugo-Page/uploads/thesis.jpg" alt="Thesis opportunities" />
       <h2 class="text-center">Open Thesis and <br> 
         HiWi Jobs</h2>
       <p>
