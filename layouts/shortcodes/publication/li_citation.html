@@ -7,3 +7,11 @@
 {{ else if .Params.authors }}
   {{ partial "page_metadata_authors" . }}
 {{ end }}
+
+{{ with .Params.authors }}
+  <div>
+    {{ range . }}
+      <span>{{ . }}</span>
+    {{ end }}
+  </div>
+{{ end }
