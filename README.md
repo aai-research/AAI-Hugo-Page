@@ -1,2 +1,2 @@
-# [AAI Research Group](http://aai-research.github.io/AAI-Hugo-Page/)
+# [AAI Lab - Homepage Link](aai-lab.org)
 
