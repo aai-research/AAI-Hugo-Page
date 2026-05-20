@@ -17,7 +17,7 @@ _build:
   <section class="research-grid">
     <!-- Projekt 5 -->
     <div class="research-card">
-      <a href="research/project_timexai/">
+      <a href="/AAI-Hugo-Page/research/project_timexai/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="/AAI-Hugo-Page/uploads/time_series.jpg" alt="Project 5 Image" />
@@ -31,7 +31,7 @@ _build:
     </div>
     <!-- Projekt 4 -->
     <div class="research-card">
-      <a href="research/project_vissurg_aid">
+      <a href="/AAI-Hugo-Page/research/project_vissurg_aid">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="/AAI-Hugo-Page/uploads/VisSURG-AID.png" alt="Project 4 Image" />
@@ -45,7 +45,7 @@ _build:
     </div>
      <!-- Projekt 3 -->
     <div class="research-card">
-      <a href="research/project_x4neuro/">
+      <a href="/AAI-Hugo-Page/research/project_x4neuro/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="/AAI-Hugo-Page/uploads/FigX4Neuro.png" alt="Project 3 Image" />
@@ -59,7 +59,7 @@ _build:
     </div>
     <!-- Projekt 2 -->
     <div class="research-card">
-      <a href="research/project_sinai_pd/">
+      <a href="/AAI-Hugo-Page/research/project_sinai_pd/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="/AAI-Hugo-Page/uploads/SinaiPD.png" alt="Project 2 Image" />
@@ -73,7 +73,7 @@ _build:
     </div>
   <!-- Projekt 1 -->
     <div class="research-card">
-      <a href="research/project_bpeax/">
+      <a href="/AAI-Hugo-Page/research/project_bpeax/">
         <div class="research-card-inner">
           <div class="research-image">
             <img src="/AAI-Hugo-Page/uploads/BPEAX.png" alt="Project 1 Image" />
