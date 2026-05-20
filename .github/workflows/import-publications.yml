@@ -43,49 +43,49 @@ jobs:
 
       - name: Generate author pages
         run: |
-          python << 'EOF'
-          import os
-          import glob
-          import re
+          python - <<'EOF'
+import os
+import glob
+import re
 
-          def slugify(name):
-              return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+def slugify(name):
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
-          files = glob.glob("content/publication/*/index.md")
-          authors = set()
+files = glob.glob("content/publication/*/index.md")
+authors = set()
 
-          for f in files:
-              with open(f, "r", encoding="utf-8") as file:
-                  lines = file.readlines()
+for f in files:
+    with open(f, "r", encoding="utf-8") as file:
+        lines = file.readlines()
 
-              in_authors = False
+    in_authors = False
 
-              for line in lines:
-                  line = line.strip()
+    for line in lines:
+        line = line.strip()
 
-                  if line.startswith("authors:"):
-                      in_authors = True
-                      continue
+        if line.startswith("authors:"):
+            in_authors = True
+            continue
 
-                  if in_authors:
-                      if line.startswith("- "):
-                          authors.add(line.replace("- ", "").strip())
-                      else:
-                          break
+        if in_authors:
+            if line.startswith("- "):
+                authors.add(line.replace("- ", "").strip())
+            else:
+                break
 
-          for author in authors:
-              slug = slugify(author)
-              path = f"content/authors/{slug}"
-              os.makedirs(path, exist_ok=True)
+for author in authors:
+    slug = slugify(author)
+    path = f"content/authors/{slug}"
+    os.makedirs(path, exist_ok=True)
 
-              with open(f"{path}/_index.md", "w", encoding="utf-8") as f:
-                  f.write(f"""---
+    with open(f"{path}/_index.md", "w", encoding="utf-8") as f:
+        f.write(f"""---
 title: "{author}"
 ---
 """)
 
-          print(f"Generated {len(authors)} authors")
-          EOF
+print(f"Generated {len(authors)} authors")
+EOF
 
       - name: Commit generated publications and authors
         run: |
