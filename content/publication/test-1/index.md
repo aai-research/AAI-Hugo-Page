@@ -1,6 +1,6 @@
 ---
 title: An Example Conference Paper on Applied AI
-author:
+authors:
   - admin
   - Robert Ford
 date: '2025-01-01'
