@@ -8,7 +8,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="/AAI-Hugo-Page/uploads/fischer.jpg" alt="M. Sc. Jana Fischer" />
+    <img src="e/uploads/fischer.jpg" alt="M. Sc. Jana Fischer" />
     <h1 class="h1-center">M. Sc. Jana Fischer</h1>
     <p class="team-role-single text-center">
       Doctoral researcher    </p>
@@ -19,7 +19,7 @@ _build:
   <!-- LINK -->
   <div class="team-links">
     <a href="https://scholar.google.com/citations?user=2ihf_YwAAAAJ&hl=de" target="_blank" class="team-link">
-      <img src="/AAI-Hugo-Page/uploads/scholar.jpg" alt="Google Scholar Icon" />
+      <img src="/uploads/scholar.jpg" alt="Google Scholar Icon" />
       <span>Google Scholar</span>
     </a>
   </div>
@@ -32,7 +32,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="/AAI-Hugo-Page/team">← Back to Team</a>
+    <a href="/team">← Back to Team</a>
   </div>
 
 </section>
