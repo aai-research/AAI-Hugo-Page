@@ -1,5 +1,10 @@
 <div>
   {{ range .Params.authors }}
-    <span>{{ . }}</span>
+    {{ $author := site.GetPage (printf "authors/%s" .) }}
+    {{ if $author }}
+      <span>{{ $author.Params.title }}</span>
+    {{ else }}
+      <span>{{ . }}</span>  {{/* Zeigt Slug, falls kein Autorenprofil */}}
+    {{ end }}
   {{ end }}
 </div>
