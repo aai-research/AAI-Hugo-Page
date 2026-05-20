@@ -214,8 +214,8 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
     img { width: 100%; height: 180px; object-fit: cover; }
 
     .collection-card-content { padding: 1.5rem; text-align: center; }
-    .collection-card-date { font-size: 0.875rem; color: $primary; margin-bottom: 0.5rem; }
-    .collection-card-summary { font-size: 1.2rem; color: $text; }
+    .collection-card-date { font-size: $font-size-text; color: $primary; margin-bottom: 0.5rem; }
+    .collection-card-summary { font-size: $font-size-text; color: $text; }
   }
 }
 
@@ -242,13 +242,13 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
   margin-bottom: 60px;
 
   h2 {
-    font-size: 2.5rem;
+    font-size: $font-size-subtitle;
     color: $primary;
     margin-bottom: 1rem;
   }
 
   .open-positions-intro {
-    font-size: 1.1rem;
+    font-size: $font-size-text;
     line-height: 1.6;
     margin-bottom: 40px;
     max-width: 800px;
@@ -303,8 +303,8 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 }
 
 @media (max-width: 480px) {
-  .home-intro h1 { font-size: 0.8rem; }
-  .home-intro .intro-text { font-size: 0.95rem; line-height: 1.5; }
+  .home-intro h1 { font-size: 0.4rem; }
+  .home-intro .intro-text { font-size: 0.2rem; line-height: 1.5; }
   .home-about-icons .care-item {
     width: 90px;
     .care-inner img { width: 65px; height: 65px; }
