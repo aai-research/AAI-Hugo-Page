@@ -8,7 +8,7 @@ _build:
 <section class="team-single">
 
   <div class="team-single-header">
-    <img src="/AAI-Hugo-Page/uploads/peter.jpg" alt="M. Sc. Luis Peter" />
+    <img src="/uploads/peter.jpg" alt="M. Sc. Luis Peter" />
     <h1 class="h1-center">M. Sc. Luis Peter</h1>
     <p class="team-role-single text-center">
       Doctoral researcher    </p>
@@ -18,13 +18,6 @@ _build:
     </div>
   </div>
 
-  <!-- LINK -->
-  <!--<div class="team-links">
-    <a href="https://scholar.google.com/..." target="_blank" class="team-link">
-      Google Scholar Publications
-    </a>
-  </div>-->
-
   <!-- BIO -->
   <div class="team-single-content">
     <p class="text-block">
@@ -33,7 +26,7 @@ _build:
   </div>
 
   <div class="team-single-footer">
-    <a href="/AAI-Hugo-Page/team">← Back to Team</a>
+    <a href="/team">← Back to Team</a>
   </div>
 
 </section>
