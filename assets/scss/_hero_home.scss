@@ -303,12 +303,12 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 }
 
 @media (max-width: 480px) {
-  .home-intro h1 { font-size: 1.8rem; }
+  .home-intro h1 { font-size: 0.8rem; }
   .home-intro .intro-text { font-size: 0.95rem; line-height: 1.5; }
   .home-about-icons .care-item {
     width: 90px;
     .care-inner img { width: 65px; height: 65px; }
-    p { font-size: 0.85rem; }
+    p { font-size: 0.25rem; }
   }
   .hero-partner-logos img { max-height: 35px; }
 }
