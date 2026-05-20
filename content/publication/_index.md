@@ -4,7 +4,7 @@ title: Publications
 
 # Listing view
 # view: citation
-view: list
+view: card
 show_authors: true
 
 # Optional banner image (relative to `assets/media/` folder).
