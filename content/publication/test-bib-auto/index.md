@@ -11,3 +11,5 @@ doi: 10.1000/exampledoi
 abstract: This paper presents an example of how AI systems can be applied in real-world
   scenarios.
 ---
+
+view:test 1
