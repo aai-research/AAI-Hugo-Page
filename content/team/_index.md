@@ -8,17 +8,15 @@ _build:
 
 <section class="team-page">
   <h1 class="h1-center"> Meet the Applied AI Lab Team </h1>
-
-  <header class="team-subheader">    
-  </header>
+  <header class="team-subheader"> </header>
   
 <!-- CLICKABLE MEMBER -->
   <section class="team-list">
     <article class="text-center">
       <a href= "/team/hannig/">
         <img src="/uploads/hannig.jpg" alt="Prof. Dr. Jennifer Hannig" />
-        <h3 class="text-center">Prof. Dr. Jennifer Hannig</h3>
-        <p class="team-role">Research group leader of the Applied AI Lab</p>
+        <h2 class="text-center">Prof. Dr. Jennifer Hannig</h3>
+       <h3 class="text-center">Research group leader of the Applied AI Lab</h3>
       </a>
     </article>
     <article class="text-center">
