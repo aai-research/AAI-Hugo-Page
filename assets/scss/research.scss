@@ -43,27 +43,27 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 
     /* 👉 sorgt dafür, dass es umbrechen darf */
     flex-wrap: wrap;
 
     .research-image {
-      flex: 1 1 300px;
+      flex: 1 1 100px;
 
       img {
         width: 100%;
-        height: 160px;
+        height: auto;
         object-fit: cover;
       }
     }
 
     .research-info {
-      flex: 1 1 300px;
-      padding: 1.5rem;
+      flex: 1 1 100px;
+      padding: 1.0rem;
 
       .research-summary {
-        font-size: 1rem;
+        font-size: $font-size-text;
         color: #555;
         line-height: 1.5;
       }
@@ -71,14 +71,14 @@
   }
 
   /* 📱 NUR Mobile wird kompakter */
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
 
     .research-card-inner {
       gap: 0.5rem;
     }
 
     .research-image img {
-      height: 120px;
+      height: 80px;
     }
 
     .research-info {
@@ -86,7 +86,7 @@
     }
 
     .research-summary {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
   }
 }
