@@ -20,11 +20,11 @@
     margin-bottom: 2rem;
   }
 
-  .research-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); // 2x2 bei ausreichend Platz
-    gap: 2rem;
-  }
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr;  // 👈 immer nur eine Spalte
+  gap: 1.0rem;
+}
 
 
 .research-card {
