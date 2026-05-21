@@ -38,7 +38,7 @@ _build:
           </div>
           <div class="research-info">
             <h2 class="text-left">VisSURG-AID</h2>
-            <p class="research-summary text-block">Visual Surgical Artificial Intelligence for Decision Support</p>
+            <p class="research-summary text-left">Visual Surgical Artificial Intelligence for Decision Support</p>
           </div>
         </div>
       </a>
@@ -52,7 +52,7 @@ _build:
           </div>
           <div class="research-info">
             <h2 class="text-left">X4Neuro</h2>
-            <p class="research-summary text-block">XAI for Digital Neuropathology</p>
+            <p class="research-summary text-left">XAI for Digital Neuropathology</p>
           </div>
         </div>
       </a>
@@ -66,7 +66,7 @@ _build:
           </div>
           <div class="research-info">
             <h2 class="text-left">SINAI-PD</h2>
-            <p class="research-summary text-block">Synchronous Intraoperative AI-based decision-making in partial duodenoapancreatectomy</p>
+            <p class="research-summary text-left">Synchronous Intraoperative AI-based decision-making in partial duodenoapancreatectomy</p>
           </div>
         </div>
       </a>
@@ -80,7 +80,7 @@ _build:
           </div>
           <div class="research-info">
             <h2 class="text-left">BPEAX</h2>
-            <p class="research-summary text-block">AI-based detection of exaggerated blood pressure response to exercise based on central blood pressure estimates and electrocardiogram data</p>
+            <p class="research-summary text-left">AI-based detection of exaggerated blood pressure response to exercise based on central blood pressure estimates and electrocardiogram data</p>
           </div>
         </div>
       </a>
