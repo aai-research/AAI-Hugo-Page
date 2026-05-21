@@ -26,45 +26,92 @@
     gap: 2rem;
   }
 
-  .research-card {
-    background: #fff;
-    border-radius: $card-radius;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
 
-    &:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+.research-card {
+  width: 100%;
+  background: #fff;
+  border-radius: $card-radius;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  }
+
+  .research-card-inner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    /* 👉 sorgt dafür, dass es automatisch umbricht */
+    flex-wrap: wrap;
+
+    .research-image {
+      flex: 1 1 300px;
+
+      img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
     }
 
-    .research-card-inner {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+    .research-info {
+      flex: 1 1 300px;
+      padding: 1.5rem;
 
-      .research-image {
-        flex: 1;
-        img {
-          width: 100%;
-          height: 150px;
-          object-fit: cover;
-        }
-      }
-
-      .research-info {
-        flex: 1;
-        padding: 1.5rem;
-
-         .research-summary {
-          font-size: 1rem;
-          color: #555;
-          line-height: 1.5;
-        }
+      .research-summary {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.5;
       }
     }
   }
+}  
 }
+
+//  .research-card {
+//    background: #fff;
+//    border-radius: $card-radius;
+//    overflow: hidden;
+//    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+//    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+//    &:hover {
+//      transform: translateY(-6px);
+//      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+//    }
+
+//    .research-card-inner {
+//      display: flex;
+//      flex-direction: row;
+//      align-items: center;
+
+//      .research-image {
+//        flex: 1;
+//        img {
+//          width: 100%;
+//          height: 150px;
+//          object-fit: cover;
+//        }
+//      }
+
+ //     .research-info {
+ //       flex: 1;
+ //       padding: 1.5rem;
+
+//         .research-summary {
+//          font-size: 1rem;
+//          color: #555;
+//          line-height: 1.5;
+//        }
+//      }
+//    }
+//  }
+//}
 
 // ==========================================================================
 // BEGIN SINGLE RESEARCH PROJECT:
