@@ -7,10 +7,10 @@ $bg: #f5f5f5;
 $link: #2563eb;
 
 // Font Sizes
-$font-size-title: 2.9rem;
-$font-size-subtitle: 1.1rem;
-$font-size-subsub: 0.6rem;
-$font-size-text: 0.5rem;
+$font-size-title: 0.5rem;
+$font-size-subtitle: 0.3rem;
+$font-size-subsub: 0.2rem;
+$font-size-text: 0.1rem;
 
 // Cards
 $card-bg: #ffffff;
@@ -290,25 +290,25 @@ a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
 // ==========================================================================
 // RESPONSIVE
 // ==========================================================================
-@media (max-width: 1024px) {
-  #news { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-  .home-open-positions { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
-  .home-about-icons { gap: 40px; }
-}
+//@media (max-width: 1024px) {
+//  #news { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+//  .home-open-positions { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
+//  .home-about-icons { gap: 40px; }
+//}
 
-@media (max-width: 768px) {
-  #news { display: grid !important; grid-template-columns: 1fr; gap: 15px; }
-  .home-open-positions { display: grid; grid-template-columns: 1fr; gap: 20px; justify-items: center; }
-  .home-about-icons { flex-direction: column; align-items: center; gap: 30px; }
-}
+//@media (max-width: 768px) {
+//  #news { display: grid !important; grid-template-columns: 1fr; gap: 15px; }
+//  .home-open-positions { display: grid; grid-template-columns: 1fr; gap: 20px; justify-items: center; }
+//  .home-about-icons { flex-direction: column; align-items: center; gap: 30px; }
+//}
 
-@media (max-width: 480px) {
-  .home-intro h1 { font-size: 0.4rem; }
-  .home-intro .intro-text { font-size: 0.2rem; line-height: 1.5; }
-  .home-about-icons .care-item {
-    width: 90px;
-    .care-inner img { width: 65px; height: 65px; }
-    p { font-size: 0.25rem; }
-  }
-  .hero-partner-logos img { max-height: 35px; }
-}
+//@media (max-width: 480px) {
+//  .home-intro h1 { font-size: 0.4rem; }
+//  .home-intro .intro-text { font-size: 0.2rem; line-height: 1.5; }
+//  .home-about-icons .care-item {
+//    width: 90px;
+ //   .care-inner img { width: 65px; height: 65px; }
+ //   p { font-size: 0.25rem; }
+ // }
+//  .hero-partner-logos img { max-height: 35px; }
+//}
