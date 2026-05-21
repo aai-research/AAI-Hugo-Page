@@ -28,33 +28,66 @@
 
 
 .research-card {
-  max-width: 500px;
-  margin: 0 auto;
-}
+  background: #fff;
+  border-radius: $card-radius;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 
-/* 🔥 Container Padding reduzieren (sehr wichtig bei Hugo/Blox) */
-.container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-/* 📱 Mobile: alles kompakter */
-@media (max-width: 600px) {
-
-  .research-card {
-    max-width: 100%;
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
   }
 
-  .research-image img {
-    height: 110px;
+  .research-card-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    /* 👉 sorgt dafür, dass es umbrechen darf */
+    flex-wrap: wrap;
+
+    .research-image {
+      flex: 1 1 300px;
+
+      img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+      }
+    }
+
+    .research-info {
+      flex: 1 1 300px;
+      padding: 1.5rem;
+
+      .research-summary {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.5;
+      }
+    }
   }
 
-  .research-info {
-    padding: 0.8rem;
-  }
+  /* 📱 NUR Mobile wird kompakter */
+  @media (max-width: 600px) {
 
-  .research-summary {
-    font-size: 0.85rem;
+    .research-card-inner {
+      gap: 0.5rem;
+    }
+
+    .research-image img {
+      height: 120px;
+    }
+
+    .research-info {
+      padding: 1rem;
+    }
+
+    .research-summary {
+      font-size: 0.9rem;
+    }
   }
 }
 }
