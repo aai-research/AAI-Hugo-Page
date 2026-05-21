@@ -28,65 +28,35 @@
 
 
 .research-card {
-  width: 100%;
-  background: #fff;
-  border-radius: $card-radius;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
-  &:hover {
-    transform: translateY(-4px); // etwas weniger auf Mobile
+/* 🔥 Container Padding reduzieren (sehr wichtig bei Hugo/Blox) */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* 📱 Mobile: alles kompakter */
+@media (max-width: 600px) {
+
+  .research-card {
+    max-width: 100%;
   }
 
-  .research-card-inner {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-
-    .research-image {
-      flex: 1 1 250px;
-
-      img {
-        width: 100%;
-        height: 160px;
-        object-fit: cover;
-      }
-    }
-
-    .research-info {
-      flex: 1 1 250px;
-      padding: 1.2rem;
-
-      .research-summary {
-        font-size: 0.95rem;
-        color: #555;
-        line-height: 1.5;
-      }
-    }
+  .research-image img {
+    height: 110px;
   }
 
-  /* 📱 Mobile Anpassung */
-  @media (max-width: 600px) {
-
-    .research-card-inner {
-      gap: 0.5rem;
-    }
-
-    .research-image img {
-      height: 130px;
-    }
-
-    .research-info {
-      padding: 1rem;
-
-      .research-summary {
-        font-size: 0.9rem;
-      }
-    }
+  .research-info {
+    padding: 0.8rem;
   }
-} 
+
+  .research-summary {
+    font-size: 0.85rem;
+  }
+}
 }
 
 //  .research-card {
