@@ -49,18 +49,18 @@
     flex-wrap: wrap;
 
     .research-image {
-      flex: 1 1 300px;
+      flex: 1 1 250px;
 
       img {
         width: 100%;
-        height: 180px;
+        height: 160px;
         object-fit: cover;
         display: block;
       }
     }
 
     .research-info {
-      flex: 1 1 300px;
+      flex: 1 1 250px;
       padding: 1.5rem;
 
       .research-summary {
