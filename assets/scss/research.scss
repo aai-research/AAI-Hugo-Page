@@ -49,18 +49,18 @@
     flex-wrap: wrap;
 
     .research-image {
-      flex: 1 1 100px;
+      flex: 1 1 120px;
 
       img {
-        width: 100%;
-        height: 100px;
+        width: 80%;
+        height: 120px;
         object-fit: cover;
       }
     }
 
     .research-info {
-      flex: 1 1 100px;
-      padding: 1.0rem;
+      flex: 1 1 120px;
+      padding: 0.5rem;
 
       .research-summary {
         font-size: $font-size-text;
