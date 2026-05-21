@@ -46,10 +46,10 @@ body {
 // Überschriften-Varianten (unverändert)
 .h1-center, .h2-center, .h3-center { text-align: center !important; }
 .h1-block, .h2-block, .h3-block { text-align: justify !important; hyphens: auto; }
-.h1-left, .h2-left, .h3-left { text-align: left !important; }
+.h1-left, .h2-left, .h3-left { text-align: left !important; hyphens: auto;}
 
 // Text Varianten (unverändert)
-.text-left    { text-align: left !important; }
+.text-left    { text-align: left !important; hyphens: auto; }
 .text-center  { text-align: center !important; }
 .text-block   { text-align: justify !important; hyphens: auto; }
 
