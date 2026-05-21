@@ -17,7 +17,7 @@ _build:
 <section class="about-section">
     <h1 class="h1-left">About Us</h1>
     <p class="text-block">
-      Test!Technologies based on artificial intelligence are increasingly shaping our daily lives, from healthcare and medicine to industry and finance. In particular, the analysis of time series data and complex medical datasets presents both opportunities and challenges, especially when AI decisions need to be transparent and trustworthy.
+      Technologies based on artificial intelligence are increasingly shaping our daily lives, from healthcare and medicine to industry and finance. In particular, the analysis of time series data and complex medical datasets presents both opportunities and challenges, especially when AI decisions need to be transparent and trustworthy.
     </p>
     <p class="text-block">
       The Applied AI-Lab, led by Prof. Dr. Jennifer Hannig, is a young and dynamic research group dedicated to Explainable Artificial Intelligence (XAI). We bring together expertise from computer science, statistics, and applied mathematics, with the goal of developing AI systems that are interpretable, reliable, and applicable to real-world problems.
