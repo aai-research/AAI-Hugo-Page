@@ -36,16 +36,13 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 
   &:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    transform: translateY(-4px); // etwas weniger auf Mobile
   }
 
   .research-card-inner {
     display: flex;
     align-items: center;
     gap: 1rem;
-
-    /* 👉 sorgt dafür, dass es automatisch umbricht */
     flex-wrap: wrap;
 
     .research-image {
@@ -55,22 +52,41 @@
         width: 100%;
         height: 160px;
         object-fit: cover;
-        display: block;
       }
     }
 
     .research-info {
       flex: 1 1 250px;
-      padding: 1.5rem;
+      padding: 1.2rem;
 
       .research-summary {
-        font-size: 1rem;
+        font-size: 0.95rem;
         color: #555;
         line-height: 1.5;
       }
     }
   }
-}  
+
+  /* 📱 Mobile Anpassung */
+  @media (max-width: 600px) {
+
+    .research-card-inner {
+      gap: 0.5rem;
+    }
+
+    .research-image img {
+      height: 130px;
+    }
+
+    .research-info {
+      padding: 1rem;
+
+      .research-summary {
+        font-size: 0.9rem;
+      }
+    }
+  }
+} 
 }
 
 //  .research-card {
