@@ -16,7 +16,6 @@
 @import "team";
 @import "research";
 @import "students";
-@import "publications";
 @import "contact";
 
 /* Research Projects */
@@ -49,15 +48,3 @@ body.page-appliedai .container {
   width: auto;
 }
 
-/*.navbar-brand {
-  font-size: 0; // Text unsichtbar machen
-}
-
-.navbar-brand::after {
-  content: "";
-  display: inline-block;
-  width: 120px;
-  height: 40px;
-  background: url("https://github.com/TimeXAIgroup/TimeXAI-Hugo-Page/edit/aai-first-version/static/uploads/aai_lab.png") no-repeat center;
-  background-size: contain;
-}*/
