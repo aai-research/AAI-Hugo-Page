@@ -1,0 +1,72 @@
+// ==========================================================================
+// DESIGN SYSTEM GLOBAL
+// ==========================================================================
+$primary: #302c2c;
+$text: #3d3e41;
+$bg: #f5f5f5;
+$link: #2563eb;
+
+// Font Sizes
+$font-size-title: 1.4rem;
+$font-size-subtitle: 1.2rem;
+$font-size-subsub: 1.0rem;
+$font-size-text: 0.8rem;
+
+// Cards
+$card-bg: #ffffff;
+$card-radius: 12px;
+$shadow-soft: 0 10px 30px rgba(0,0,0,0.05);
+$shadow-hover: 0 20px 40px rgba(0,0,0,0.08);
+$card-shadow: rgba(0, 0, 0, 0.1);
+
+/// ==========================================================================
+// TYPOGRAFIE GLOBAL (HUGOBLOX FIX)
+// ==========================================================================
+body {
+  font-family: 'Inter', sans-serif;
+  background: $bg;
+  color: $text;
+  margin: 0;
+  font-size: $font-size-text;
+  line-height: 1.6;
+}
+
+// 🔥 WICHTIG: HugoBlox nutzt .prose → hier rein
+.prose {
+
+  // Überschriften
+  h1 { font-size: $font-size-title; color: $primary; margin: 0.5em 0; font-weight: 600; }
+  h2 { font-size: $font-size-subtitle; color: $primary; margin: 0.5em 0; font-weight: 600; }
+  h3 { font-size: $font-size-subsub; color: $primary; margin: 0.5em 0; font-weight: 600; }
+
+  // Text
+  p { font-size: $font-size-text; line-height: 1.6; color: $text; }
+}
+
+// Überschriften-Varianten (unverändert)
+.h1-center, .h2-center, .h3-center { text-align: center !important; }
+.h1-block, .h2-block, .h3-block { text-align: justify !important; hyphens: auto; }
+.h1-left, .h2-left, .h3-left { text-align: left !important; }
+
+// Text Varianten (unverändert)
+.text-left    { text-align: left !important; }
+.text-center  { text-align: center !important; }
+.text-block   { text-align: justify !important; hyphens: auto; }
+
+// Links
+a { color: $link; text-decoration: none; &:hover { text-decoration: none; } }
+
+// ==========================================================================
+// CARDS GLOBAL
+// ==========================================================================
+.card {
+  background: $card-bg;
+  border-radius: $card-radius;
+  box-shadow: $shadow-soft;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-hover;
+  }
+}
