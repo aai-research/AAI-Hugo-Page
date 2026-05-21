@@ -34,7 +34,8 @@ _build:
       <a class="students-btn" href="/students/theses/">View Topics</a>
     </article>
   </section>
-  <!-- Office Hours -->
+  
+  <!-- Office Hours 
   <section class="office-hours">
     <h2 class="text-left">Office Hours</h2>
     <div class="office-card">
@@ -51,6 +52,6 @@ _build:
         <a class="btn-primary text-center" href="/students/theses/">Thesis Workflow →</a>
       </div>
     </div>
-  </section>
+  </section> -->
 
 </section>
