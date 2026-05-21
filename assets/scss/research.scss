@@ -52,7 +52,7 @@
       flex: 1 1 120px;
 
       img {
-        width: 80%;
+        width: 100%;
         height: 120px;
         object-fit: cover;
       }
@@ -61,6 +61,7 @@
     .research-info {
       flex: 1 1 120px;
       padding: 0.5rem;
+      min-width: 0;
 
       .research-summary {
         font-size: $font-size-text;
