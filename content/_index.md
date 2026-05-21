@@ -12,7 +12,7 @@ sections:
 #  content:
 #    text: |
 #      <div class="hero-home-small">
-#          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/teaser_homepage_aaiLab.png" alt="Hero Image"/>
+#          <img src="https://timexaigroup.github.io/TimeXAI-Hugo-Page/uploads/teaser_homepage_aaiLab_small.png" alt="Hero Image"/>
 #      </div>
 #  design:
 #    columns: '1'
