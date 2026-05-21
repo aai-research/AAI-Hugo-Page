@@ -9,7 +9,7 @@ _build:
 <!-- Hero Section -->  <!--<img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">-->
 <section class="hero-section">
   <div class="hero-image">
-    <img src="/uploads/group_photo_2.jpg" alt="Group Photo">
+    <img src="/uploads/group_photo_2_small.jpg" alt="Group Photo">
   </div>
 </section>
 
