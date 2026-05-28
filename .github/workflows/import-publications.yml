@@ -63,7 +63,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add content/publications/
+          git add content/publication/
 
           git commit -m "auto: update publication from bibtex" || echo "No changes"
 
