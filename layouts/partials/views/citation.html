@@ -5,10 +5,13 @@
 <!-- ===================== -->
 <div class="citation-item">
 
-  <!-- AUTHORS -->
+  <!-- AUTHORS (FIXED: controlled wrapping) -->
   {{ with $p.Params.authors }}
     <span class="authors">
-      {{ delimit . ", " }}.
+      {{ range $i, $a := . }}
+        {{ if $i }}, {{ end }}
+        <span class="author">{{ $a }}</span>
+      {{ end }}.
     </span>
   {{ end }}
 
@@ -105,12 +108,17 @@ function copyCite() {
 <style>
 .citation-item {
   display: block;
-  margin-bottom: 0.3rem;
-  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
 }
 
-.citation-item span {
-  display: inline;
+/* authors controlled wrapping */
+.authors {
+  white-space: normal;
+}
+
+.author {
+  white-space: nowrap;
 }
 
 .citation-actions {
