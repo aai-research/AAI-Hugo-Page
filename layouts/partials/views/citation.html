@@ -6,14 +6,15 @@
 <div class="citation-item">
 
   <!-- AUTHORS -->
-  {{ with $p.Params.authors }}
-    <span class="authors">
-      {{ range $i, $a := . }}
-        {{ if $i }}, {{ end }}
-        <span class="author">{{ $a }}</span>
-      {{ end }}.
-    </span>
-  {{ end }}
+{{ with $p.Params.authors }}
+  <span class="authors">
+    <span class="paper-icon">📄</span>
+    {{ range $i, $a := . }}
+      {{ if $i }},{{ end }}
+      <span class="author">{{ $a }}</span>
+    {{ end }}.
+  </span>
+{{ end }}
 
   <!-- YEAR -->
   {{ with $p.Params.date }}
@@ -130,6 +131,10 @@ function copyCite() {
   white-space: nowrap;
 }
 
+.paper-icon {
+  margin-right: 0.35rem;
+  opacity: 0.8;
+}
 /* ===================== */
 /* BUTTONS */
 /* ===================== */
