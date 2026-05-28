@@ -1,19 +1,17 @@
-{{ $page := . }}
+{ $p := .page }}
 
-<div class="publication-item">
+<article class="publication-item">
 
-  <!-- TITLE -->
   <h3 class="title">
-    {{ $page.Title }}
+    {{ $p.Title }}
   </h3>
 
-  <!-- AUTHORS -->
   <div class="authors">
-    {{ with $page.Params.authors }}
+    {{ with $p.Params.authors }}
       {{ delimit . ", " }}
     {{ else }}
       <span style="color:red;">No authors</span>
     {{ end }}
   </div>
 
-</div>
+</article>
