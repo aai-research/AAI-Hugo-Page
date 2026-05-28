@@ -7,7 +7,7 @@ _build:
 
 <section class="team-single">
 
-  <div class="team-single-header">
+ <div class="team-single-header">
     <img src="/uploads/fischer.jpg" alt="M. Sc. Jana Fischer" />
     <h1 class="h1-center">M. Sc. Jana Fischer</h1>
     <p class="team-role-single text-center">
