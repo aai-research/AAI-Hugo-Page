@@ -50,12 +50,12 @@ jobs:
 
       - name: Run Academic import
         run: |
-          academic import publications.bib content/publications/ --compact --verbose
+          academic import publications.bib content/publication/ --compact --verbose
 
       - name: Fix author field
         run: |
-          if [ -d "content/publications" ]; then
-            find content/publications -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
+          if [ -d "content/publication" ]; then
+            find content/publication -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
           fi
 
       - name: Commit and push changes
@@ -65,6 +65,6 @@ jobs:
 
           git add content/publications/
 
-          git commit -m "auto: update publications from bibtex" || echo "No changes"
+          git commit -m "auto: update publication from bibtex" || echo "No changes"
 
           git push
