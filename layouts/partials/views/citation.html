@@ -1,21 +1,20 @@
-{{/* FORCE RAW PARAMS ACCESS */}}
-
-{{ $page := . }}
+{{/* Zugriff auf echte Page */}}
+{{ $p := .Page }}
 
 <div>
 
-  {{ if isset $page.Params "authors" }}
+  {{ with $p.Params.authors }}
     <div>
-      {{ range $page.Params.authors }}
+      {{ range . }}
         <span>{{ . }}</span>
       {{ end }}
     </div>
   {{ else }}
-    <div style="color:red;">NO AUTHORS FIELD</div>
+    <div style="color:red;">NO AUTHORS FOUND (REAL PAGE)</div>
   {{ end }}
 
   <div>
-    <strong>{{ $page.Title }}</strong>
+    <strong>{{ $p.Title }}</strong>
   </div>
 
 </div>
