@@ -1,7 +1,17 @@
-<div class="pub-authors">
-  {{ with .Params.authors }}
-    {{ delimit . ", " }}
-  {{ else }}
-    <span style="color:red;">No authors</span>
-  {{ end }}
-</div>
+<article class="publication-item">
+
+  <!-- TITLE -->
+  <h3 class="title">
+    {{ .Title }}
+  </h3>
+
+  <!-- AUTHORS -->
+  <div class="authors">
+    {{ with .Params.authors }}
+      {{ delimit . ", " }}
+    {{ else }}
+      <span style="color:red;">No authors</span>
+    {{ end }}
+  </div>
+
+</article>
