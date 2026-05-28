@@ -1,0 +1,16 @@
+{{/* DEBUG */}}
+<div style="color:red;">
+  DEBUG: {{ .Params.authors }}
+</div>
+
+{{ with .Params.authors }}
+  <div>
+    {{ range . }}
+      <span>{{ . }}</span>
+    {{ end }}
+  </div>
+{{ end }}
+
+<div>
+  <strong>{{ .Title }}</strong>
+</div>
