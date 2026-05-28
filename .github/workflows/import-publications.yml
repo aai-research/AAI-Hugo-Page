@@ -61,64 +61,62 @@ jobs:
       - name: Fix authors properly (AND / and etc.)
         run: |
           python << 'EOF'
-import os
-import yaml
-import re
+          import os
+          import yaml
+          import re
 
-base = "content/publication"
+          base = "content/publication"
 
-for root, dirs, files in os.walk(base):
-    for f in files:
-        if f == "index.md":
-            path = os.path.join(root, f)
+          for root, dirs, files in os.walk(base):
+              for f in files:
+                  if f == "index.md":
+                      path = os.path.join(root, f)
 
-            with open(path, "r", encoding="utf-8") as file:
-                content = file.read()
+                      with open(path, "r", encoding="utf-8") as file:
+                          content = file.read()
 
-            if not content.startswith("---"):
-                continue
+                      if not content.startswith("---"):
+                          continue
 
-            parts = content.split("---")
-            if len(parts) < 3:
-                continue
+                      parts = content.split("---")
+                      if len(parts) < 3:
+                          continue
 
-            frontmatter = yaml.safe_load(parts[1])
+                      frontmatter = yaml.safe_load(parts[1])
 
-            if "authors" in frontmatter:
-                raw = frontmatter["authors"]
+                      if "authors" in frontmatter:
+                          raw = frontmatter["authors"]
 
-                # Fall: Liste mit einem String
-                if isinstance(raw, list) and len(raw) == 1:
-                    raw = raw[0]
+                          if isinstance(raw, list) and len(raw) == 1:
+                              raw = raw[0]
 
-                if isinstance(raw, str):
-                    # 🔥 FIX: AND / and / And etc.
-                    authors = [a.strip() for a in re.split(r"\s+(?i:and)\s+", raw)]
+                          if isinstance(raw, str):
+                              authors = [a.strip() for a in re.split(r"\s+(?i:and)\s+", raw)]
 
-                    clean = []
-                    for a in authors:
-                        if "," in a:
-                            last, first = a.split(",", 1)
-                            clean.append(first.strip() + " " + last.strip())
-                        else:
-                            clean.append(a.strip())
+                              clean = []
+                              for a in authors:
+                                  if "," in a:
+                                      last, first = a.split(",", 1)
+                                      clean.append(first.strip() + " " + last.strip())
+                                  else:
+                                      clean.append(a.strip())
 
-                    frontmatter["authors"] = clean
+                              frontmatter["authors"] = clean
 
-                    new_frontmatter = yaml.dump(
-                        frontmatter,
-                        allow_unicode=True,
-                        sort_keys=False,
-                        default_flow_style=False
-                    )
+                              new_frontmatter = yaml.dump(
+                                  frontmatter,
+                                  allow_unicode=True,
+                                  sort_keys=False,
+                                  default_flow_style=False
+                              )
 
-                    new_content = "---\n" + new_frontmatter + "---" + parts[2]
+                              new_content = "---\n" + new_frontmatter + "---" + parts[2]
 
-                    with open(path, "w", encoding="utf-8") as file:
-                        file.write(new_content)
+                              with open(path, "w", encoding="utf-8") as file:
+                                  file.write(new_content)
 
-print("✅ Authors fixed")
-EOF
+          print("✅ Authors fixed")
+          EOF
 
       - name: Commit and push changes
         run: |
