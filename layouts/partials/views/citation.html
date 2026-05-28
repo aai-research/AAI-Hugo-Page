@@ -160,17 +160,13 @@ function copyCite() {
 #citeModal {
   position: fixed;
   inset: 0;
-
   display: none;
-
   align-items: center;
   justify-content: center;
-
   background: rgba(0,0,0,0.6);
-
   z-index: 2147483647;
-
   isolation: isolate;
+  backdrop-filter: none; /* wichtig bei Wowchemy */
 }
 
 #citeModal.active {
