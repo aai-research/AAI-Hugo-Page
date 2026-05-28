@@ -9,10 +9,10 @@
 {{ with $p.Params.authors }}
   <span class="authors">
     <span class="paper-icon">📘📖📄</span>
-    {{ range $i, $a := . }}
-      {{ if $i }},{{ end }}
-      <span class="author">{{ $a }}</span>
-    {{ end }}.
+    {{- range $i, $a := . -}}
+      {{- if $i }}, {{ end -}}
+      <span class="author">{{- $a -}}</span>
+    {{- end -}}.
   </span>
 {{ end }}
 
