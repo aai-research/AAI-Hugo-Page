@@ -8,7 +8,7 @@
   <!-- AUTHORS -->
 {{ with $p.Params.authors }}
   <span class="authors">
-    <span class="paper-icon">📄</span>
+    <span class="paper-icon">📘📖📄</span>
     {{ range $i, $a := . }}
       {{ if $i }},{{ end }}
       <span class="author">{{ $a }}</span>
@@ -146,13 +146,13 @@ function copyCite() {
 }
 
 .btn-blue {
-  padding: 0.15rem 0.7rem;
+  padding: 0.15rem 0.6rem;
   border: 1.0px solid #0969da;
   border-radius: 6px;
   background: #ffffff;   /* <- weißer Hintergrund */
   color: #0969da;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-decoration: none;
   display: inline-block;
   transition: all 0.15s ease;
