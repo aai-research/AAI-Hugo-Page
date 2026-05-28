@@ -1,6 +1,6 @@
 <div class="authors">
-  {{ with .Params.authors_raw }}
-    {{ . }}
+  {{ with .Params.authors }}
+    {{ delimit . ", " }}
   {{ else }}
     <span style="color:red;">No authors set</span>
   {{ end }}
