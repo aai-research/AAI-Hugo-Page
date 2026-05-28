@@ -74,7 +74,7 @@
 </div>
 
 <!-- ===================== -->
-<!-- SCRIPT -->
+<!-- SCRIPT (GPU SAFE FIX) -->
 <!-- ===================== -->
 <script>
 async function openCite(url) {
@@ -87,14 +87,13 @@ async function openCite(url) {
 
     box.value = text;
 
-    // reset state
+    // 🔥 reset render state
     modal.classList.remove("active");
-    modal.style.display = "flex";
 
-    // force reflow
+    // force layout flush
     void modal.offsetWidth;
 
-    // safe repaint
+    // next frame = clean GPU composite
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         modal.classList.add("active");
@@ -109,13 +108,7 @@ async function openCite(url) {
 }
 
 function closeCite() {
-  const modal = document.getElementById("citeModal");
-
-  modal.classList.remove("active");
-
-  setTimeout(() => {
-    modal.style.display = "none";
-  }, 150);
+  document.getElementById("citeModal").classList.remove("active");
 }
 
 function copyCite() {
@@ -126,17 +119,54 @@ function copyCite() {
 </script>
 
 <!-- ===================== -->
-<!-- STYLE -->
+<!-- STYLE (FINAL SAFE LAYER) -->
 <!-- ===================== -->
 <style>
 
-/* MODAL BASE */
+/* CITATION */
+.citation-item {
+  display: block;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.authors {
+  white-space: normal;
+}
+
+.author {
+  white-space: nowrap;
+}
+
+/* ACTIONS */
+.citation-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.25rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background: #f3f3f3;
+}
+
+/* ===================== */
+/* MODAL (GPU SAFE VERSION) */
+/* ===================== */
+
 #citeModal {
   position: fixed;
   inset: 0;
 
-  display: none;
-
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -144,15 +174,23 @@ function copyCite() {
 
   z-index: 2147483647;
 
+  /* IMPORTANT: fixes theme stacking issues */
   isolation: isolate;
+
+  /* hidden by default */
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.12s ease;
 }
 
-/* ACTIVE STATE */
+/* active state */
 #citeModal.active {
-  display: flex;
+  opacity: 1;
+  pointer-events: auto;
 }
 
-/* BOX */
+/* modal box */
 .cite-box {
   background: white;
   width: 700px;
@@ -161,14 +199,14 @@ function copyCite() {
   border-radius: 10px;
 }
 
-/* TEXTAREA */
+/* textarea */
 #citeBox {
   width: 100%;
   height: 300px;
   font-family: monospace;
 }
 
-/* BUTTONS */
+/* buttons */
 .cite-actions {
   margin-top: 10px;
   display: flex;
