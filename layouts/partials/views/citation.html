@@ -13,3 +13,18 @@
   <div>
     <strong>{{ $p.Title }}</strong>
   </div>
+
+  <!-- Journal / Conference -->
+  {{ with $p.Params.publication }}
+    <div style="font-style: italic;">
+      {{ . | markdownify }}
+    </div>
+  {{ else }}
+    <div style="color:red;">NO PUBLICATION FIELD</div>
+  {{ end }}
+
+  {{ with $p.Params.date }}
+  <div>
+    {{ time.Format "2006" . }}
+  </div>
+{{ end }}
