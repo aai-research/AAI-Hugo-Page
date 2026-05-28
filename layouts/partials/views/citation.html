@@ -50,7 +50,7 @@
 
   <!-- CITE -->
   {{ with $p.File }}
-    <button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
+    <button class="btn-blue" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
       Cite
     </button>
   {{ end }}
@@ -141,20 +141,20 @@ function copyCite() {
 }
 
 .btn-blue {
-  padding: 0.25rem 0.7rem;
-  border: 1.5px solid #0969da;
+  padding: 0.15rem 0.7rem;
+  border: 1.0px solid #0969da;
   border-radius: 6px;
   background: #ffffff;   /* <- weißer Hintergrund */
   color: #0969da;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-decoration: none;
   display: inline-block;
   transition: all 0.15s ease;
 }
 
 .btn-blue:hover {
-  background: #f3f8ff;   /* leichtes blaues hover-white */
+  background: #c2c6cc;   /* leichtes blaues hover-white */
   color: #0969da;
 }
 
