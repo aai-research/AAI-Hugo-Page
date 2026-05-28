@@ -1,5 +1,5 @@
 ---
-title: An Example Conference Paper on Applied AI4
+title: An Example Conference Paper on Applied AI5
 summary: "Authors: John Doe, Anna Smith, Robert Ford"
 authors:
 - John Doe
