@@ -1,7 +1,7 @@
 {{ $p := .item }}
 
 <!-- ===================== -->
-<!-- CITATION LINE -->
+<!-- CITATION -->
 <!-- ===================== -->
 <div class="citation-item">
 
@@ -37,7 +37,7 @@
 </div>
 
 <!-- ===================== -->
-<!-- ACTION BUTTONS -->
+<!-- BUTTONS -->
 <!-- ===================== -->
 <div class="citation-actions">
 
@@ -48,7 +48,7 @@
     </a>
   {{ end }}
 
-  <!-- CITE BUTTON -->
+  <!-- CITE -->
   {{ with $p.File }}
     <button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
       📋 Cite
@@ -60,9 +60,7 @@
 <!-- ===================== -->
 <!-- MODAL -->
 <!-- ===================== -->
-
 <div id="citeModal">
-
   <div>
     <textarea id="citeBox"></textarea>
 
@@ -70,13 +68,11 @@
       <button onclick="copyCite()">Copy</button>
       <button onclick="closeCite()">Close</button>
     </div>
-
   </div>
-
 </div>
 
 <!-- ===================== -->
-<!-- JS -->
+<!-- SCRIPT -->
 <!-- ===================== -->
 <script>
 async function openCite(url) {
@@ -89,12 +85,18 @@ async function openCite(url) {
 
     box.value = text;
 
+    // STEP 1: show modal immediately
     modal.style.display = "block";
 
-    /* **FORCE REPAINT FIX (neu)** */
-    modal.offsetHeight;
+    // STEP 2: force layout recalculation
+    void modal.offsetWidth;
 
-    box.focus();
+    // STEP 3: force repaint pipeline (fix for Hugo/Wowchemy overlay bug)
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        box.focus();
+      });
+    });
 
   } catch (e) {
     alert("Could not load cite.bib");
@@ -119,12 +121,14 @@ function copyCite() {
 <!-- ===================== -->
 <style>
 
+/* CITATION LAYOUT */
 .citation-item {
   display: block;
   margin-bottom: 0.5rem;
   line-height: 1.6;
 }
 
+/* AUTHORS */
 .authors {
   white-space: normal;
 }
@@ -133,6 +137,7 @@ function copyCite() {
   white-space: nowrap;
 }
 
+/* BUTTONS */
 .citation-actions {
   display: flex;
   gap: 0.5rem;
@@ -153,23 +158,31 @@ function copyCite() {
 }
 
 /* ===================== */
-/* **MODAL FIX (NEU WICHTIG)** */
+/* MODAL FIX (CRITICAL) */
 /* ===================== */
 
 #citeModal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
-  z-index: 2147483647; /* **NEU: MAX Z-INDEX FIX** */
+  background: rgba(0,0,0,0.55);
+
+  /* 🔥 critical stacking fix */
+  isolation: isolate;
+
+  z-index: 999999999;
+
   display: none;
 }
 
 #citeModal > div {
+  position: relative;
   background: white;
   max-width: 700px;
   margin: 10% auto;
   padding: 1rem;
   border-radius: 10px;
+
+  z-index: 1000000000;
 }
 
 #citeBox {
