@@ -1,38 +1,55 @@
 {{ $p := .item }}
 
-<div>
+<div class="citation-item">
 
-  <!-- Authors -->
+  <!-- AUTHORS -->
   {{ with $p.Params.authors }}
-    <div>
-      {{ delimit . ", " }}
-    </div>
+    <span class="authors">
+      {{ delimit . ", " }}.
+    </span>
   {{ end }}
 
-  <!-- Title -->
-  <div>
-    <strong>{{ $p.Title }}</strong>
-  </div>
-
-  <!-- Publication (Journal/Conference) -->
-  {{ with $p.Params.publication }}
-    <div style="font-style: italic;">
-      {{ . | markdownify }}
-    </div>
-  {{ end }}
-
-  <!-- Year -->
+  <!-- YEAR -->
   {{ with $p.Params.date }}
-    <div>
-      {{ time.Format "2006" . }}
-    </div>
+    <span class="year">
+      ({{ time.Format "2006" . }}).
+    </span>
   {{ end }}
 
-  <!-- Publication Type (optional) -->
-  {{ with $p.Params.publication_types }}
-    <div>
-      {{ delimit . ", " }}
-    </div>
+  <!-- TITLE -->
+  <span class="title">
+    <strong>{{ $p.Title }}</strong>.
+  </span>
+
+  <!-- PUBLICATION -->
+  {{ with $p.Params.publication }}
+    <span class="publication">
+      {{ . | markdownify }}.
+    </span>
   {{ end }}
+
+  <!-- DOI TEXT -->
+  {{ with $p.Params.doi }}
+    <span class="doi">
+      https://doi.org/{{ . }}
+    </span>
+  {{ end }}
+
+</div>
+
+<!-- ACTION BUTTONS -->
+<div class="citation-actions">
+
+  <!-- DOI BUTTON -->
+  {{ with $p.Params.doi }}
+    <a class="btn" href="https://doi.org/{{ . }}" target="_blank">
+      🔗 DOI
+    </a>
+  {{ end }}
+
+  <!-- CITE BUTTON -->
+  <button class="btn" onclick="copyBib('{{ $p.RelPermalink }}')">
+    📋 Cite
+  </button>
 
 </div>
