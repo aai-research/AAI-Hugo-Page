@@ -92,14 +92,24 @@ jobs:
 
                           if isinstance(raw, str):
                               authors = [a.strip() for a in re.split(r"\s+(?i:and)\s+", raw)]
-
+                          
                               clean = []
                               for a in authors:
+                                  a = a.strip()
+                          
+                                  # entferne kaputte Zeilenumbrüche etc.
+                                  a = " ".join(a.split())
+                          
                                   if "," in a:
-                                      last, first = a.split(",", 1)
-                                      clean.append(first.strip() + " " + last.strip())
+                                      parts = [p.strip() for p in a.split(",", 1)]
+                          
+                                      if len(parts) == 2:
+                                          last, first = parts
+                                          clean.append(f"{first} {last}")
+                                      else:
+                                          clean.append(a)
                                   else:
-                                      clean.append(a.strip())
+                                      clean.append(a)
 
                               frontmatter["authors"] = clean
 
