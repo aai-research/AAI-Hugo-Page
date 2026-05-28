@@ -5,13 +5,17 @@
     {{ .Title }}
   </h3>
 
-  <!-- AUTHORS -->
-  <div class="authors">
-    {{ with .Params.authors }}
-      {{ delimit . ", " }}
+  <!-- DEBUG (wichtig!) -->
+  {{ if .Params }}
+    {{ if .Params.authors }}
+      <div class="authors">
+        {{ delimit .Params.authors ", " }}
+      </div>
     {{ else }}
-      <span style="color:red;">No authors</span>
+      <div style="color:red;">No authors (Params exists but empty)</div>
     {{ end }}
-  </div>
+  {{ else }}
+    <div style="color:red;">No Params at all</div>
+  {{ end }}
 
 </article>
