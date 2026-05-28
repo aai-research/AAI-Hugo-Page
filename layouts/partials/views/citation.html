@@ -74,7 +74,7 @@
 </div>
 
 <!-- ===================== -->
-<!-- SCRIPT (GPU SAFE FIX) -->
+<!-- SCRIPT -->
 <!-- ===================== -->
 <script>
 async function openCite(url) {
@@ -87,19 +87,8 @@ async function openCite(url) {
 
     box.value = text;
 
-    // 🔥 reset render state
-    modal.classList.remove("active");
-
-    // force layout flush
-    void modal.offsetWidth;
-
-    // next frame = clean GPU composite
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        modal.classList.add("active");
-        box.focus();
-      });
-    });
+    // simple + stable show
+    modal.classList.add("active");
 
   } catch (e) {
     console.error(e);
@@ -119,11 +108,14 @@ function copyCite() {
 </script>
 
 <!-- ===================== -->
-<!-- STYLE (FINAL SAFE LAYER) -->
+<!-- STYLE -->
 <!-- ===================== -->
 <style>
 
+/* ===================== */
 /* CITATION */
+/* ===================== */
+
 .citation-item {
   display: block;
   margin-bottom: 0.5rem;
@@ -138,7 +130,10 @@ function copyCite() {
   white-space: nowrap;
 }
 
-/* ACTIONS */
+/* ===================== */
+/* BUTTONS */
+/* ===================== */
+
 .citation-actions {
   display: flex;
   gap: 0.5rem;
@@ -159,38 +154,30 @@ function copyCite() {
 }
 
 /* ===================== */
-/* MODAL (GPU SAFE VERSION) */
+/* MODAL (STABLE FIX) */
 /* ===================== */
 
 #citeModal {
   position: fixed;
   inset: 0;
 
-  display: flex;
+  display: none;
+
   align-items: center;
   justify-content: center;
 
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.6);
 
   z-index: 2147483647;
 
-  /* IMPORTANT: fixes theme stacking issues */
   isolation: isolate;
-
-  /* hidden by default */
-  opacity: 0;
-  pointer-events: none;
-
-  transition: opacity 0.12s ease;
 }
 
-/* active state */
 #citeModal.active {
-  opacity: 1;
-  pointer-events: auto;
+  display: flex;
 }
 
-/* modal box */
+/* BOX */
 .cite-box {
   background: white;
   width: 700px;
@@ -199,14 +186,14 @@ function copyCite() {
   border-radius: 10px;
 }
 
-/* textarea */
+/* TEXTAREA */
 #citeBox {
   width: 100%;
   height: 300px;
   font-family: monospace;
 }
 
-/* buttons */
+/* ACTIONS */
 .cite-actions {
   margin-top: 10px;
   display: flex;
