@@ -48,10 +48,86 @@
   {{ end }}
 
   <!-- CITE BUTTON -->
-{{ with $p.File }}
-  <a class="btn" href="{{ printf "%s/cite.bib" .Dir | relURL }}" download>
-    📋 Cite
-  </a>
-{{ end }}
+  {{ with $p.File }}
+    <button class="btn" onclick="openCiteModal('{{ printf "%s/cite.bib" .RelPermalink }}')">
+      📋 Cite
+    </button>
+  {{ end }}
 
 </div>
+
+<!-- ===================== -->
+<!-- MODAL -->
+<!-- ===================== -->
+<div id="citeModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:9999;">
+  <div style="background:#fff; max-width:700px; margin:10% auto; padding:1rem; border-radius:10px;">
+
+    <textarea id="citeBox" style="width:100%; height:300px; font-family:monospace;"></textarea>
+
+    <div style="margin-top:10px; display:flex; gap:10px;">
+      <button onclick="copyCite()">Copy</button>
+      <button onclick="closeCite()">Close</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== -->
+<!-- JS -->
+<!-- ===================== -->
+<script>
+async function openCiteModal(url) {
+  try {
+    const res = await fetch(url);
+    const text = await res.text();
+
+    document.getElementById("citeBox").value = text;
+    document.getElementById("citeModal").style.display = "block";
+  } catch (e) {
+    alert("Could not load cite.bib");
+    console.error(e);
+  }
+}
+
+function closeCite() {
+  document.getElementById("citeModal").style.display = "none";
+}
+
+function copyCite() {
+  const el = document.getElementById("citeBox");
+  el.select();
+  document.execCommand("copy");
+  alert("BibTeX copied!");
+}
+</script>
+
+<!-- ===================== -->
+<!-- BASIC STYLING -->
+<!-- ===================== -->
+<style>
+.citation-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.citation-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.25rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f3f3f3;
+}
+</style>
