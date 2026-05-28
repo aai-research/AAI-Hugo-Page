@@ -5,7 +5,7 @@
 <!-- ===================== -->
 <div class="citation-item">
 
-  <!-- AUTHORS (FIXED: controlled wrapping) -->
+  <!-- AUTHORS -->
   {{ with $p.Params.authors }}
     <span class="authors">
       {{ range $i, $a := . }}
@@ -48,7 +48,7 @@
     </a>
   {{ end }}
 
-  <!-- CITE BUTTON (loads cite.bib via fetch) -->
+  <!-- CITE BUTTON -->
   {{ with $p.File }}
     <button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
       📋 Cite
@@ -60,10 +60,11 @@
 <!-- ===================== -->
 <!-- MODAL -->
 <!-- ===================== -->
-<div id="citeModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:9999;">
-  <div style="background:#fff; max-width:700px; margin:10% auto; padding:1rem; border-radius:10px;">
 
-    <textarea id="citeBox" style="width:100%; height:300px; font-family:monospace;"></textarea>
+<div id="citeModal">
+
+  <div>
+    <textarea id="citeBox"></textarea>
 
     <div style="margin-top:10px; display:flex; gap:10px;">
       <button onclick="copyCite()">Copy</button>
@@ -71,10 +72,11 @@
     </div>
 
   </div>
+
 </div>
 
 <!-- ===================== -->
-<!-- JAVASCRIPT -->
+<!-- JS -->
 <!-- ===================== -->
 <script>
 async function openCite(url) {
@@ -82,8 +84,18 @@ async function openCite(url) {
     const res = await fetch(url);
     const text = await res.text();
 
-    document.getElementById("citeBox").value = text;
-    document.getElementById("citeModal").style.display = "block";
+    const modal = document.getElementById("citeModal");
+    const box = document.getElementById("citeBox");
+
+    box.value = text;
+
+    modal.style.display = "block";
+
+    /* **FORCE REPAINT FIX (neu)** */
+    modal.offsetHeight;
+
+    box.focus();
+
   } catch (e) {
     alert("Could not load cite.bib");
     console.error(e);
@@ -103,16 +115,16 @@ function copyCite() {
 </script>
 
 <!-- ===================== -->
-<!-- BASIC STYLING (no SCSS needed) -->
+<!-- CSS -->
 <!-- ===================== -->
 <style>
+
 .citation-item {
   display: block;
   margin-bottom: 0.5rem;
   line-height: 1.6;
 }
 
-/* authors controlled wrapping */
 .authors {
   white-space: normal;
 }
@@ -139,4 +151,31 @@ function copyCite() {
 .btn:hover {
   background: #f3f3f3;
 }
+
+/* ===================== */
+/* **MODAL FIX (NEU WICHTIG)** */
+/* ===================== */
+
+#citeModal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 2147483647; /* **NEU: MAX Z-INDEX FIX** */
+  display: none;
+}
+
+#citeModal > div {
+  background: white;
+  max-width: 700px;
+  margin: 10% auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#citeBox {
+  width: 100%;
+  height: 300px;
+  font-family: monospace;
+}
+
 </style>
