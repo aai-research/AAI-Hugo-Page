@@ -44,17 +44,17 @@
   <!-- DOI -->
   {{ with $p.Params.doi }}
     <a class="btn" href="https://doi.org/{{ . }}" target="_blank">
-      🔗 DOI
+      DOI
     </a>
   {{ end }}
 
   <!-- CITE -->
   {{ with $p.File }}
     <button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
-      📋 Cite
+      Cite
     </button>
   {{ end }}
-
+ 
 </div>
 
 <!-- ===================== -->
@@ -140,17 +140,22 @@ function copyCite() {
   margin-bottom: 1.5rem;
 }
 
-.btn {
-  padding: 0.25rem 0.6rem;
-  border: 1px solid #ccc;
+.btn-blue {
+  padding: 0.25rem 0.7rem;
+  border: 1.5px solid #0969da;
   border-radius: 6px;
-  background: white;
+  background: transparent;
+  color: #0969da;
   cursor: pointer;
   font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.15s ease;
 }
 
-.btn:hover {
-  background: #f3f3f3;
+.btn-blue:hover {
+  background: #0969da;
+  color: white;
 }
 
 /* ===================== */
