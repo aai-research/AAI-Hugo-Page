@@ -1,12 +1,5 @@
-# Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages
 name: Import Publications From Bibtex
 
-# Require permission to create a PR (least privilege principle)
-permissions:
-  contents: write
-  pull-requests: write
-
-# Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
   push:
     branches: ['aai-first-version']
@@ -16,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: import-publications-${{ github.ref }}
@@ -51,32 +45,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install "academic>=0.10.0"
 
-      - name: Check publications.bib exists
+      - name: Validate Bib file exists
         run: |
-          if [ ! -f "publications.bib" ]; then
-            echo "❌ publications.bib not found"
-            exit 1
-          fi
-          echo "✅ publications.bib found"
+          test -f publications.bib || (echo "❌ publications.bib missing" && exit 1)
 
       - name: Run Academic import
         run: |
-          echo "🚀 Importing publications..."
           academic import publications.bib content/publications/ --compact --verbose
 
-      - name: Fix author field (Hugo Blox compatibility)
+      - name: Fix author field
         run: |
-          if [ -d "content/publications" ]; then
-            find content/publications -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
-          fi
+          find content/publications -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git add content/publications/
-
-          git commit -m "auto: import publications from bibtex" || echo "No changes to commit"
-
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "auto: import publications from bibtex"
+          title: "📚 Import latest publications"
+          body: |
+            Automated import from publications.bib
+          branch: bibtex-import-${{ github.run_id }}
+          base: aai-first-version
+          delete-branch: true
+          labels: automated, publications
