@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<h1>Publications</h1>
+
+<div class="publication-list">
+
+  {{ range .Pages }}
+
+    <article style="margin-bottom: 1.5rem;">
+
+      <!-- TITLE -->
+      <h3>
+        {{ .Title }}
+      </h3>
+
+      <!-- AUTHORS -->
+      <div>
+        {{ with .Params.authors }}
+          {{ delimit . ", " }}
+        {{ else }}
+          <span style="color:red;">No authors</span>
+        {{ end }}
+      </div>
+
+      <!-- YEAR -->
+      <div style="opacity: 0.7;">
+        {{ .Date.Format "2006" }}
+      </div>
+
+    </article>
+
+  {{ end }}
+
+</div>
+
+{{ end }}
