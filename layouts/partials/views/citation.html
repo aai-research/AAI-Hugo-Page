@@ -48,8 +48,10 @@
   {{ end }}
 
   <!-- CITE BUTTON -->
-  <button class="btn" onclick="copyBib('{{ $p.RelPermalink }}')">
+{{ with $p.File }}
+  <a class="btn" href="{{ .RelPermalink }}cite.bib" download>
     📋 Cite
-  </button>
+  </a>
+{{ end }}
 
 </div>
