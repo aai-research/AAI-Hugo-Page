@@ -48,11 +48,11 @@
   {{ end }}
 
   <!-- CITE BUTTON -->
-  {{ with $p.File }}
-    <button class="btn" onclick="openCiteModal('{{ printf "%s/cite.bib" .RelPermalink }}')">
-      📋 Cite
-    </button>
-  {{ end }}
+{{ with $p.File }}
+<button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
+  📋 Cite
+</button>
+{{ end }}
 
 </div>
 
