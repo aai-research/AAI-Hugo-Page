@@ -49,7 +49,7 @@
 
   <!-- CITE BUTTON -->
 {{ with $p.File }}
-  <a class="btn" href="{{ .RelPermalink }}cite.bib" download>
+  <a class="btn" href="{{ printf "%s/cite.bib" .Dir | relURL }}" download>
     📋 Cite
   </a>
 {{ end }}
