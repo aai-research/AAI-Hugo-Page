@@ -163,63 +163,127 @@ function copyCite() {
   display: none;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.55);
   z-index: 2147483647;
   isolation: isolate;
-  backdrop-filter: none; /* wichtig bei Wowchemy */
 }
 
 #citeModal.active {
   display: flex;
 }
 
-.cite-box {
-  background: white;
-  width: 700px;
-  max-width: 90vw;
-  padding: 1rem;
-  border-radius: 10px;
-
-  /* 🔥 FIX: prevents internal overlap rendering bugs */
+  .cite-box {
+  background: #ffffff;
+  width: 760px;
+  max-width: 92vw;
+  border-radius: 12px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
+  gap: 14px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+  .cite-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#citeBox {
+  width: 100%;
+  height: 320px;
+  padding: 14px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  resize: none;
+  white-space: pre;
+}
+
+  .cite-actions {
+  display: flex;
+  justify-content: flex-end;
   gap: 10px;
 }
 
-  /* BOX */
-#citeBox {
-  width: 100%;
-  height: 300px;
-  font-family: monospace;
+/* buttons */
+.cite-actions button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
 
-  /* 🔥 CRITICAL FIX */
-  box-sizing: border-box;
-  padding: 10px;
-  line-height: 1.4;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+
+  background: #ffffff;
+  cursor: pointer;
+
+  transition: background 0.15s ease;
 }
 
- 
-/* BOX */
+/* hover */
+.cite-actions button:hover {
+  background: #f3f4f6;
+}
+
+/* primary button feel (first button = Copy) */
+.cite-actions button:first-child {
+  border-color: #0969da;
+  color: #0969da;
+}
+
+  
+  
+/*#citeModal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.6);
+  z-index: 2147483647;
+  isolation: isolate;
+  backdrop-filter: none; *//* wichtig bei Wowchemy */
+}
+
+/*#citeModal.active {
+  display: flex;
+}*/
+
 /*.cite-box {
   background: white;
   width: 700px;
   max-width: 90vw;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 10px;*/
+
+  /* 🔥 FIX: prevents internal overlap rendering bugs */
+   /*display: flex;
+  flex-direction: column;
+  gap: 10px;
 }*/
 
-/* TEXTAREA */
+  /* BOX */
 /*#citeBox {
   width: 100%;
   height: 300px;
-  font-family: monospace;
+  font-family: monospace;*/
+
+  /* 🔥 CRITICAL FIX */
+ /* box-sizing: border-box;
+  padding: 10px;
+  line-height: 1.4;
 }*/
 
 /* ACTIONS */
-.cite-actions {
+/*.cite-actions {
   margin-top: 10px;
   display: flex;
   gap: 10px;
-}
+}*/
 
 </style>
