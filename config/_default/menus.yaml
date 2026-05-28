@@ -15,7 +15,7 @@ main:
     weight: 40
   - name: Publications
     #url: publications #manuel
-    url: publications #with bib file
+    url: publication #with bib file
     weight: 50
   - name: For Students
     url: students
