@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: import-publications-${{ github.ref }}
@@ -45,9 +44,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install "academic>=0.10.0"
 
-      - name: Validate Bib file exists
+      - name: Validate Bib file
         run: |
-          test -f publications.bib || (echo "❌ publications.bib missing" && exit 1)
+          test -f publications.bib || (echo "❌ publications.bib not found" && exit 1)
 
       - name: Run Academic import
         run: |
@@ -55,16 +54,17 @@ jobs:
 
       - name: Fix author field
         run: |
-          find content/publications -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
+          if [ -d "content/publications" ]; then
+            find content/publications -name "index.md" -type f -exec sed -i 's/^author:/authors:/g' {} +
+          fi
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v8
-        with:
-          commit-message: "auto: import publications from bibtex"
-          title: "📚 Import latest publications"
-          body: |
-            Automated import from publications.bib
-          branch: bibtex-import-${{ github.run_id }}
-          base: aai-first-version
-          delete-branch: true
-          labels: automated, publications
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add content/publications/
+
+          git commit -m "auto: update publications from bibtex" || echo "No changes"
+
+          git push
