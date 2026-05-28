@@ -1,6 +1,7 @@
 ---
 title: An Example Conference Paper on Applied AI1
 authors:
+- admin
 - John Doe
 - Anna Smith
 - Robert Ford
