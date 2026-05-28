@@ -37,7 +37,7 @@
 </div>
 
 <!-- ===================== -->
-<!-- BUTTONS -->
+<!-- ACTION BUTTONS -->
 <!-- ===================== -->
 <div class="citation-actions">
 
@@ -58,9 +58,9 @@
 </div>
 
 <!-- ===================== -->
-<!-- MODAL -->
+<!-- MODAL (PORTAL ROOT) -->
 <!-- ===================== -->
-<div id="citeModal">
+<div id="citeModal" style="display:none;">
   <div>
     <textarea id="citeBox"></textarea>
 
@@ -80,27 +80,24 @@ async function openCite(url) {
     const res = await fetch(url);
     const text = await res.text();
 
-    const modal = document.getElementById("citeModal");
-    const box = document.getElementById("citeBox");
+    let modal = document.getElementById("citeModal");
 
+    // 🔥 CRITICAL: move modal to body (escape theme stacking context)
+    document.body.appendChild(modal);
+
+    const box = document.getElementById("citeBox");
     box.value = text;
 
-    // STEP 1: show modal immediately
-    modal.style.display = "block";
+    modal.style.display = "flex";
 
-    // STEP 2: force layout recalculation
-    void modal.offsetWidth;
-
-    // STEP 3: force repaint pipeline (fix for Hugo/Wowchemy overlay bug)
+    // force repaint safety
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        box.focus();
-      });
+      box.focus();
     });
 
   } catch (e) {
-    alert("Could not load cite.bib");
     console.error(e);
+    alert("Could not load cite.bib");
   }
 }
 
@@ -121,14 +118,13 @@ function copyCite() {
 <!-- ===================== -->
 <style>
 
-/* CITATION LAYOUT */
+/* CITATION */
 .citation-item {
   display: block;
   margin-bottom: 0.5rem;
   line-height: 1.6;
 }
 
-/* AUTHORS */
 .authors {
   white-space: normal;
 }
@@ -158,31 +154,28 @@ function copyCite() {
 }
 
 /* ===================== */
-/* MODAL FIX (CRITICAL) */
+/* MODAL (FINAL FIX) */
 /* ===================== */
 
 #citeModal {
   position: fixed;
   inset: 0;
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+
   background: rgba(0,0,0,0.55);
 
-  /* 🔥 critical stacking fix */
-  isolation: isolate;
-
-  z-index: 999999999;
-
-  display: none;
+  z-index: 2147483647; /* max safe layer */
 }
 
 #citeModal > div {
-  position: relative;
   background: white;
-  max-width: 700px;
-  margin: 10% auto;
+  width: 700px;
+  max-width: 90vw;
   padding: 1rem;
   border-radius: 10px;
-
-  z-index: 1000000000;
 }
 
 #citeBox {
