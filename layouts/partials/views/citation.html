@@ -1,5 +1,8 @@
 {{ $p := .item }}
 
+<!-- ===================== -->
+<!-- CITATION LINE -->
+<!-- ===================== -->
 <div class="citation-item">
 
   <!-- AUTHORS -->
@@ -23,36 +26,107 @@
 
   <!-- PUBLICATION -->
   {{ with $p.Params.publication }}
-    <span class="publication">
+    <span class="pub">
       {{ . | markdownify }}.
-    </span>
-  {{ end }}
-
-  <!-- DOI TEXT -->
-  {{ with $p.Params.doi }}
-    <span class="doi">
-      https://doi.org/{{ . }}
     </span>
   {{ end }}
 
 </div>
 
+<!-- ===================== -->
 <!-- ACTION BUTTONS -->
+<!-- ===================== -->
 <div class="citation-actions">
 
-  <!-- DOI BUTTON -->
+  <!-- DOI -->
   {{ with $p.Params.doi }}
     <a class="btn" href="https://doi.org/{{ . }}" target="_blank">
       🔗 DOI
     </a>
   {{ end }}
 
-  <!-- CITE BUTTON -->
-{{ with $p.File }}
-<button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
-  📋 Cite
-</button>
-{{ end }}
+  <!-- CITE BUTTON (loads cite.bib via fetch) -->
+  {{ with $p.File }}
+    <button class="btn" onclick="openCite('{{ printf "%s/cite.bib" .Dir | relURL }}')">
+      📋 Cite
+    </button>
+  {{ end }}
 
 </div>
 
+<!-- ===================== -->
+<!-- MODAL -->
+<!-- ===================== -->
+<div id="citeModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:9999;">
+  <div style="background:#fff; max-width:700px; margin:10% auto; padding:1rem; border-radius:10px;">
+
+    <textarea id="citeBox" style="width:100%; height:300px; font-family:monospace;"></textarea>
+
+    <div style="margin-top:10px; display:flex; gap:10px;">
+      <button onclick="copyCite()">Copy</button>
+      <button onclick="closeCite()">Close</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== -->
+<!-- JAVASCRIPT -->
+<!-- ===================== -->
+<script>
+async function openCite(url) {
+  try {
+    const res = await fetch(url);
+    const text = await res.text();
+
+    document.getElementById("citeBox").value = text;
+    document.getElementById("citeModal").style.display = "block";
+  } catch (e) {
+    alert("Could not load cite.bib");
+    console.error(e);
+  }
+}
+
+function closeCite() {
+  document.getElementById("citeModal").style.display = "none";
+}
+
+function copyCite() {
+  const el = document.getElementById("citeBox");
+  el.select();
+  document.execCommand("copy");
+  alert("BibTeX copied!");
+}
+</script>
+
+<!-- ===================== -->
+<!-- BASIC STYLING (no SCSS needed) -->
+<!-- ===================== -->
+<style>
+.citation-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.citation-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.25rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background: #f3f3f3;
+}
+</style>
