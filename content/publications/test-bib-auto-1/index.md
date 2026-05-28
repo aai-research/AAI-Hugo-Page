@@ -1,7 +1,10 @@
 ---
 title: An Example Conference Paper on Applied AI2
 summary: "Authors: John Doe, Anna Smith, Robert Ford"
-authors: "John Doe, Anna Smith"
+authors:
+- John Doe
+- Anna Smith
+- Robert Ford
 date: '2025-01-01'
 publishDate: '2026-05-28T07:23:40.577008Z'
 publication_types:
