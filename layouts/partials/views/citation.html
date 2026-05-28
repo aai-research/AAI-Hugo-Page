@@ -2,29 +2,37 @@
 
 <div>
 
-{{ with $p.Params.authors }}
-  <div>
-    {{ range $i, $a := . }}
-      {{ if $i }}, {{ end }}{{ $a }}
-    {{ end }}
-  </div>
-{{ end }}
+  <!-- Authors -->
+  {{ with $p.Params.authors }}
+    <div>
+      {{ delimit . ", " }}
+    </div>
+  {{ end }}
 
+  <!-- Title -->
   <div>
     <strong>{{ $p.Title }}</strong>
   </div>
 
-  <!-- Journal / Conference -->
+  <!-- Publication (Journal/Conference) -->
   {{ with $p.Params.publication }}
     <div style="font-style: italic;">
       {{ . | markdownify }}
     </div>
-  {{ else }}
-    <div style="color:red;">NO PUBLICATION FIELD</div>
   {{ end }}
 
+  <!-- Year -->
   {{ with $p.Params.date }}
-  <div>
-    {{ time.Format "2006" . }}
-  </div>
-{{ end }}
+    <div>
+      {{ time.Format "2006" . }}
+    </div>
+  {{ end }}
+
+  <!-- Publication Type (optional) -->
+  {{ with $p.Params.publication_types }}
+    <div>
+      {{ delimit . ", " }}
+    </div>
+  {{ end }}
+
+</div>
