@@ -1,5 +1,4 @@
-{{/* Zugriff auf echte Page */}}
-{{ $p := .Page }}
+{{ $p := .item }}
 
 <div>
 
@@ -10,11 +9,9 @@
       {{ end }}
     </div>
   {{ else }}
-    <div style="color:red;">NO AUTHORS FOUND (REAL PAGE)</div>
+    <div style="color:red;">NO AUTHORS VIA ITEM</div>
   {{ end }}
 
   <div>
     <strong>{{ $p.Title }}</strong>
   </div>
-
-</div>
