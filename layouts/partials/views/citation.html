@@ -1,16 +1,21 @@
-{{/* DEBUG */}}
-<div style="color:red;">
-  DEBUG: {{ .Params.authors }}
-</div>
+{{/* FORCE RAW PARAMS ACCESS */}}
 
-{{ with .Params.authors }}
-  <div>
-    {{ range . }}
-      <span>{{ . }}</span>
-    {{ end }}
-  </div>
-{{ end }}
+{{ $page := . }}
 
 <div>
-  <strong>{{ .Title }}</strong>
+
+  {{ if isset $page.Params "authors" }}
+    <div>
+      {{ range $page.Params.authors }}
+        <span>{{ . }}</span>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div style="color:red;">NO AUTHORS FIELD</div>
+  {{ end }}
+
+  <div>
+    <strong>{{ $page.Title }}</strong>
+  </div>
+
 </div>
