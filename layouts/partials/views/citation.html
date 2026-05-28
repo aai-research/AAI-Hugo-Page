@@ -2,15 +2,13 @@
 
 <div>
 
-  {{ with $p.Params.authors }}
-    <div>
-      {{ range . }}
-        <span>{{ . }}</span>
-      {{ end }}
-    </div>
-  {{ else }}
-    <div style="color:red;">NO AUTHORS VIA ITEM</div>
-  {{ end }}
+{{ with $p.Params.authors }}
+  <div>
+    {{ range $i, $a := . }}
+      {{ if $i }}, {{ end }}{{ $a }}
+    {{ end }}
+  </div>
+{{ end }}
 
   <div>
     <strong>{{ $p.Title }}</strong>
