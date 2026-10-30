@@ -10,7 +10,7 @@ _build:
 
   <section class="impressum-section">
     <p>
-      <a href="https://www.thm.de/site/impressum.html" target="_blank" rel="noopener">
+      <a href="https://www.thm.de/site/en/imprint.html" target="_blank" rel="noopener">
         Official imprint of THM
       </a>
     </p>
