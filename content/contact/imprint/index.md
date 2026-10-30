@@ -6,25 +6,25 @@ _build:
 
 <div class="impressum-container">
 
-  <h1>Impressum</h1>
+  <h1>Imprint</h1>
 
   <section class="impressum-section">
     <p>
       <a href="https://www.thm.de/site/impressum.html" target="_blank" rel="noopener">
-        Zum offiziellen Impressum der THM
+        Official imprint of THM
       </a>
     </p>
   </section>
 
   <section class="impressum-section">
     <p>
-      Die auf dieser Webseite veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht.
+      The content and works published on this website are subject to German copyright law.
     </p> 
   </section>
 
   <!-- Back Button -->
   <div class="imprint-back">
-    <a href="contact" class="btn-primary">← Back to Contact</a>
+    <a href="/contact/" class="btn-primary">← Back to Contact</a>
   </div>
 
 </div>
