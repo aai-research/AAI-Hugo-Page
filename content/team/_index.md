@@ -67,11 +67,6 @@ _build:
       <h3 class="text-center">Justus Schmidt</h3>
       <p class="team-role">Bachelor's student</p>
     </article>
-    <article class="text-center">
-      <img src="/uploads/bijju.jpg" alt="Bijyeta Maharjan" />
-      <h3 class="text-center">Bijyeta Maharjan</h3>
-      <p class="team-role">Visiting bachelor's student<br>(Mount Holyoke College, USA)</p>
-    </article>
   </section>
 
 
@@ -84,6 +79,11 @@ _build:
   </header>
 
   <section class="team-list">
+    <article class="team-member alumni text-center">
+      <img src="/uploads/bijju.jpg" alt="Bijyeta Maharjan" />
+      <h3 class="text-center">Bijyeta Maharjan</h3>
+      <p class="team-role">Visiting bachelor's student<br>(Mount Holyoke College, USA)</p>
+    </article>
     <article class="team-member alumni text-center">
       <img src="/uploads/human_icon.png" alt="Yolande Tchuendem Teto" />
       <h3 class="text-center">Yolande Tchuendem Teto</h3>
