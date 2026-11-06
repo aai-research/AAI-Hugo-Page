@@ -8,9 +8,12 @@ _build:
 
 <!-- Hero Section -->  <!--<img src="uploads/group_photo_2.jpg" alt="AAI Lab Group">-->
 <section class="hero-section">
-  <div class="hero-image">
-    <img src="/uploads/group_photo_small_2026.jpg" alt="Group Photo">
-  </div>
+  <figure class="hero-image">
+    <img src="/uploads/group_photo_small_2026.jpg" alt="AAI Lab group photo 2026">
+    <figcaption>
+      From left: Jana Fischer, Nils Gumpfer, Sabrina Pietzsch, Jennifer Hannig, Louis Peter, Justus Schmidt, Masuma Fozilatunnesa
+    </figcaption>
+  </figure>
 </section>
 
 <!-- About Section -->
