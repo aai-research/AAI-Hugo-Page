@@ -40,6 +40,38 @@
 }
 
 // ==========================================================================
+// GROUP HISTORY SECTION
+// ==========================================================================
+.history-section {
+  padding: 2rem 1.5rem;
+  .history-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  .history-item {
+    margin: 0;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 6px;
+    }
+    figcaption {
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.4;
+      margin-top: 0.5rem;
+    }
+    .history-year {
+      display: block;
+      font-weight: 600;
+      color: #333;
+    }
+  }
+}
+
+// ==========================================================================
 // PAGE-SPECIFIC STYLES
 // ==========================================================================
 @import "resources";
