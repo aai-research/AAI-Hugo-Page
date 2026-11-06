@@ -63,7 +63,7 @@ sections:
 
       <div class="home-profile__image">
       <img
-        src="/uploads/group_photo_2_small.jpg"
+        src="/uploads/group_photo_small_2026.jpg"
         alt="Members of the Applied AI Lab at Technische Hochschule Mittelhessen"
         loading="lazy"
         decoding="async"
