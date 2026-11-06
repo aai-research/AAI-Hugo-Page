@@ -61,14 +61,12 @@ _build:
 <section class="history-section">
   <h2 class="h1-left">Group History</h2>
   <div class="history-grid">
-
     <figure class="history-item">
-      <img src="/uploads/group_photo_2025.jpg" alt="AAI Lab group photo 2025" loading="lazy">
+      <img src="/uploads/group_photo_campus_2025.jpg" alt="AAI Lab group photo 2025" loading="lazy">
       <figcaption>
         <span class="history-year">2025</span>
-        From left: Name 1, Name 2, Name 3, Name 4, Name 5, Name 6
+        From left: Dominic Eckerle, Alexander Paul, Louis Peter, Jennifer Hannig, Jana Fischer, Nils Gumpfer
       </figcaption>
     </figure>
-
   </div>
 </section>
