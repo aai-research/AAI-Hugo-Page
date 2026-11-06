@@ -53,8 +53,22 @@ _build:
       <img src="/uploads/THM_logo.png" alt="THM Logo">
     </a>
     <a href="https://hessian.ai" target="_blank">
-      <img src="/uploads/HessenAi_logo.png"alt="hessian.ai Logo">
+      <img src="/uploads/HessenAi_logo.png" alt="hessian.ai Logo">
     </a>
 </section>
 
+<!-- Group History Section -->
+<section class="history-section">
+  <h2 class="h1-left">Group History</h2>
+  <div class="history-grid">
 
+    <figure class="history-item">
+      <img src="/uploads/group_photo_2025.jpg" alt="AAI Lab group photo 2025" loading="lazy">
+      <figcaption>
+        <span class="history-year">2025</span>
+        From left: Name 1, Name 2, Name 3, Name 4, Name 5, Name 6
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
